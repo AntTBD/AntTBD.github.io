@@ -1,2 +1,3 @@
 name: Antoine TABARAUD
 markdown: kramdown
+permalink: /projet/:title
