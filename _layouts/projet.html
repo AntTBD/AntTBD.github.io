@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<!-- {{ page.projet }} -->
+<div class="col mb-4">
+    <div class="card h-100">
+        <div class="card-header text-center">
+            <div class="row rowImage">
+                <div class="col-12 d-flex align-items-center">
+                    <img src="./img/{{ page.image }}" class="rounded mx-auto" alt="{{ page.imageAlt }}">
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title text-center fr">{{ page.title.fr }}</h4>
+            <h4 class="card-title text-center en">{{ page.title.en }}</h4>
+            <hr>
+            <p class="card-text fr">{{ page.content.fr }}</p>
+            <p class="card-text en">{{ page.content.en }}</p>
+        </div>
+        <div class="card-footer text-center">
+            {% if(page.repository.lien != "") %}
+              <a target="_blank" href="{{ page.website.lien }}" class="btn btn-primary btn-block fr">{{ page.website.txt }}</a>
+              <a target="_blank" href="{{ page.website.lien }}" class="btn btn-primary btn-block en">{{ page.website.txt }}</a>
+            {% endif %}
+            {% if(page.repository.lien != "") %}
+              <a target="_blank" href="{{ page.repository.lien }}" class="btn btn-secondary btn-block"><i class="fab fa-github"></i> Github repository</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
