@@ -22,22 +22,22 @@
 
 
 - title:
-    fr: TOEIC
-    en: TOEIC
-  location: Limoges, France
+    fr: "TOEIC"
+    en: "TOEIC"
+  location: "Limoges, France"
   date:
-    fr: Avril 2021
-    en: April 2021
+    fr: "Avril 2021"
+    en: "April 2021"
   sub_title:
-    fr: ...?789? points
-    en: ...?789? points
+    fr: "...?789? points"
+    en: "...?789? points"
   badge:
-    fr: B2
-    en: B2
+    fr: "B2"
+    en: "B2"
   image:
-    link: https://www.etsglobal.org/fr/fr
-    src: /assets/img/TOEIC.png
-    alt: TOEIC
+    link: "https://www.etsglobal.org/fr/fr"
+    src: "/assets/img/TOEIC.png"
+    alt: "TOEIC"
   progress_bar:
     val: 789
     max: 990

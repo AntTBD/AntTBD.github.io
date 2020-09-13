@@ -28,24 +28,23 @@
 
 
 - year: 2020
-  name: 3iL DEVELOPPEMENT
+  name: "3iL DEVELOPPEMENT"
 
   title:
-    fr: 3iL DEVELOPPEMENT - Pôle Développement
-    en: 3iL DEVELOPPEMENT - Development Department
+    fr: "3iL DEVELOPPEMENT - Pôle Développement"
+    en: "3iL DEVELOPPEMENT - Development Department"
 
   image:
-    link: http://3il-expertise.fr
-    src: /asset/img/3iL_DEVELOPPEMENT.svg
-    alt: 3iL DEVELOPPEMENT
+    link: "http://3il-expertise.fr"
+    src: "/asset/img/3iL_DEVELOPPEMENT.svg"
+    alt: "3iL DEVELOPPEMENT"
 
   job:
-    fr: Responsable pôle
-    en: Pole Leader
+    fr: "Responsable pôle"
+    en: "Pole Leader"
 
   description:
-    fr: > # use | to create newlines and > to ignore newlines.
-      <ul class="list-unstyled">
+    fr: "<ul class='list-unstyled'>
         <li>Responsable commercial pendant 1 an puis,</li>
         <li>Responsable Pôle Développement jusqu'à aujourd'hui :</li>
         <li>
@@ -57,9 +56,8 @@
             <li>Participation aux projets</li>
           </ul>
         </li>
-      </ul>
-    en: > # use | to create newlines and > to ignore newlines.
-      <ul class="list-unstyled">
+      </ul>"
+    en: "<ul class='list-unstyled'>
         <li>Sales manager for 1 year then,</li>
         <li>Head of Development Division until today:</li>
         <li>
@@ -71,8 +69,8 @@
             <li>Involvement in projects</li>
           </ul>
         </li>
-      </ul>
+      </ul>"
 
   dates:
-    fr: Depuis septembre 2018
-    en: Since September 2018
+    fr: "Depuis septembre 2018"
+    en: "Since September 2018"
