@@ -9,7 +9,7 @@
 #
 #  image:
 #    link:
-#    src: /asset/img/
+#    src: /assets/img/
 #    alt:
 #    rectangle: true
 #
@@ -37,7 +37,7 @@
 
   image:
     link: "http://3il-expertise.fr"
-    src: "/asset/img/3iL_DEVELOPPEMENT.svg"
+    src: "/assets/img/3iL_DEVELOPPEMENT.svg"
     alt: "3iL DEVELOPPEMENT"
     rectangle: true
 

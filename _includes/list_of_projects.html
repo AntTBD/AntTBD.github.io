@@ -22,7 +22,7 @@
             <a target="_blank" href="{{ project.website.lien }}" class="btn btn-primary btn-block fr">{{ project.website.txt.fr }}</a>
             <a target="_blank" href="{{ project.website.lien }}" class="btn btn-primary btn-block en">{{ project.website.txt.en }}</a>
             {% endif %}
-            {% if project.repository.lien != "" %}
+            {% if project.repository.lien And project.repository.lien != "" %}
             <a target="_blank" href="{{ project.repository.lien }}" class="btn btn-secondary btn-block"><i class="fab fa-github"></i> Github repository</a>
             {% endif %}
         </div>

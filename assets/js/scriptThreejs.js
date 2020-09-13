@@ -60,7 +60,7 @@ function init() {
     scene = new THREE.Scene();
 
     // texture Loader
-    var textureLoader = new THREE.TextureLoader().setPath("./img/");
+    var textureLoader = new THREE.TextureLoader().setPath("./assets/img/");
 
 
     // geometry (cube)

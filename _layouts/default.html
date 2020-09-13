@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-    {% include head.html %}
+    {% include head.html.twig %}
 </head>
 <body>
 
-{% include header.html %}
+{% include header.html.twig %}
 
 <main class="page-main" role="main">
         {{ content }}
 </main>
 
-{% include footer.html %}
-{% include scripts.html %}
+{% include footer.html.twig %}
+{% include scripts.html.twig %}
 
 </body>
 </html>
