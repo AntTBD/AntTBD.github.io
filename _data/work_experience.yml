@@ -17,9 +17,9 @@
 #    en:
 #
 #  description:
-#    fr:
+#    fr: > # use | to create newlines and > to ignore newlines.
 #
-#    en:
+#    en: > # use | to create newlines and > to ignore newlines.
 #
 #
 #  dates:
@@ -44,33 +44,33 @@
     en: Pole Leader
 
   description:
-    fr:
+    fr: > # use | to create newlines and > to ignore newlines.
       <ul class="list-unstyled">
-      <li>Responsable commercial pendant 1 an puis,</li>
-      <li>Responsable Pôle Développement jusqu'à aujourd'hui :</li>
-      <li>
-      <ul>
-      <li>Entretiens de sélection des développeurs</li>
-      <li>Recherche de contrats</li>
-      <li>Mener à bien des projets</li>
-      <li>Coordination entre clients et développeurs</li>
-      <li>Participation aux projets</li>
+        <li>Responsable commercial pendant 1 an puis,</li>
+        <li>Responsable Pôle Développement jusqu'à aujourd'hui :</li>
+        <li>
+          <ul>
+            <li>Entretiens de sélection des développeurs</li>
+            <li>Recherche de contrats</li>
+            <li>Mener à bien des projets</li>
+            <li>Coordination entre clients et développeurs</li>
+            <li>Participation aux projets</li>
+          </ul>
+        </li>
       </ul>
-      </li>
-      </ul>
-    en:
+    en: > # use | to create newlines and > to ignore newlines.
       <ul class="list-unstyled">
-      <li>Sales manager for 1 year then,</li>
-      <li>Head of Development Division until today:</li>
-      <li>
-      <ul>
-      <li>Developer Selection Interviews</li>
-      <li>Contract Opportunities</li>
-      <li>Carry out some projects</li>
-      <li>Coordination between clients and developers</li>
-      <li>Involvement in projects</li>
-      </ul>
-      </li>
+        <li>Sales manager for 1 year then,</li>
+        <li>Head of Development Division until today:</li>
+        <li>
+          <ul>
+            <li>Developer Selection Interviews</li>
+            <li>Contract Opportunities</li>
+            <li>Carry out some projects</li>
+            <li>Coordination between clients and developers</li>
+            <li>Involvement in projects</li>
+          </ul>
+        </li>
       </ul>
 
   dates:
