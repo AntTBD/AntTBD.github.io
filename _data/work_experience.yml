@@ -3,9 +3,9 @@
 #- year:
 #  name:
 #
-#    title:
-#      fr:
-#      en:
+#  title:
+#    fr:
+#    en:
 #
 #  image:
 #    link:
@@ -30,9 +30,9 @@
 - year: 2020
   name: 3iL DEVELOPPEMENT
 
-    title:
-      fr: 3iL DEVELOPPEMENT - Pôle Développement
-      en: 3iL DEVELOPPEMENT - Development Department
+  title:
+    fr: 3iL DEVELOPPEMENT - Pôle Développement
+    en: 3iL DEVELOPPEMENT - Development Department
 
   image:
     link: http://3il-expertise.fr
