@@ -1,0 +1,31 @@
+---
+layout: default
+work_experience : current
+---
+<!-- Timeline Expériences professionelles -->
+<div class="container-fluid mt-3">
+    <!-- Section Work Experience -->
+    <div class="row">
+        <div class="col-12" id="work">
+            <div class="container">
+                <div class="row">
+                    <div class="col-11">
+                        <h2 class="fr"><i class="fas fa-id-card"></i> Expériences Professionnelles</h2>
+                        <h2 class="en"><i class="fas fa-id-card"></i> Work Experience</h2>
+                    </div>
+                    <div class="col-1">
+                        <h2 id="work-show" class="text-right"><i class="fas fa-minus-square"></i></h2>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div id="work-content">
+                <div class="timeline m-3 anim">
+
+                    {% include list_of_work_experience.html.twig %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

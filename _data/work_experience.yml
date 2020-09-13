@@ -1,0 +1,78 @@
+# /!\ attention : penser à le mettre dans l'ordre chronologique !
+
+#- year:
+#  name:
+#
+#    title:
+#      fr:
+#      en:
+#
+#  image:
+#    link:
+#    src: /asset/img/
+#    alt:
+#
+#  job:
+#    fr:
+#    en:
+#
+#  description:
+#    fr:
+#
+#    en:
+#
+#
+#  dates:
+#    fr:
+#    en:
+
+
+- year: 2020
+  name: 3iL DEVELOPPEMENT
+
+    title:
+      fr: 3iL DEVELOPPEMENT - Pôle Développement
+      en: 3iL DEVELOPPEMENT - Development Department
+
+  image:
+    link: http://3il-expertise.fr
+    src: /asset/img/3iL_DEVELOPPEMENT.svg
+    alt: 3iL DEVELOPPEMENT
+
+  job:
+    fr: Responsable pôle
+    en: Pole Leader
+
+  description:
+    fr:
+      <ul class="list-unstyled">
+      <li>Responsable commercial pendant 1 an puis,</li>
+      <li>Responsable Pôle Développement jusqu'à aujourd'hui :</li>
+      <li>
+      <ul>
+      <li>Entretiens de sélection des développeurs</li>
+      <li>Recherche de contrats</li>
+      <li>Mener à bien des projets</li>
+      <li>Coordination entre clients et développeurs</li>
+      <li>Participation aux projets</li>
+      </ul>
+      </li>
+      </ul>
+    en:
+      <ul class="list-unstyled">
+      <li>Sales manager for 1 year then,</li>
+      <li>Head of Development Division until today:</li>
+      <li>
+      <ul>
+      <li>Developer Selection Interviews</li>
+      <li>Contract Opportunities</li>
+      <li>Carry out some projects</li>
+      <li>Coordination between clients and developers</li>
+      <li>Involvement in projects</li>
+      </ul>
+      </li>
+      </ul>
+
+  dates:
+    fr: Depuis septembre 2018
+    en: Since September 2018

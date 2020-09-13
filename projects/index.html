@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <!-- Projets et réalisations -->
 <div class="container-fluid mt-3">
     <div class="container">
@@ -17,36 +20,9 @@
                 <hr/>
                 <div id="projects-content">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 align-item-center justify-content-center">
-                        {% for projet in site.projets %}
-                          <!-- {{ projet.projet }} -->
-                            <div class="col mb-4">
-                                <div class="card h-100">
-                                    <div class="card-header text-center">
-                                        <div class="row rowImage">
-                                            <div class="col-12 d-flex align-items-center">
-                                                <img src="./img/{{ projet.image.name }}" class="rounded mx-auto" alt="{{ projet.image.alt }}">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center fr">{{ projet.title.fr }}</h4>
-                                        <h4 class="card-title text-center en">{{ projet.title.en }}</h4>
-                                        <hr>
-                                        <p class="card-text fr">{{ projet.content.fr }}</p>
-                                        <p class="card-text en">{{ projet.content.en }}</p>
-                                    </div>
-                                    <div class="card-footer text-center">
-                                        {% if(projet.website.lien != "") %}
-                                          <a target="_blank" href="{{ projet.website.lien }}" class="btn btn-primary btn-block fr">{{ projet.website.txt.fr }}</a>
-                                          <a target="_blank" href="{{ projet.website.lien }}" class="btn btn-primary btn-block en">{{ projet.website.txt.en }}</a>
-                                        {% endif %}
-                                        {% if(projet.repository.lien != "") %}
-                                          <a target="_blank" href="{{ projet.repository.lien }}" class="btn btn-secondary btn-block"><i class="fab fa-github"></i> Github repository</a>
-                                        {% endif %}
-                                    </div>
-                                </div>
-                            </div>
-                        {% endfor %}
+
+                        {% include list_of_projects.html.twig %}
+
                     </div>
                 </div>
                 

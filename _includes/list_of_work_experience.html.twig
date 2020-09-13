@@ -1,0 +1,81 @@
+{% set previous_year = 0 %}
+
+
+{% for item in site.data.work_experience %}
+
+
+    {% if previous_year != work.year %}
+        {% if previous_year - work.year > 1 and not loop.first %}
+            <!-- {{ previous_year - 1 }} -->
+            <!-- année -->
+            <div class="row">
+                <div class="timeline-annee">
+                    <h2>{{ previous_year - 1 }}</h2>
+                </div>
+            </div>
+        {% endif %}
+        <!-- {{ work.year }} -->
+        <!-- année -->
+        <div class="row">
+            <div class="timeline-annee">
+                <h2>{{ work.year  }}</h2>
+            </div>
+        </div>
+    {% endif %}
+
+    {% set previous_year = work.year %}
+
+    <div class="row">
+        <!-- {{ work.name }} -->
+        <div class="card col-md-5 mt-4 shadow p-3 mb-4 mr-auto {% if loop.index % 2 == 0 %}left arrow_box_right{% else %}right arrow_box_left{% endif %} anim">
+            <div class="row no-gutters">
+                {% if loop.index % 2 == 1 %}
+                <a class="col-md-4 order-1 order-md-1 d-md-flex align-items-center text-center bg-light" target="_blank" href="{{ work.image.link }}">
+                    <img src="{{ work.image.src }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto" width="auto" style="max-height: {% if work.image.rectangle == true %}5rem{% else %}10rem{% endif %};/* 10rem pour les logos carrés - 5rem pour ceux rectangulaires */">
+                </a>
+                {% endif %}
+                <div class="col-md-8 order-2 {% if loop.index % 2 == 0 %}order-md-1{% else %}order-md-2{% endif %} d-flex align-items-center">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <span class="fr">{{ work.title.fr }}</span>
+                            <span class="en">{{ work.title.en }}</span>
+                        </h4>
+                        <h5 class="badge badge-primary">
+                            <span class="fr">{{ work.job.fr }}</span>
+                            <span class="en">{{ work.job.en }}</span>
+                        </h5>
+                        <div class="card-text">
+                            <div class="fr">{{ work.description.fr }}</div>
+                            <div class="en">{{ work.description.en }}</div>
+                        </div>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="fr"><i class="fas fa-calendar-alt"></i> {{ work.dates.fr }}</span>
+                                <span class="en"><i class="fas fa-calendar-alt"></i> {{ work.dates.en }}</span>
+                            </small>
+                        </p>
+                    </div>
+                </div>
+                {% if loop.index % 2 == 0 %}
+                <a class="col-md-4 order-1 order-md-2 d-md-flex align-items-center text-center bg-light" target="_blank" href="{{ work.image.link }}">
+                    <img src="{{ work.image.src }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto" width="auto" style="max-height: {% if work.image.rectangle == true %}5rem{% else %}10rem{% endif %};/* 10rem pour les logos carrés - 5rem pour ceux rectangulaires */">
+                </a>
+                {% endif %}
+            </div>
+        </div>
+        <!-- point -->
+        <div class="timeline-point anim"></div>
+    </div>
+
+
+    {% if loop.last %}
+    <!-- {{ work.year - 1 }} -->
+    <!-- année -->
+    <div class="row">
+        <div class="timeline-annee">
+            <h2>{{ work.year - 1  }}</h2>
+        </div>
+    </div>
+    {% endif %}}
+
+{% endfor %}

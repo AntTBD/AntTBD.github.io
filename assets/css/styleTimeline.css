@@ -1,0 +1,279 @@
+/* CSS pour Timeline TBD */
+
+/*Animation ends*/
+.anim,.anima {
+    opacity: 0;
+}
+.anim.animated,.anima.animated {
+    opacity: 1;
+}
+
+/***CSS Animations****/
+@charset "UTF-8";
+
+/*
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.2
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2017 Daniel Eden
+ */
+
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.animated.fadeInLeft {
+    animation-name: fadeInLeft;
+}
+
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.animated.fadeInRight {
+    animation-name: fadeInRight;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animated.fadeIn {
+    animation-name: fadeIn;
+}
+
+/* mise en page */
+/* bare du milieu */
+.timeline {
+    position: relative;
+    z-index: 0;
+}
+.timeline:before {
+    top: 10px;
+    bottom: 10px;
+    position: absolute;
+    content: " ";
+    width: 2px;
+    background-color: #1782cc;
+    left: 50%;
+}
+[data-theme="dark"] .timeline:before {
+    background-color: #fff;
+}
+
+/* rond sur timeline pour chaque card*/
+.timeline .timeline-point {
+    left: 50%;
+    margin-top: 15px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transform: translateX(-50%) translateY(50%);
+    background-color: #fff;
+    border: 2px solid #1782cc;
+    border-radius: 50%;
+}
+[data-theme="dark"] .timeline .timeline-point {
+    background-color: #1782cc;
+    border: 2px solid #fff;
+}
+
+.timeline .card{
+    margin-top: auto;
+}
+/* change color of point when pass hover a card (point need to be before card and in the same row) */
+.timeline .card:hover ~ .timeline-point {
+    background-color: #77baea;
+}
+[data-theme="dark"] .timeline .card:hover ~ .timeline-point {
+    background-color: #77baea;
+}
+
+@media screen and (max-width: 768px) {
+    .timeline .timeline-point {
+        margin-top: 0px;
+    }
+    .timeline .card{
+        margin-top: 75px !important;
+    }
+}
+
+/* rond autour des années */
+.timeline .timeline-annee {
+    background-color: #ffffff;
+    height: 120px;
+    width: 120px;
+    margin: 10px auto;/* margins x puis y */
+    border: 2px solid #1782cc;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 0;
+}
+[data-theme="dark"] .timeline .timeline-annee {
+    background-color: #1782cc;
+    border: 2px solid #fff;
+}
+
+.timeline .timeline-annee h2 {
+    margin-top: 30%;
+    color: #1782cc;
+}
+[data-theme="dark"] .timeline .timeline-annee h2 {
+    color: #fff;
+}
+
+/* Add arrows to the left container (pointing right) */
+
+
+@media screen and (min-width: 768px) {
+    .arrow_box_right:after, .arrow_box_right:before {
+        left: 100%;
+        top: 30px;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        border: 15px solid transparent;
+        border-left-color: #ffffff;
+        margin-top: -14px;
+    }
+    [data-theme="dark"] .arrow_box_right:after, .arrow_box_right:before {
+        border-left-color: #303030;
+    }
+
+    .arrow_box_right:after {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #ffffff;
+        border-width: 15px;
+        margin-top: -14px;
+    }
+    [data-theme="dark"] .arrow_box_right:after {
+        border-color: rgba(0, 0, 0, 0);
+        border-left-color: #303030;
+    }
+
+    .arrow_box_right:before {
+        border-color: rgba(223, 223, 223, 0);
+        border-left-color: #dfdfdf;
+        border-width: 16px;
+        margin-top: -15px;
+    }
+    [data-theme="dark"] .arrow_box_right:before {
+        border-color: rgba(32, 32, 32, 0);
+        border-left-color: #2a2a2a;
+    }
+
+
+    .arrow_box_left:after, .arrow_box_left:before {
+        right: 100%;
+        top: 30px;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        border: 15px solid transparent;
+        border-right-color: #ffffff;
+        margin-top: -14px;
+    }
+    [data-theme="dark"] .arrow_box_left:after, .arrow_box_left:before {
+        border-right-color: #303030;
+    }
+
+    .arrow_box_left:after {
+        border-color: rgba(255, 255, 255, 0);
+        border-right-color: #ffffff;
+        border-width: 15px;
+        margin-top: -14px;
+    }
+    [data-theme="dark"] .arrow_box_left:after {
+        border-color: rgba(0, 0, 0, 0);
+        border-right-color: #303030;
+    }
+
+    .arrow_box_left:before {
+        border-color: rgba(223, 223, 223, 0);
+        border-right-color: #dfdfdf;
+        border-width: 16px;
+        margin-top: -15px;
+    }
+    [data-theme="dark"] .arrow_box_left:before {
+        border-color: rgba(32, 32, 32, 0);
+        border-right-color: #2a2a2a;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .arrow_box_right:after, .arrow_box_right:before,
+    .arrow_box_left:after, .arrow_box_left:before{
+        bottom: 100%;
+        left: 50%;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        border: 15px solid transparent;
+        border-bottom-color: #ffffff;
+        margin-left: -14px;
+    }
+    [data-theme="dark"] .arrow_box_right:after, .arrow_box_right:before,
+    [data-theme="dark"] .arrow_box_left:after, .arrow_box_left:before{
+        border-bottom-color: #303030;
+    }
+
+    .arrow_box_right:after,
+    .arrow_box_left:after {
+        border-color: rgba(255, 255, 255, 0);
+        border-bottom-color: #ffffff;
+        border-width: 15px;
+        margin-left: -14px;
+    }
+    [data-theme="dark"] .arrow_box_right:after,
+    [data-theme="dark"] .arrow_box_left:after {
+        border-color: rgba(0, 0, 0, 0);
+        border-bottom-color: #303030;
+    }
+
+    .arrow_box_right:before,
+    .arrow_box_left:before {
+        border-color: rgba(223, 223, 223, 0);
+        border-bottom-color: #dfdfdf;
+        border-width: 16px;
+        margin-left: -15px;
+    }
+    [data-theme="dark"] .arrow_box_right:before,
+    [data-theme="dark"] .arrow_box_left:before {
+        border-color: rgba(32, 32, 32, 0);
+        border-bottom-color: #2a2a2a;
+    }
+}

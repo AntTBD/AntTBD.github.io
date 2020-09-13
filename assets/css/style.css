@@ -1,0 +1,205 @@
+/* forcer le footer en bas de page meme s'il n'y a pas assez de contenu */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+
+.navbar .darkSwitch {
+    cursor: pointer;
+}
+
+/* img cards projets */
+#projects-content .card .card-header .rowImage{
+    height: 200px;
+}
+
+#projects-content .card .card-header .rowImage img{
+    max-height: 200px;
+    width: auto;
+}
+
+
+/* images des ecoles des diplomes */
+#diplomas-content img{
+    height: 50px;
+    width: auto;
+}
+[data-theme="dark"] #diplomas-content img {
+    background-color: #fff;
+}
+
+/* Carousel d'accueil */
+/*.carousel-item.sliderbase {
+    background-color: #e9ecef;
+    text-align: center;
+    width: 100%;
+    height: 55vw;//700px;
+    //overflow: hidden;
+}
+
+.carousel-item.sliderbase img{
+    width: auto;
+    height: 100%;
+    -webkit-filter: blur(4.8px);
+    filter: blur(4.8px);
+    object-fit: scale-down;
+}*/
+.nom{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    //bottom:40%;/* pour carousel */
+    //bottom:45%;/* pour threejs */
+    text-align: center;
+}
+
+.nom h1{
+    font-size: 7vw;
+}
+
+/* pour carousel : */
+/*@media screen and (max-width: 600px) {
+    .nom{
+        bottom:31%;
+    }
+}
+@media screen and (min-width: 600px) {
+    .nom{
+        bottom:35%;
+    }
+}
+@media screen and (min-width: 975px) {
+    .nom{
+        bottom:38%;
+    }
+}*/
+
+@media screen and (min-width: 1280px) {
+    .carousel-item.sliderbase {
+        height: 725px;
+    }
+    /* pour carousel : */
+    /*.nom{
+        bottom:40%;
+    }*/
+    .nom h1{
+        font-size: 90px;
+    }
+}
+
+#threejs-window{
+    margin: 0;
+    padding: 0;
+    //-webkit-filter: blur(4px);
+    //filter: blur(4px);
+}
+#threejs-window iframe {
+    overflow: hidden;
+}
+
+
+
+/* ANIMATIONS
+––––––––––––––––––––––––––––––––––––––––––––––––––
+https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-enhance-a-page-with-css-animations--cms-32100
+*/
+.page-header nav > *,
+.page-main,
+.page-footer > * {
+    opacity: 0;
+}
+
+/*.page-header,*/
+.page-footer,
+.page-main .text-wrapper {
+    overflow: hidden;
+}
+
+.page-header nav > * {
+    transform: translateY(-30px);
+}
+
+.page-footer > * {
+    transform: translateY(30px);
+}
+
+.page-header::after {
+    width: 100%;
+    transform: scaleX(0);
+
+    /* dark bar: */
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #000;
+    z-index: -1;
+}
+[data-theme="dark"] .page-header::after {
+    background: #fff !important;
+}
+/*
+.page-header.dark::after {
+    background: #ffffff;
+}*/
+
+.page-main .text-wrapper * {
+    transform: translateY(200%);
+}
+
+.loaded .page-header::after {
+    animation: scaleIn 1.3s ease-in 0.2s forwards;
+}
+
+.loaded .page-main {
+    animation: fadeIn 1s ease-in 0.7s forwards;
+}
+
+.loaded .page-header nav > *,
+.loaded .page-footer > * {
+    animation: fadeIn 1s ease-in 0.7s forwards, slideIn 0.8s ease-in 0.9s forwards;
+}
+
+.loaded .page-main .text-wrapper * {
+    animation: slideIn 0.6s cubic-bezier(0.54, 0.46, 0.54, 0.94) 2s forwards;
+}
+
+@keyframes fadeIn {
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes slideIn {
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+/* dans la page projet : ombre lorsque la souris passe sur une card */
+#projects-content .card:hover {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+[data-theme="dark"] #projects-content .card:hover {
+    box-shadow: 0 4px 25px 0 rgba(255, 255, 255, 0.3), 0 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+}
