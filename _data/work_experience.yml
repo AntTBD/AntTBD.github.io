@@ -11,6 +11,7 @@
 #    link:
 #    src: /asset/img/
 #    alt:
+#    rectangle: true
 #
 #  job:
 #    fr:
@@ -38,6 +39,7 @@
     link: "http://3il-expertise.fr"
     src: "/asset/img/3iL_DEVELOPPEMENT.svg"
     alt: "3iL DEVELOPPEMENT"
+    rectangle: true
 
   job:
     fr: "Responsable pôle"

@@ -27,14 +27,14 @@
 
     <div class="row">
         <!-- {{ work.name }} -->
-        <div class="card col-md-5 mt-4 shadow p-3 mb-4 mr-auto {% if forloop.index % 2 == 0 %}left arrow_box_right{% else %}right arrow_box_left{% endif %} anim">
+        <div class="card col-md-5 mt-4 shadow p-3 mb-4 mr-auto {% if forloop.index | modulo: 2 %}left arrow_box_right{% else %}right arrow_box_left{% endif %} anim">
             <div class="row no-gutters">
-                {% if forloop.index % 2 == 1 %}
+                {% if forloop.index | modulo: 2 %}
                 <a class="col-md-4 order-1 order-md-1 d-md-flex align-items-center text-center bg-light" target="_blank" href="{{ work.image.link }}">
-                    <img src="{{ work.image.src }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto" width="auto" style="max-height: {% if work.image.rectangle == true %}5rem{% else %}10rem{% endif %};/* 10rem pour les logos carrés - 5rem pour ceux rectangulaires */">
+                    <img src="{{ work.image.src }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto" width="auto" {% if work.image.rectangle == true %}style="max-height: 5rem;"{% else %}style="max-height: 10rem;"{% endif %}{# 10rem pour les logos carrés - 5rem pour ceux rectangulaires #}>
                 </a>
                 {% endif %}
-                <div class="col-md-8 order-2 {% if forloop.index % 2 == 0 %}order-md-1{% else %}order-md-2{% endif %} d-flex align-items-center">
+                <div class="col-md-8 order-2 {% if forloop.index | modulo: 2 %}order-md-1{% else %}order-md-2{% endif %} d-flex align-items-center">
                     <div class="card-body">
                         <h4 class="card-title">
                             <span class="fr">{{ work.title.fr }}</span>
@@ -56,9 +56,9 @@
                         </p>
                     </div>
                 </div>
-                {% if forloop.index % 2 == 0 %}
+                {% if forloop.index | modulo: 2 %}
                 <a class="col-md-4 order-1 order-md-2 d-md-flex align-items-center text-center bg-light" target="_blank" href="{{ work.image.link }}">
-                    <img src="{{ work.image.src }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto" width="auto" style="max-height: {% if work.image.rectangle == true %}5rem{% else %}10rem{% endif %};/* 10rem pour les logos carrés - 5rem pour ceux rectangulaires */">
+                    <img src="{{ work.image.src }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto" width="auto" {% if work.image.rectangle == true %}style="max-height: 5rem;"{% else %}style="max-height: 10rem;"{% endif %}{# 10rem pour les logos carrés - 5rem pour ceux rectangulaires #}>
                 </a>
                 {% endif %}
             </div>
