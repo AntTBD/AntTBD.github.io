@@ -3,14 +3,27 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="description" content="{{ site.description }}">
-<meta name="author" content="{{ site.author }}">
+
+<!-- Primary Meta Tags -->
 <title>{{ site.title }}
   {% if page.title %} -
   {{ page.title }}
   {% endif %}
 </title>
-<link rel="icon" type="image/gif/png" href="{{ site.image }}">
+<meta name="title" content="{{ site.title }}">
+<meta name="description" content="{{ site.description }}">
+<meta name="author" content="{{ site.author }}">
+<meta name="keywords" content="{{ site.keywords }}">
+
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:image" content="{{ site.image }}">
+<meta property="og:url" content="{{ site.url }}">
+
+<meta name="twitter:title" content="{{ site.title }}">
+<meta name="twitter:description" content="{{ site.description }}">
+<meta name="twitter:image" content="{{ site.image }}">
+<meta name="twitter:card" content="summary_large_image">
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
