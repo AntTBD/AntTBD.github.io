@@ -1,11 +1,12 @@
 #Site settings
-author: "Antoine TABARAUD"
-description: "Site vitrine de Antoine TABARAUD"
-title: "Antoine TABARAUD"
+author:       "Antoine TABARAUD"
+description:  "Site vitrine"
+title:        "Antoine TABARAUD"
+image:        "/assets/img/logo site2.svg"
 lastUpdate:
-    fr: "septembre 2020"
-    en: "September 2020"
+    fr:       "septembre 2020"
+    en:       "September 2020"
 
 # Build settings
-markdown: kramdown
-#permalink: /projet/:title
+markdown:     kramdown
+#permalink:   /projet/:title
