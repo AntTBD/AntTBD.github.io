@@ -2,7 +2,7 @@ window.addEventListener("load", function() {
   document.querySelector("body").classList.add("loaded");
   setTimeout(function() {
     startAnimation();
-  }, 500);
+  }, 1000);
 
   // hide all projects cards for apparition
   if ($('#diplomas-content')) {
