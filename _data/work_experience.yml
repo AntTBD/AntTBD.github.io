@@ -9,44 +9,45 @@
 #
 #  image:
 #    link:
-#    src: /assets/img/
+#    src:         /assets/img/
 #    alt:
-#    rectangle: true
+#    rectangle:   true
 #
 #  job:
 #    fr:
 #    en:
 #
 #  description:
-#    fr: > # use | to create newlines and > to ignore newlines.
+#    fr:          > # use | to create newlines and > to ignore newlines.
 #
-#    en: > # use | to create newlines and > to ignore newlines.
+#    en:          > # use | to create newlines and > to ignore newlines.
 #
 #
 #  dates:
 #    fr:
 #    en:
 
+#############################################################################
 
-- year: 2020
-  name: "3iL DEVELOPPEMENT"
+- year:           2020
+  name:           "3iL DEVELOPPEMENT"
 
   title:
-    fr: "3iL DEVELOPPEMENT - Pôle Développement"
-    en: "3iL DEVELOPPEMENT - Development Department"
+    fr:           "3iL DEVELOPPEMENT - Pôle Développement"
+    en:           "3iL DEVELOPPEMENT - Development Department"
 
   image:
-    link: "http://3il-expertise.fr"
-    src: "/assets/img/3iL_DEVELOPPEMENT.svg"
-    alt: "3iL DEVELOPPEMENT"
-    rectangle: true
+    link:         "http://3il-expertise.fr"
+    src:          "/assets/img/3iL_DEVELOPPEMENT.svg"
+    alt:          "3iL DEVELOPPEMENT"
+    rectangle:    false
 
   job:
-    fr: "Responsable pôle"
-    en: "Pole Leader"
+    fr:           "Responsable pôle"
+    en:           "Pole Leader"
 
   description:
-    fr: "<ul class='list-unstyled'>
+    fr:           "<ul class='list-unstyled'>
         <li>Responsable commercial pendant 1 an puis,</li>
         <li>Responsable Pôle Développement jusqu'à aujourd'hui :</li>
         <li>
@@ -59,7 +60,7 @@
           </ul>
         </li>
       </ul>"
-    en: "<ul class='list-unstyled'>
+    en:           "<ul class='list-unstyled'>
         <li>Sales manager for 1 year then,</li>
         <li>Head of Development Division until today:</li>
         <li>
@@ -74,5 +75,113 @@
       </ul>"
 
   dates:
-    fr: "Depuis septembre 2018"
-    en: "Since September 2018"
+    fr:           "Depuis septembre 2018"
+    en:           "Since September 2018"
+
+#############################################################################
+
+- year:           2019
+  name:           "Legrand"
+
+  title:
+    fr:           "SBU Interface Utilisateur"
+    en:           "SBU User Interface"
+
+  image:
+    link:         "https://www.legrand.fr/"
+    src:          "/assets/img/Legrand.svg"
+    alt:          "Legrand"
+    rectangle:    true
+
+  job:
+    fr:           "Stagiaire"
+    en:           "Internship"
+
+  description:
+    fr:           "A partir d’une base existante, développement sous SharePoint et PowerApps d'un outil convivial et ergonomique afin d'améliorer la visibilité des offres produits."
+    en:           "From an existing base, development under Sharepoint and Powerapps of a user-friendly and ergonomic tool to improve the visibility of product offerings."
+
+  dates:
+    fr:           "8 semaines - 2019"
+    en:           "8 weeks - 2019"
+
+#############################################################################
+
+- year:           2018
+  name:           "La Banque Postale"
+
+  title:
+    fr:           "Cellule Lutte Contre le Blanchiment"
+    en:           "Anti-money Laundering Unit"
+
+  image:
+    link:         "https://www.labanquepostale.fr/"
+    src:          "/assets/img/La Banque Postale.svg"
+    alt:          "La Banque Postale"
+    rectangle:    false
+
+  job:
+    fr:           "Analyste"
+    en:           "Analyst"
+
+  description:
+    fr:           "Analyses d'opérations financières suspectes."
+    en:           "Analysis of suspicious financial transactions."
+
+  dates:
+    fr:           "2 mois - 2018"
+    en:           "2 months - 2018"
+
+#############################################################################
+
+- year:           2016
+  name:           "CRNA Brest"
+
+  title:
+    fr:           "CRNA Ouest à Brest"
+    en:           "West CRNA at Brest"
+
+  image:
+    link:         "https://fr.wikipedia.org/wiki/Centre_en_route_de_la_navigation_a%C3%A9rienne"
+    src:          "/assets/img/CRNA Ouest.jpg"
+    alt:          "CRNA Ouest"
+    rectangle:    false
+
+  job:
+    fr:           "Stage découverte"
+    en:           "Internship discovery"
+
+  description:
+    fr:           "Découverte des métiers liés au contrôle aérien."
+    en:           "Discover the air traffic control business."
+
+  dates:
+    fr:           "1 week-end - déc 2016"
+    en:           "1 week-end - Dec 2016"
+
+#############################################################################
+
+- year:           2015
+  name:           "Sofrance"
+
+  title:
+    fr:           "Filtration Systems (ex-Sofrance)"
+    en:           "Filtration Systems (ex-Sofrance)"
+
+  image:
+    link:         "https://www.safran-filtration-systems.com/fr"
+    src:          "/assets/img/Safran.png"
+    alt:          "Safran"
+    rectangle:    true
+
+  job:
+    fr:           "Stage découverte"
+    en:           "Internship discovery"
+
+  description:
+    fr:           "Découverte de la confection de filtres destinés à l'aérospatiale, de leurs designs 3D à leurs créations physiques en passant par les phases de tests en laboratoire."
+    en:           "Discovery of the manufacture of filters for aerospace, from their 3D designs to their physical creations and the laboratory testing phases."
+
+  dates:
+    fr:           "1 semaine - 2015"
+    en:           "1 week - 2015"

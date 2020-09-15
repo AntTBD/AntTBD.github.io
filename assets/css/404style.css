@@ -1,16 +1,16 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body {
+main {
   padding: 0;
   margin: 0;
 }
 
 #notfound {
-  position: relative;
-  height: 100vh;
+  //position: relative;
+  //height: 80vh;
 }
 
 #notfound .notfound {
@@ -18,8 +18,8 @@ body {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .notfound {
@@ -40,8 +40,8 @@ body {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-size: 252px;
   font-weight: 900;
   margin: 0px;
@@ -51,8 +51,16 @@ body {
   margin-left: -20px;
 }
 
+[data-theme="dark"] .notfound .notfound-404 h1 {
+  color: #fff;
+}
+
 .notfound .notfound-404 h1>span {
   text-shadow: -8px 0px 0px #fff;
+}
+
+[data-theme="dark"] .notfound .notfound-404 h1>span {
+  text-shadow: -8px 0px 0px #000;
 }
 
 .notfound .notfound-404 h3 {
@@ -67,6 +75,10 @@ body {
   padding-left: 6px;
 }
 
+[data-theme="dark"] .notfound .notfound-404 h3 {
+  color: #fff;
+}
+
 .notfound h2 {
   font-family: 'Cabin', sans-serif;
   font-size: 20px;
@@ -77,10 +89,15 @@ body {
   margin-bottom: 25px;
 }
 
+[data-theme="dark"] .notfound h2 {
+  color: #fff;
+}
+
 @media only screen and (max-width: 767px) {
   .notfound .notfound-404 {
     height: 200px;
   }
+
   .notfound .notfound-404 h1 {
     font-size: 200px;
   }
@@ -90,11 +107,13 @@ body {
   .notfound .notfound-404 {
     height: 162px;
   }
+
   .notfound .notfound-404 h1 {
     font-size: 162px;
     height: 150px;
     line-height: 162px;
   }
+
   .notfound h2 {
     font-size: 16px;
   }

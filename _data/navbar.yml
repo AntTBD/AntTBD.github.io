@@ -4,26 +4,26 @@
 #  link: /
 
 - name:
-    fr: Accueil
-    en: Home
-  link: /
+    fr:  Accueil
+    en:  Home
+  link:  /
 
 - name:
-    fr: Diplômes
-    en: Diplomas
-  link: /diplomas/
+    fr:  Diplômes
+    en:  Diplomas
+  link:  /diplomas/
 
 - name:
-    fr: Expériences Professionnelles
-    en: Work Experience
-  link: /work_experience/
+    fr:  Expériences Professionnelles
+    en:  Work Experience
+  link:  /work_experience/
 
 - name:
-    fr: Projets et réalisations
-    en: Projects and achievements
-  link: /projects/
+    fr:  Projets et réalisations
+    en:  Projects and achievements
+  link:  /projects/
 
 - name:
-    fr: Me contacter
-    en: Contact me
-  link: /contact/
+    fr:  Me contacter
+    en:  Contact me
+  link:  /contact/

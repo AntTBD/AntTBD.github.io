@@ -7,7 +7,8 @@
             <div class="col-7">
                 <h3 class="card-title fr">{{ diploma.title.fr }}</h3>
                 <h3 class="card-title en">{{ diploma.title.en }}</h3>
-                <p class="card-subtitle"><i class="fas fa-map-marker-alt"></i> {{ diploma.location }}</p>
+                <p class="card-subtitle fr"><i class="fas fa-map-marker-alt"></i> {{ diploma.location.fr }}</p>
+                <p class="card-subtitle en"><i class="fas fa-map-marker-alt"></i> {{ diploma.location.en }}</p>
             </div>
             <div class="col-5 text-right">
                 <h4 class="fr"><i class="fas fa-calendar-alt"></i> {{ diploma.date.fr }}</h4>
@@ -20,8 +21,8 @@
                 <h5 class="card-subtitle en">{{ diploma.sub_title.en }}</h5>
             </div>
             <div class="col-4 text-right align-self-center">
-                <h4><span class="badge badge-primary fr">{{ diploma.badge.fr }}</span></h4>
-                <h4><span class="badge badge-primary en">{{ diploma.badge.en }}</span></h4>
+                <h4><span class="badge badge-{{ diploma.progress_bar.class }} fr">{{ diploma.badge.fr }}</span></h4>
+                <h4><span class="badge badge-{{ diploma.progress_bar.class }} en">{{ diploma.badge.en }}</span></h4>
             </div>
         </div>
         <div class="row mt-3 mb-3">
@@ -32,7 +33,7 @@
         <div class="row">
             <div class="col">
                 <div class="progress" style="height: 20px;">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: {{ diploma.progress_bar.val / diploma.progress_bar.max * (1/100) }}%;" aria-valuenow="{{ diploma.progress_bar.val }}" aria-valuemin="0" aria-valuemax="{{ diploma.progress_bar.max }}"></div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-{{ diploma.progress_bar.class }}" role="progressbar" style="width: calc({{ diploma.progress_bar.val }}/{{ diploma.progress_bar.max }}*100%);" aria-valuenow="{{ diploma.progress_bar.val }}" aria-valuemin="0" aria-valuemax="{{ diploma.progress_bar.max }}"></div>
                 </div>
             </div>
         </div>

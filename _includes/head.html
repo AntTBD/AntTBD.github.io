@@ -5,31 +5,39 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="description" content="{{ site.description }}">
 <meta name="author" content="{{ site.author }}">
-<title>{{ site.title }}{% if page.title %}} - {{ page.title }}{% endif %}}</title>
+<title>{{ site.title }}
+  {% if page.title %} -
+  {{ page.title }}
+  {% endif %}
+</title>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<!-- Fontawesome icons -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <!-- Drapeaux -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">-->
+
 <!-- CSS perso -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <!-- pour le mode nuit -->
 <link rel="stylesheet" href="/assets/css/dark-mode.css">
 
-{% if page.work_experience %}
-<!-- pour la timeline -->
-<link rel="stylesheet" href="/assets/css/styleTimeline.css">
-{% endif %}
-
-{% if page.404 == 'current' %}
+{% if page.page and page.page == 404 %}
 <!-- Google font -->
 <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
 
 <!-- Custom stlylesheet -->
 <link rel="stylesheet" href="/assets/css/404style.css">
+{% else %}
+<!-- Fontawesome icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<!-- Material Design Bootstrap -->
+<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">-->
+
+{% if page.work_experience %}
+<!-- pour la timeline -->
+<link rel="stylesheet" href="/assets/css/styleTimeline.css">
+{% endif %}
+
+
 {% endif %}

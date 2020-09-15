@@ -1,7 +1,7 @@
 #- name:
 #
 #  image:
-#    name: /assets/img/
+#    name:     /assets/img/
 #    alt:
 #
 #  title:
@@ -9,9 +9,9 @@
 #    en:
 #
 #  content:
-#    fr: > # use | to create newlines and > to ignore newlines.
+#    fr:       > # use | to create newlines and > to ignore newlines.
 #
-#    en: > # use | to create newlines and > to ignore newlines.
+#    en:       > # use | to create newlines and > to ignore newlines.
 #
 #
 #  website:
@@ -23,24 +23,264 @@
 #  repository:
 #    lien:
 
-- name: "Motorisation lampe IKEA PS 2014"
+- name:        Motorisation lampe IKEA PS 2014
   image:
-    name: "/assets/img/IKEA%20PS%202014%20motorized.jpg"
-    alt: "IKEA PS 2014 Motorized"
+    name:      /assets/img/IKEA%20PS%202014%20motorized.jpg
+    alt:       IKEA PS 2014 Motorized
   title:
-    fr: "<i class='fas fa-lightbulb'></i> IKEA PS 2014 motorisée<br>2020"
-    en: "<i class='fas fa-lightbulb'></i> IKEA PS 2014 motorized<br>2020"
+    fr:        <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorisée<br>2020
+    en:        <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorized<br>2020
   content:
-    fr: "Projet de motorisation d'une lampe avec système embarqué.<br>
-      Développé au départ avec une télécommande infrarouge, le contrôle fut amélioré vers une interface web avec serveur intégré.<br>
-      Ce fut l'occasion de modéliser la lampe et des supports supplémentaires en 3D sur SOLIDWORKS."
-    en: "Project of motorization of a lamp with onboard system.<br>
-      Initially developed with an infrared remote control, the control was improved to a web interface with integrated server.<br>
-      It was an opportunity to model the lamp and additional supports in 3D on SOLIDWORKS."
+    fr:        Projet de motorisation d'une lampe avec système embarqué.<br>
+              Développé au départ avec une télécommande infrarouge, le contrôle fut amélioré vers une interface web avec serveur intégré.<br>
+              Ce fut l'occasion de modéliser la lampe et des supports supplémentaires en 3D sur SOLIDWORKS.
+    en:        Project of motorization of a lamp with onboard system.<br>
+              Initially developed with an infrared remote control, the control was improved to a web interface with integrated server.<br>
+              It was an opportunity to model the lamp and additional supports in 3D on SOLIDWORKS.
   website:
-    lien: "https://www.instructables.com/"
+    lien:      "https://www.instructables.com/"
     txt:
-      fr: "<i class='fas fa-book-open'></i> Instructions"
-      en: "<i class='fas fa-book-open'></i> Instructions"
+      fr:      <i class="fas fa-book-open"></i> Instructions
+      en:      <i class="fas fa-book-open"></i> Instructions
   repository:
-    lien: "https://github.com/AntTBD/IKEA-PS-2014-Motorized"
+    lien:      "https://github.com/AntTBD/IKEA-PS-2014-Motorized"
+
+################################################################################
+
+- name:        Olympiades des métiers 2020-2021
+  image:
+    name:      /assets/img/WorldSkills%20France.png
+    alt:       WorldSkills France
+  title:
+    fr:        <i class="fas fa-robot"></i> Olympiades des Métiers
+    en:        <i class="fas fa-robot"></i> World Skills
+  content:
+    fr:        Cette compétition est l'occasion de réaliser et programmer en binôme un robot en kit afin de le rendre autonome.<br>
+              Nous sommes sélectionnés pour la finale nationale prévue en décembre 2020 à Lyon.
+    en:        This competition is the opportunity to create and program in pairs a robot kit to make it autonomous.<br>
+              We are selected for the national final scheduled for December 2020 in Lyon.
+  ranking:
+    - link:    "https://www.olympiadesmetiers.fr/les-olympiades/46eme-edition/selections-nationales/"
+      icon:    <i class="fas fa-trophy"></i>
+      title:
+        fr:    ...<sup>ème</sup> en finale nationale, France
+        en:    ...<sup>ème</sup> in the national final, France
+    - link:    "https://www.olympiadesmetiers.fr/les-olympiades/46eme-edition/selections-regionales/"
+      icon:    <i class="fas fa-medal"></i>
+      title:
+        fr:    2<sup>ème</sup> en finale régionale, Nouvelle Aquitaine
+        en:    2<sup>nd</sup> in the regional final, Nouvelle Aquitaine
+    - link:    "https://www.olympiadesmetiers.fr/les-olympiades/46eme-edition/preselections/"
+      icon:    <i class="fas fa-award"></i>
+      title:
+        fr:    Présélections régionales
+        en:    Regional screening
+  website:
+    lien:      "https://www.olympiadesmetiers.fr/"
+    txt:
+      fr:      <i class="fas fa-gamepad"></i> Page des Olympiades
+      en:      <i class="fas fa-gamepad"></i> WorldSkills page
+  repository:
+    lien:      ""
+
+################################################################################
+
+- name:        GGJ 2020
+  image:
+    name:      /assets/img/GGJ2020.png
+    alt:       GGJ 2020
+  title:
+    fr:        <i class="fas fa-gamepad"></i> Global Game Jam<br>Janvier 2020
+    en:        <i class="fas fa-gamepad"></i> Global Game Jam<br>January 2020
+  content:
+    fr:        Concours en équipe où il faut créer un jeu en seulement 48h !<br>
+                Nous avons participé à l'édition 2020 à Limoges avec l'équipe "Les Sots 6". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.
+    en:        Team challenge where you have to create a game in only 48h !<br>
+                We've joined the GGJ of Limoges in 2019 with the team "Les Sots 6" Get information about our participation and our production during this challenge.
+  ranking:
+    - link:    ""
+      icon:    <i class="fas fa-medal"></i>
+      title:
+        fr:    2<sup>ème</sup> ex-æquo au concours local
+        en:    2<sup>nd</sup> tied at local competition
+  website:
+    lien:      "https://globalgamejam.org/2020/games/sewers-madness-6"
+    txt:
+      fr:      <i class="fas fa-gamepad"></i> Page du jeu
+      en:      <i class="fas fa-gamepad"></i> Game page
+  repository:
+    lien:      "https://github.com/AntTBD/GGJ2020-Les-Sots-6-Moins-1"
+
+################################################################################
+
+- name:        Nuit de l'info 2019
+  image:
+    name:      /assets/img/Nuit%20de%20l'info%202019.png
+    alt:       Nuit de l'info 2019
+  title:
+    fr:        <i class="fas fa-globe"></i> Nuit de l'info<br>Décembre 2019
+    en:        <i class="fas fa-globe"></i> Nuit de l'info<br>December 2019
+  content:
+    fr:        "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>Augmenter le pouvoir d’agir des étudiant·e·s en situation de précarité</i>\".<br>
+              Nous avons participé à l'édition 2019 à Limoges avec l'équipe \"Les Sots 6\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge."
+    en:        "The \"Nuit de l'info\" is a team challenge where you have to create a site in just one night ! This year’s theme was: \"<i>Increase the power of students to act in a precarious situation</i>\".<br>
+              We took part in the 2019 edition in Limoges with the team \"Les Sots 6\". Get information about our participation and our production during this challenge."
+  ranking:
+    - link:    ""
+      icon:    <i class="fas fa-medal"></i>
+      title:
+        fr:    "3<sup>ème</sup>/138 équipes au défi d'Ubisoft :<br> \"GIF US SOME LOVE !\""
+        en:    "3<sup>rd</sup>/138 teams to Ubisoft challenge:<br> \"GIF US SOME LOVE!\""
+  # website:
+  #   lien:    ""
+  #   txt:
+  #     fr:
+  #     en:
+  repository:
+    lien:      "https://github.com/AntTBD/Les-Sots-6"
+
+################################################################################
+
+- name:        Projet WebGL FST
+  image:
+    name:      /assets/img/WebGL%20project.gif
+    alt:       Animation WebGL
+  title:
+    fr:        <i class="fas fa-cube"></i> Projet WebGL<br>FST - Décembre 2019
+    en:        <i class="fas fa-cube"></i> WebGL Project<br>FST - December 2019
+  content:
+    fr:        "Le but de ce projet fut de réaliser une application interactive reposant sur les principes de l'informatique graphique
+                vus en cours au travers de la technologie WebGL et de la librairie Three.js.<br>
+                Notre objectif était d'améliorer la scène WebGL mise à notre disposition."
+    en:        "The goal of this project was to realize an interactive application based on the principles of computer graphics
+                seen in progress through the WebGL technology and the Three.js library.<br>
+                Our goal was to improve the WebGL scene made available to us."
+  # ranking:
+  #   - link:  ""
+  #     icon:
+  #     title:
+  #       fr:  ""
+  #       en:  ""
+  # website:
+  #   lien:    ""
+  #   txt:
+  #     fr:
+  #     en:
+  repository:
+    lien:      "https://github.com/AntTBD/Projet-WebGL-2019-FST"
+
+################################################################################
+
+- name:        Projet TechnologieWeb FST
+  image:
+    name:      /assets/img/TechnologieWeb%20project.png
+    alt:       Technologie Web
+  title:
+    fr:        <i class="fas fa-globe"></i> Projet Technologie Web<br>FST - Décembre 2019
+    en:        <i class="fas fa-globe"></i> Web Technology Project<br>FST - December 2019
+  content:
+    fr:        "Site de démonstration pour un projet scolaire.
+                Le but est d'avoir une plateforme où des entreprises se connectent pour poster des annonces.
+                De l'autre côté, des candidats ont des filtres pour rechercher un emploi, sauvegarder l'offre et postuler."
+    en:        "Demonstration site for a school project.
+                The goal is to have a platform where companies connect to post ads.
+                On the other hand, candidates have filters to search for a job, save the offer and apply."
+  # ranking:
+  #   - link:  ""
+  #     icon:
+  #     title:
+  #       fr:  ""
+  #       en:  ""
+  # website:
+  #   lien:    ""
+  #   txt:
+  #     fr:
+  #     en:
+  repository:
+    lien:      "https://github.com/AntTBD/recherche-emploi"
+
+################################################################################
+
+- name:        GGJ 2019
+  image:
+    name:      /assets/img/GGJ2019.png
+    alt:       GGJ 2019
+  title:
+    fr:        <i class="fas fa-gamepad"></i> Global Game Jam<br>Janvier 2019
+    en:        <i class="fas fa-gamepad"></i> Global Game Jam<br>January 2019
+  content:
+    fr:        Challenge en équipe où il faut créer un jeu en seulement 48h !<br>
+                Nous avons participé à l'édition 2019 à Limoges avec l'équipe "Tchip'Gang". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.
+    en:        Team challenge where you have to create a game in only 48h !<br>
+                We've joined the GGJ of Limoges in 2019 with the team "Tchip'Gang". Get information about our participation and our production during this challenge.
+  ranking:
+    - link:    ""
+      icon:    <i class="fas fa-medal"></i>
+      title:
+        fr:    Prix local de l'encouragement
+        en:    Local Incentive Award
+  website:
+    lien:      "https://globalgamejam.org/2019/games/sheepgame"
+    txt:
+      fr:      <i class="fas fa-gamepad"></i> Page du jeu
+      en:      <i class="fas fa-gamepad"></i> Game page
+  repository:
+    lien:      "https://github.com/AntTBD/Global-Game-Jam-2019-TchipGang"
+
+################################################################################
+
+- name:        Nuit de l'info 2018
+  image:
+    name:      /assets/img/Nuit%20de%20l'info%202018.png
+    alt:       Nuit de l'info 2018
+  title:
+    fr:        <i class="fas fa-globe"></i> Nuit de l'info<br>Décembre 2018
+    en:        <i class="fas fa-globe"></i> Nuit de l'info<br>December 2018
+  content:
+    fr:        "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>L’assistance numérique d’un explorateur en conditions extrêmes</i>\"<br>
+              Nous avons participé à l'édition 2018 à Limoges avec l'équipe \"Crab'Gang\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge."
+    en:        "The \"Nuit de l'info\" is a team challenge where you have to create a site in just one night ! This year’s theme was: \"<i>Digital Assistance from an Explorer in Extreme Conditions</i>\"<br>
+              We took part in the 2018 edition in Limoges with the team \"Crab'Gang\". Get information about our participation and our production during this challenge."
+  ranking:
+    - link:    ""
+      icon:    <i class="fas fa-medal"></i>
+      title:
+        fr:    "1<sup>er</sup> au défi de SFEIR :<br> \"U talkin' to me ??\""
+        en:    "1<sup>st</sup> to SFEIR challenge:<br> \"U talkin' to me ??\""
+  website:
+    lien:      "https://crabgang.github.io/"
+    txt:
+      fr:      <i class="fas fa-gamepad"></i> Page web
+      en:      <i class="fas fa-gamepad"></i> Web page
+  repository:
+    lien:      "https://github.com/CrabGang/CrabGang.github.io"
+
+################################################################################
+
+- name:        Projet fin de session algo 2017
+  image:
+    name:      /assets/img/Millenium%20Collisions.png
+    alt:       PFS 2017
+  title:
+    fr:        <i class="fas fa-gamepad"></i> Millenium Collisions<br>Décembre 2017
+    en:        <i class="fas fa-gamepad"></i> Millenium Collisions<br>December 2017
+  content:
+    fr:        "Projet de fin de session des cours d'algorithme.<br>
+                Premier jeu vidéo créé en 1<sup>er</sup> année d'école préparatoire d'Ingénieur à 3iL.<br>
+                Il a été amélioré ensuite pour une version Android."
+    en:        "End of semester Project for algorithm.<br>
+                First video game created in 1<sup>st</sup> year of preparatory school of Engineer at 3iL.<br>
+                It was improved then for an Android version."
+  # ranking:
+  #   - link:  ""
+  #     icon:
+  #     title:
+  #       fr:  ""
+  #       en:  ""
+  # website:
+  #   lien:    ""
+  #   txt:
+  #     fr:
+  #     en:
+  repository:
+    lien:      "https://github.com/AntTBD/Millenium-Collisions"
