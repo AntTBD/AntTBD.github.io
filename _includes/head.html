@@ -5,10 +5,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
 <!-- Primary Meta Tags -->
-<title>{{ site.title }}
-  {% if page.title %} -
-  {{ page.title }}
-  {% endif %}
+<title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}
 </title>
 <meta name="title" content="{{ site.title }}">
 <meta name="description" content="{{ site.description }}">
