@@ -1,7 +1,7 @@
 import * as THREE from './threejs/three.module.js';
 
 // frame per second
-var fps = 60;
+var fps = 30;
 
 var camera, scene, renderer;
 var cube;
