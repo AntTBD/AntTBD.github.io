@@ -5,8 +5,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
 <!-- Primary Meta Tags -->
-<title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}
-</title>
+<title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+
 <meta name="title" content="{{ site.title }}">
 <meta name="description" content="{{ site.description }}">
 <meta name="author" content="{{ site.author }}">
@@ -21,6 +21,9 @@
 <meta name="twitter:description" content="{{ site.description }}">
 <meta name="twitter:image" content="{{ site.url }}{{ site.image }}">
 <meta name="twitter:card" content="summary_large_image">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="{{ site.favicon }}">
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">

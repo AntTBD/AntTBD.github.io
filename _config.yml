@@ -1,15 +1,15 @@
 #Site settings
-author:          "Antoine TABARAUD"
-description:     "Site vitrine"
-title:           "Antoine TABARAUD"
-image:           "/assets/img/logo site2.png"
-keywords:        "Antoine TABARAUD, TABARAUD, Antoine TBD, AntTBD, Ant TBD"
-
+author:      "Antoine TABARAUD"
+description: "Site vitrine"
+title:       "Antoine TABARAUD"
+image:       "/assets/img/logo site2.png"
+keywords:    "Antoine TABARAUD, TABARAUD, Antoine TBD, AntTBD, Ant TBD"
+favicon:     "/assets/img/favicon.ico"
 
 lastUpdate:
-    fr:          "septembre 2020"
-    en:          "September 2020"
+    fr:      "septembre 2020"
+    en:      "September 2020"
 
 # Build settings
-markdown:        kramdown
-#permalink:      /projet/:title
+markdown:    kramdown
+#permalink:  /projet/:title

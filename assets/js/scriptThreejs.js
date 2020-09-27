@@ -52,7 +52,7 @@ function init() {
     alpha: true // transparency
   });
   renderer.setPixelRatio(window.devicePixelRatio);
-  renderer.setSize(document.body.clientWidth, document.body.clientHeight);
+  renderer.setSize(window.innerWidth, window.innerHeight);
   document.body.appendChild(renderer.domElement);
   //renderer.setClearColor(0xAAAAAA, 1.0);
   renderer.clear();
@@ -122,6 +122,7 @@ function init() {
 
   document.addEventListener('mousemove', function(e) {
 
+    // si la souris bouge et qu'elle est appuyée alors on change la rotation du cube
     if (isDragging) {
       deltaMove = {
         x: e.offsetX - previousMousePosition.x,
@@ -154,6 +155,8 @@ function init() {
     isDragging = false;
   }, false);
 
+
+
 }
 
 function onWindowResize() {
@@ -185,14 +188,15 @@ function animate() {
       ));
 
     cube.quaternion.multiplyQuaternions(deltaRotationQuaternion, cube.quaternion);
+
   }
+
+  render();
 
   setTimeout(function() {
     // Keep the animation going
     requestAnimationFrame(animate);
   }, 1000 / fps);
-
-  render();
 
 }
 

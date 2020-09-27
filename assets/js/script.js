@@ -63,10 +63,14 @@ if (URLparams["lang"] === 'en') {
   langue = "en";
   $(".en").show();
   $(".fr").hide();
+  $(".tooltip .tooltip-inner .en").show();
+  $(".tooltip .tooltip-inner .fr").hide();
 } else {
   langue = "fr";
   $(".fr").show();
   $(".en").hide();
+  $(".tooltip .tooltip-inner .fr").show();
+  $(".tooltip .tooltip-inner .en").show();
 }
 
 

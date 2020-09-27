@@ -28,6 +28,7 @@ main {
 #diplomas-content img {
   height: 50px;
   width: auto;
+  padding: 2px;
 }
 
 [data-theme="dark"] #diplomas-content img {
