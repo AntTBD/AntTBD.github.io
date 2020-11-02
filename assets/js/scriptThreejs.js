@@ -87,7 +87,7 @@ function init() {
       alphaTest: 0.5
     }),
     new THREE.MeshBasicMaterial({
-      map: textureLoader.load('Hirondelles.png'),
+      map: textureLoader.load('Hirondelles.jpg'),
       alphaTest: 0.5
     }),
     new THREE.MeshBasicMaterial({

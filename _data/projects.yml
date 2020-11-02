@@ -25,7 +25,7 @@
 
 - name:       Projet web ReservSalle 2020
   image:
-    name:     /assets/img/ReservSalle.png
+    name:     /assets/img/ReservSalle.jpg
     alt:      ReservSalle
   title:
     fr:       <i class="fas fa-globe"></i> Projet Web<br>Novembre 2020
@@ -74,7 +74,7 @@
 
 - name:       Olympiades des métiers 2020-2021
   image:
-    name:     /assets/img/WorldSkills%20France.png
+    name:     /assets/img/WorldSkills%20France.jpg
     alt:      WorldSkills France
   title:
     fr:       <i class="fas fa-robot"></i> Olympiades des Métiers
@@ -168,7 +168,7 @@
 
 - name:       Projet WebGL FST
   image:
-    name:     /assets/img/WebGL%20project.gif
+    name:     /assets/img/WebGL%20project.min.gif
     alt:      Animation WebGL
   title:
     fr:       <i class="fas fa-cube"></i> Projet WebGL<br>FST - Décembre 2019
