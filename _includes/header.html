@@ -10,12 +10,12 @@
             <ul class="navbar-nav ml-auto mr-auto text-center">
 
                 {% for nav in site.data.navbar %}
-                <li class="nav-item ml-1 mr-1 {% if page.url ==  nav.link %}active{% endif %}">
-                    <a class="nav-link" href="{{ nav.link }}">
+                <a class="nav-link" href="{{ nav.link }}">
+                    <li class="nav-item ml-1 mr-1 {% if page.url ==  nav.link %}active{% endif %}">
                         <span class="fr">{{ nav.name.fr }}{% if page.url ==  nav.link %} <span class="sr-only">(actuel)</span>{% endif %}</span>
                         <span class="en">{{ nav.name.en }}{% if page.url ==  nav.link %} <span class="sr-only">(current)</span>{% endif %}</span>
-                    </a>
-                </li>
+                    </li>
+                </a>
                 {% endfor %}
 
                 <li class="nav-item dropdown ml-1 mr-1">
