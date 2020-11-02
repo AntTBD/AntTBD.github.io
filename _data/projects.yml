@@ -23,6 +23,31 @@
 #  repository:
 #    lien:
 
+- name:       Projet web ReservSalle 2020
+  image:
+    name:     /assets/img/ReservSalle.png
+    alt:      ReservSalle
+  title:
+    fr:       <i class="fas fa-gamepad"></i> Projet Web<br>Novembre 2020
+    en:       <i class="fas fa-gamepad"></i> Web Project<br>November 2020
+  content:
+    fr:       "Projet en groupe afin de réaliser un site de reservation de salle avec une partie admin.<br>
+                Ce dernière a permis d'intégrer quelques notions de sécurité telque, les SESSION PHP, les tokens CSRF et un clavier virtuel crypté pour ne pas envoyé un mot de passe en clair au serveur !<br>
+                Il utilise aussi des requêtes ajax afin de le rendre plus dynamique."
+    en:       "Group project in order to create a classroom reservation site with an admin part.<br>
+                This last one allowed to integrate some security notions such as PHP SESSION, CSRF tokens and an encrypted virtual keyboard in order not to send a clear password to the server !<br>
+                It also uses ajax queries to make it more dynamic."
+
+  # website:
+  #   lien:   ""
+  #   txt:
+  #     fr:
+  #     en:
+  repository:
+    lien:     "https://github.com/AntTBD/reservSalle"
+
+################################################################################
+
 - name:       Motorisation lampe IKEA PS 2014
   image:
     name:     /assets/img/IKEA%20PS%202014%20motorized.jpg
