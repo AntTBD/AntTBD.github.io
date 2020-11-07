@@ -91,11 +91,11 @@ function init() {
       alphaTest: 0.5
     }),
     new THREE.MeshBasicMaterial({
-      map: textureLoader.load('Gare de Limoges.jpg'),
+      map: textureLoader.load('Couché de soleil.jpg'),
       alphaTest: 0.5
     }),
     new THREE.MeshBasicMaterial({
-      map: textureLoader.load('Couché de soleil.jpg'),
+      map: textureLoader.load('Gare de Limoges.jpg'),
       alphaTest: 0.5
     }),
     new THREE.MeshBasicMaterial({
