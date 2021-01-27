@@ -22,6 +22,7 @@ main {
 #projects-content .card .card-header .rowImage img {
   max-height: 200px;
   width: auto;
+  max-width: 100%;
 }
 
 /* images des ecoles des diplomes */
