@@ -25,6 +25,7 @@
       {% endfor %}
       {% endif %}
     </div>
+    {% if project.website or project.repository %}
     <div class="card-footer text-center">
       {% if project.website and project.website.lien != "" %}
       <a target="_blank" href="{{ project.website.lien }}" class="btn btn-primary btn-block fr">{{ project.website.txt.fr }}</a>
@@ -34,6 +35,7 @@
       <a target="_blank" href="{{ project.repository.lien }}" class="btn btn-secondary btn-block"><i class="fab fa-github"></i> Github repository</a>
       {% endif %}
     </div>
+    {% endif %}
   </div>
 </div>
 

@@ -15,139 +15,166 @@
 #    en:
 #  image:
 #    link:
-#    src:        /assets/img/
+#    src:       /assets/img/
 #    alt:
 #  progress_bar:
 #    val:
 #    max:
-#    class:      primary # primary or success
+#    class:     primary # primary or success
 
 #########################################################################
 
 # - title:
-#     fr:        TOEIC
-#     en:        TOEIC
+#     fr:       TOEIC
+#     en:       TOEIC
 #   location:
-#     fr:        Limoges, France
-#     en:        Limoges, France
+#     fr:       Limoges, France
+#     en:       Limoges, France
 #   date:
-#     fr:        Avril 2021
-#     en:        April 2021
+#     fr:       Avril 2021
+#     en:       April 2021
 #   sub_title:
-#     fr:        ...?789? points
-#     en:        ...?789? points
+#     fr:       ...?789? points
+#     en:       ...?789? points
 #   badge:
-#     fr:        B2
-#     en:        B2
+#     fr:       B2
+#     en:       B2
 #   image:
-#     link:      "https://www.etsglobal.org/fr/fr"
-#     src:       /assets/img/TOEIC.png
-#     alt:       TOEIC
+#     link:     "https://www.etsglobal.org/fr/fr"
+#     src:      /assets/img/TOEIC.png
+#     alt:      TOEIC
 #   progress_bar:
-#     val:       789
-#     max:       990
-#     class:     success # primary or success
+#     val:      789
+#     max:      990
+#     class:    success # primary or success
+
+
+#########################################################################
+
+- title:
+    fr:         UQAC - Université du Québec A Chicoutimi
+    en:         UQAC - University of Québec At Chicoutimi
+  location:
+    fr:         Chicoutimi, Québec, Canada
+    en:         Chicoutimi, Québec, Canada
+  date:
+    fr:         Depuis sept 2021
+    en:         From Sept 2021
+  sub_title:
+    fr:         Maîtrise en informatique<br>Jeux Vidéo
+    en:         Master's degrees in Computer Science<br>Video Games
+  badge:
+    fr:         Double Diplôme
+    en:         Double Degree
+  image:
+    link:       "https://www.uqac.ca/programme/1537-maitrise-en-informatique-jeux-video/"
+    src:        /assets/img/UQAC_1.png
+    alt:        UQAC
+  progress_bar:
+    val:        1/10
+    max:        1
+    class:      primary # primary or success
 
  #########################################################################
 
 - title:
-    fr:          3iL École d'Ingénieurs
-    en:          3iL Engineering School
+    fr:         3iL École d'Ingénieurs
+    en:         3iL Engineering School
   location:
-    fr:          Limoges, France
-    en:          Limoges, France
+    fr:         Limoges, France
+    en:         Limoges, France
   date:
-    fr:          Depuis sept 2017
-    en:          From Sept 2017
+    fr:         Depuis sept 2017
+    en:         From Sept 2017
   sub_title:
-    fr:          École préparatoire<br>Cycle ingénieur
-    en:          Preparatory school<br>Engineering cycle
+    fr:         École préparatoire<br>Cycle ingénieur
+    en:         Preparatory school<br>Engineering cycle
   badge:
-    fr:          Ingénieur
-    en:          Engineer
+    fr:         Ingénieur
+    en:         Engineer
   image:
-    link:        "http://www.3il-ingenieurs.fr/"
-    src:         /assets/img/3iL bis.png
-    alt:         3iL Ingénieurs
+    link:       "http://www.3il-ingenieurs.fr/"
+    src:        /assets/img/3iL bis.png
+    alt:        3iL Ingénieurs
   progress_bar:
-    val:         3
-    max:         5
-    class:       primary # primary or success
+    val:        4
+    max:        5
+    class:      primary # primary or success
 
 #########################################################################
 
 - title:
-    fr:          Faculté des Sciences et Techniques
-    en:          Sciences and technologies Faculty
+    fr:         Faculté des Sciences et Techniques
+    en:         Sciences and technologies Faculty
   location:
-    fr:          Limoges, France
-    en:          Limoges, France
+    fr:         Limoges, France
+    en:         Limoges, France
   date:
-    fr:          Sept 2019 - Sept 2020
-    en:          Sept 2019 - Sept 2020
+    fr:         Sept 2019 - Sept 2020
+    en:         Sept 2019 - Sept 2020
   sub_title:
-    fr:          License en informatique<br>(Double diplôme L3)
-    en:          License in computer science<br>(Double Degree L3)
+    fr:         License en informatique<br>(Double diplôme L3)
+    en:         License in computer science<br>(Double Degree L3)
   badge:
-    fr:          License
-    en:          License
+    fr:         License
+    en:         License
   image:
-    link:        "https://www.sciences.unilim.fr/"
-    src:         /assets/img/FST%20Limoges.jpg
-    alt:         FST Limoges
+    link:       "https://www.sciences.unilim.fr/"
+    src:        /assets/img/FST%20Limoges.jpg
+    alt:        FST Limoges
   progress_bar:
-    val:         3
-    max:         3
-    class:       primary # primary or success
+    val:        3
+    max:        3
+    class:      primary # primary or success
 
 #########################################################################
 
 - title:
-    fr:          EF Education First
-    en:          EF Education First
+    fr:         EF Education First
+    en:         EF Education First
   location:
-    fr:          Manchester, Angleterre
-    en:          Manchester, England
+    fr:         Manchester, Angleterre
+    en:         Manchester, England
   date:
-    fr:          Juillet 2017
-    en:          July 2017
+    fr:         Juillet 2017
+    en:         July 2017
   sub_title:
-    fr:          Séjour linguistique<br>EF Standard English Test
-    en:          Language study trip<br>EF Standard English Test
+    fr:         Séjour linguistique<br>EF Standard English Test
+    en:         Language study trip<br>EF Standard English Test
   badge:
-    fr:          B1
-    en:          B1
+    fr:         B1
+    en:         B1
   image:
-    link:        "https://www.ef.fr/"
-    src:         /assets/img/EF.jpg
-    alt:         EF
+    link:       "https://www.ef.fr/"
+    src:        /assets/img/EF.jpg
+    alt:        EF
   progress_bar:
-    val:         550
-    max:         990
-    class:       success # primary or success
+    val:        550
+    max:        990
+    class:      success # primary or success
 
 #########################################################################
 
 - title:
-    fr:          Lycée Léonard Limosin
-    en:          Léonard Limosin High school
+    fr:         Lycée Léonard Limosin
+    en:         Léonard Limosin High school
   location:
-    fr:          Limoges, France
-    en:          Limoges, France
+    fr:         Limoges, France
+    en:         Limoges, France
   date:
-    fr:          Juillet 2017
-    en:          July 2017
+    fr:         Juillet 2017
+    en:         July 2017
   sub_title:
-    fr:          Baccalauréat S SVT<br>Spécialité Math
-    en:          Bachelor's deegre<br>Math Specialty
+    fr:         Baccalauréat S SVT<br>Spécialité Math
+    en:         Bachelor's deegre<br>Math Specialty
   badge:
-    fr:          Bachelier
-    en:          Bachelior
+    fr:         Bachelier
+    en:         Bachelior
   image:
-    link:        "https://www.lyceelimosin.fr/"
-    src:         /assets/img/Lycée Limosin.png
-    alt:         Lycée Limosin
+    link:       "https://www.lyceelimosin.fr/"
+    src:        /assets/img/Lycée Limosin.png
+    alt:        Lycée Limosin
   progress_bar:
-    val:         3
-    max:         3
-    class:       primary # primary or success
+    val:        3
+    max:        3
+    class:      primary # primary or success

@@ -23,6 +23,29 @@
 #  repository:
 #    lien:
 
+- name:       Projet Cours Virtuel 2021
+  image:
+    name:     /assets/img/ProjetCoursVirtuel.png
+    alt:      CoursVirtuel
+  title:
+    fr:       <i class="fas fa-vr-cardboard"></i> Projet Cours Virtuel<br>1<sup>er</sup> trimestre 2021
+    en:       <i class="fas fa-vr-cardboard"></i> Virtual Classroom Project<br>1<sup>st</sup> quarter 2021
+  content:
+    fr:       "Projet en groupe afin de prouver que les cours à distance peuvent se faire comme si on était dans une vraie classe grâce à la réalité virtuelle (Oculus Quest).<br>
+                Étant chef de projet, j'ai mené à bien mon équipe pour reproduire les même sensations qu'en présenciel. On a ainsi la possibilité de créer un cours et le rejoindre en multi-joueur, écrire au tableau, projeter un diaporama, parler/écouter, s'asseoir et avoir une duplication du diaporama et du tableau en temps réel."
+    en:       "Group project to prove that distance learning can be done as if you were in a real class thanks to virtual reality (Oculus Quest). <br>
+                As a project manager, I carried out my team to reproduce the same sensations as in presenciel. We have the possibility to create a course and join it in multiplayer, write on the board, project a slideshow, talk/listen, sit down and have a duplication of the slideshow and the board in real time."
+
+  # website:
+  #   lien:   ""
+  #   txt:
+  #     fr:
+  #     en:
+#  repository:
+#    lien:    "https://github.com/AntTBD/ProjetCoursVirtuel"
+
+################################################################################
+
 - name:       Projet web ReservSalle 2020
   image:
     name:     /assets/img/ReservSalle.jpg
@@ -53,8 +76,8 @@
     name:     /assets/img/IKEA%20PS%202014%20motorized.jpg
     alt:      IKEA PS 2014 Motorized
   title:
-    fr:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorisée<br>2020
-    en:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorized<br>2020
+    fr:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorisée<br>2018-2021
+    en:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorized<br>2018-2021
   content:
     fr:       Projet de motorisation d'une lampe avec système embarqué.<br>
               Développé au départ avec une télécommande infrarouge, le contrôle fut amélioré vers une interface web avec serveur intégré.<br>
