@@ -76,8 +76,8 @@
     name:     /assets/img/IKEA%20PS%202014%20motorized.jpg
     alt:      IKEA PS 2014 Motorized
   title:
-    fr:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorisée<br>2018-2021
-    en:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorized<br>2018-2021
+    fr:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorisée<br>2017-2021
+    en:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorized<br>2017-2021
   content:
     fr:       Projet de motorisation d'une lampe avec système embarqué.<br>
               Développé au départ avec une télécommande infrarouge, le contrôle fut amélioré vers une interface web avec serveur intégré.<br>
