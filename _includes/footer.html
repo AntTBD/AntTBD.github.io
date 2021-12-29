@@ -4,8 +4,8 @@
         <div class="col-12">
             <hr class="container">
             <p class="text-center">
-                <span class="fr">Tous droits réservés. &copy; 2020 - Antoine TABARAUD<br/><i>Dernière mise à jour : {{ site.lastUpdate.fr }}</i></span>
-                <span class="en">All rights reserved. &copy; 2020 - Antoine TABARAUD<br/><i>Last update : {{ site.lastUpdate.en }}</i></span>
+                <span class="fr">Tous droits réservés. &copy; {{ site.time | date: '%Y' }} - Antoine TABARAUD<br/><i>Dernière mise à jour : {{ site.lastUpdate.fr }}</i></span>
+                <span class="en">All rights reserved. &copy; {{ site.time | date: '%Y' }} - Antoine TABARAUD<br/><i>Last update : {{ site.lastUpdate.en }}</i></span>
             </p>
         </div>
     </div>
