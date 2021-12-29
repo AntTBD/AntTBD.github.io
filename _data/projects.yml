@@ -33,9 +33,9 @@
     fr:       <i class="fas fa-cube"></i> Moteur Physique<br>3<sup>ème</sup> trimestre 2021
     en:       <i class="fas fa-cube"></i> Physic Engine<br>3<sup>rd</sup> quarter 2021
   content:
-    fr:       "Projet en groupe de 3, réalisation d'un moteur physique basique pour le jeu vidéo avec la prise en charge de forces, contraintes et détection de collisions sur des rigidbody.<br>
+    fr:       "Projet en groupe de 3, réalisation d'un moteur physique basique pour le jeu vidéo avec la prise en charge de forces, contraintes et détection de collisions sur des rigidbodies.<br>
                 Outre la partie mathématique, je me suis chargé de la structure du projet en C++ à la suite d'une refonte graphique à l'aide d'ImGUI et OpenGL3 pour avoir un rendu 3D de la scène, ainsi que des aides graphiques pour le debug, un inspecteur et une console."
-    en:       "Project in group of 3, realization of a basic physics engine for the video game with the support of forces, constraints and collision detection on rigidbody.<br>
+    en:       "Group project of 3, realization of a basic physics engine for the video game with the support of forces, constraints and collision detection on rigidbodies.<br>
                 Besides the mathematical part, I was in charge of the structure of the project in C++ after a graphical redesign using ImGUI and OpenGL3 to have a 3D rendering of the scene, as well as a graphical aids for debugging, an inspector and a console."
 
   # website:
@@ -61,7 +61,7 @@
                 Ayant le plus de connaissance, je me suis occupé de la synchronisation du travail de chacun, de la résolution des bugs, de la transmission du savoir, de la mise en place du multijoueur et d'une partie de l'interface."
     en:       "Group project of 6, from design documents to development of a video game based on the theme \"mystery\" in online multiplayer.<br>
                 3 investigators are looking for a criminal but the island randomly alters their color vision! Can you find the criminal?<br>
-                Having the most knowledge, I took care of the synchronization of the work of each one, the resolution of the bugs, the transmission of knowledge, the implementation of the multiplayer and a part of the interface."
+                Having a better knowledge, I took care of the synchronization of the work of each one, the resolution of the bugs, the transmission of knowledge, the implementation of the multiplayer and a part of the interface."
 
   # website:
   #   lien:   ""
@@ -83,7 +83,7 @@
   content:
     fr:       "Projet en binôme, réalisation d'une intelligence artificielle avec des algorithmes de CSP (Problème de Satisfaction de Contraintes) pour la résolution de Sudoku le plus rapidement possible, peu importe la difficulté.<br>
                 Son interface en console permet de choisir entre le Backtracking, AC-3, MRV (Minimum Remaining Values), Degree Heuristic et LCV (Least Contraining Value)."
-    en:       "Project in binomial, realization of an artificial intelligence with CSP (Constraint Satisfaction Problem) algorithms for solving Sudoku as fast as possible, whatever the difficulty.<br>
+    en:       "A binomial project, realization of an artificial intelligence with CSP (Constraint Satisfaction Problem) algorithms for solving Sudoku as fast as possible, whatever the difficulty.<br>
                 Its console interface allows to choose between Backtracking, AC-3, MRV (Minimum Remaining Values), Degree Heuristic and LCV (Least Contraining Value)."
 
   # website:
@@ -106,7 +106,7 @@
   content:
     fr:       "Challenge en équipe où il faut créer un jeu en seulement 72h ! Le thème de cette année fut : \"La Connection\" avec les styles : gestion, chance et progression.<br>
                 Nous avons participé à l'édition 2021 à Chicoutimi, CA avec la \"Team Claude 3000\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.<br>
-                Après la fin de l'évènement, j'ai amélioré le jeu pour enlever les bugs et finir les idées d'implémentations originales puis je l'ai porté sur Android."
+                Après la fin de l'évènement, j'ai amélioré le jeu pour enlever les bugs et finir les idées d'implémentation originale puis je l'ai porté sur Android."
     en:       "Team challenge where you have to create a game in only 72h! This year's theme was: \"The Connection\" with styles: management, luck and progression.<br>
                 We participated in the 2021 edition in Chicoutimi, CA with the \"Team Claude 3000\". Get information about our participation and our production during this challenge.<br>
                 Once the event was over, I improved the game to remove bugs and finish the original implementation ideas, then ported it to Android."
@@ -129,8 +129,8 @@
     en:       <i class="fas fa-brain"></i> Vacuum Robot AI<br>September 2021
   content:
     fr:       "Projet en binôme, réalisation d'une intelligence artificielle avec un algorithme glouton capable de choisir son chemin pour aller à sa destination.<br>
-                Ce projet dispose d'une interface en console, le robot aspirateur R essaie de nettoyer la saleté D et évite de ramasser les bijoux J avec une perte batterie au fur et à mesure des déplacements."
-    en:       "Project in binomial, realization of an artificial intelligence with a gluttonous algorithm able to choose its way to its destination.<br>
+                Ce projet dispose d'une interface en console, le robot aspirateur R essaie de nettoyer la saleté D et évite de ramasser les bijoux J avec une perte de batterie au fur et à mesure des déplacements."
+    en:       "A binomial project, realization of an artificial intelligence with a gluttonous algorithm able to choose its way to its destination.<br>
                 This project has a console interface, the robot vacuum cleaner R is trying to clean the dirt D and avoids pick up jewels J with battery loss as it moves."
 
   # website:
@@ -152,9 +152,9 @@
     en:       <i class="fas fa-vr-cardboard"></i> Virtual Classroom Project<br>1<sup>st</sup> quarter 2021
   content:
     fr:       "Projet en groupe de 5, afin de prouver que les cours à distance peuvent se faire comme si on était dans une vraie classe grâce à la réalité virtuelle (Oculus Quest).<br>
-                Étant chef de projet, j'ai mené à bien mon équipe pour reproduire les même sensations qu'en présenciel. On a ainsi la possibilité de créer un cours et le rejoindre en multi-joueur, écrire au tableau, projeter un diaporama, parler/écouter, s'asseoir et avoir une duplication du diaporama et du tableau en temps réel."
+                Étant chef de projet, j'ai mené à bien mon équipe pour reproduire les même sensations qu'en présentiel. On a ainsi la possibilité de créer un cours et le rejoindre en multi-joueur, écrire au tableau, projeter un diaporama, parler/écouter, s'asseoir et avoir une duplication du diaporama et du tableau en temps réel."
     en:       "Group project of 5, to prove that distance learning can be done as if you were in a real class thanks to virtual reality (Oculus Quest). <br>
-                As a project manager, I carried out my team to reproduce the same sensations as in presenciel. We have the possibility to create a course and join it in multiplayer, write on the board, project a slideshow, talk/listen, sit down and have a duplication of the slideshow and the board in real time."
+                As a project manager, I carried out my team to reproduce the same sensations as in presential. We have the possibility to create a course and join it in multiplayer, write on the board, project a slideshow, talk/listen, sit down and have a duplication of the slideshow and the board in real time."
 
   # website:
   #   lien:   ""
@@ -174,11 +174,11 @@
     fr:       <i class="fas fa-globe"></i> Projet Web<br>Novembre 2020
     en:       <i class="fas fa-globe"></i> Web Project<br>November 2020
   content:
-    fr:       "Projet en groupe afin de réaliser un site de reservation de salle avec une partie admin.<br>
-                Ce dernière a permis d'intégrer quelques notions de sécurité telque, les SESSION PHP, les tokens CSRF et un clavier virtuel crypté pour ne pas envoyé un mot de passe en clair au serveur !<br>
+    fr:       "Projet en groupe afin de réaliser un site de réservation de salle avec une partie admin.<br>
+                Ce dernier a permis d'intégrer quelques notions de sécurité tel que, les sessions PHP, les tokens CSRF et un clavier virtuel crypté pour ne pas envoyer un mot de passe en clair au serveur !<br>
                 Il utilise aussi des requêtes ajax afin de le rendre plus dynamique."
     en:       "Group project in order to create a classroom reservation site with an admin part.<br>
-                This last one allowed to integrate some security notions such as PHP SESSION, CSRF tokens and an encrypted virtual keyboard in order not to send a clear password to the server !<br>
+                This last one allowed to integrate some security notions such as PHP sessions, CSRF tokens and an encrypted virtual keyboard in order not to send a clear password to the server !<br>
                 It also uses ajax queries to make it more dynamic."
 
   # website:
@@ -289,7 +289,7 @@
     fr:       <i class="fas fa-globe"></i> Nuit de l'info<br>Décembre 2019
     en:       <i class="fas fa-globe"></i> Nuit de l'info<br>December 2019
   content:
-    fr:        "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>Augmenter le pouvoir d’agir des étudiant·e·s en situation de précarité</i>\".<br>
+    fr:        "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>Augmenter le pouvoir d’agir des étudiants/es en situation de précarité</i>\".<br>
               Nous avons participé à l'édition 2019 à Limoges avec l'équipe \"Les Sots 6\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge."
     en:        "The \"Nuit de l'info\" is a team challenge where you have to create a site in just one night ! This year’s theme was: \"<i>Increase the power of students to act in a precarious situation</i>\".<br>
               We took part in the 2019 edition in Limoges with the team \"Les Sots 6\". Get information about our participation and our production during this challenge."
