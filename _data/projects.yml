@@ -30,13 +30,13 @@
     name:     /assets/img/MoteurPhysiqueJV.png
     alt:      Moteur Physique Jeu Vidéo
   title:
-    fr:       <i class="fas fa-cube"></i> Moteur Physique de Jeu Vidéo<br>3<sup>ème</sup> trimestre 2021
-    en:       <i class="fas fa-cube"></i> Video Game's Physic Engine<br>3<sup>rd</sup> quarter 2021
+    fr:       <i class="fas fa-cube"></i> Moteur Physique<br>3<sup>ème</sup> trimestre 2021
+    en:       <i class="fas fa-cube"></i> Physic Engine<br>3<sup>rd</sup> quarter 2021
   content:
     fr:       "Projet en groupe de 3, réalisation d'un moteur physique basique pour le jeu vidéo avec la prise en charge de forces, contraintes et détection de collisions sur des rigidbody.<br>
-                Outre la partie mathématique, je me suis chargé de la structure du projet en C++ après une refonte graphique à l'aide d'ImGUI et OpenGL3 pour avoir un rendu 3D de la scène, des aides graphiques pour le debug, un inspecteur et une console."
-    en:       "roject in group of 3, realization of a basic physics engine for the video game with the support of forces, constraints and collision detection on rigidbody.<br>
-                Besides the mathematical part, I was in charge of the structure of the project in C++ after a graphical redesign using ImGUI and OpenGL3 to have a 3D rendering of the scene, graphical aids for debugging, an inspector and a console."
+                Outre la partie mathématique, je me suis chargé de la structure du projet en C++ à la suite d'une refonte graphique à l'aide d'ImGUI et OpenGL3 pour avoir un rendu 3D de la scène, ainsi que des aides graphiques pour le debug, un inspecteur et une console."
+    en:       "Project in group of 3, realization of a basic physics engine for the video game with the support of forces, constraints and collision detection on rigidbody.<br>
+                Besides the mathematical part, I was in charge of the structure of the project in C++ after a graphical redesign using ImGUI and OpenGL3 to have a 3D rendering of the scene, as well as a graphical aids for debugging, an inspector and a console."
 
   # website:
   #   lien:   ""
@@ -58,7 +58,7 @@
   content:
     fr:       "Projet en groupe de 6, des documents de conception au développement d'un jeu vidéo basé sur le thème \"mystère\" en multijoueur en ligne: Krom'Island.<br>
                 3 enquêteurs sont à la recherche d'un criminel mais l'île altère leur vision chromatique de façon aléatoire ! Saurez-vous retrouver le criminel ?<br>
-                Ayant le plus de connaissance, je me suis occupé de la synchronisation du travail de chacun, la résolution des bugs, la transmission de savoir, la mise en place du multijoueur et une partie de l'interface."
+                Ayant le plus de connaissance, je me suis occupé de la synchronisation du travail de chacun, de la résolution des bugs, de la transmission du savoir, de la mise en place du multijoueur et d'une partie de l'interface."
     en:       "Group project of 6, from design documents to development of a video game based on the theme \"mystery\" in online multiplayer.<br>
                 3 investigators are looking for a criminal but the island randomly alters their color vision! Can you find the criminal?<br>
                 Having the most knowledge, I took care of the synchronization of the work of each one, the resolution of the bugs, the transmission of knowledge, the implementation of the multiplayer and a part of the interface."
