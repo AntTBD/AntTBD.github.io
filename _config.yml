@@ -1,15 +1,16 @@
 #Site settings
-author:      "Antoine TABARAUD"
-description: "Personal web site"
-title:       "Antoine TABARAUD"
-image:       "/assets/img/logo site2.png"
-keywords:    "Antoine TABARAUD, TABARAUD, Antoine TBD, AntTBD, Ant TBD"
-favicon:     "/assets/img/favicon.ico"
+author:        "Antoine TABARAUD"
+description:   "Personal web site"
+title:         "Antoine TABARAUD"
+image:         "/assets/img/logo site2.png"
+keywords:      "Antoine TABARAUD, TABARAUD, Antoine TBD, AntTBD, Ant TBD"
+favicon:       "/assets/img/favicon.ico"
+url:           "http://localhost" #"https://anttbd.github.io"
 
 lastUpdate:
-    fr:      "decembre 2021"
-    en:      "December 2021"
+    fr:        "decembre 2021"
+    en:        "December 2021"
 
 # Build settings
-markdown:    kramdown
-#permalink:  /projet/:title
+markdown:      kramdown
+#permalink:    /projet/:title
