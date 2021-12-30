@@ -72,7 +72,14 @@ if (URLparams["lang"] === 'en') {
   $(".tooltip .tooltip-inner .fr").show();
   $(".tooltip .tooltip-inner .en").show();
 }
-
+// switch mode dark light
+if (URLparams["theme"] === 'dark') {
+  localStorage.setItem("darkSwitch", "dark");
+} else if (URLparams["theme"] === 'light') {
+  localStorage.setItem("darkSwitch", "light");
+} else {
+  localStorage.removeItem("darkSwitch");
+}
 
 
 
@@ -100,10 +107,6 @@ function insertParam(key, value) {
 
 
 function startAnimation() {
-
-
-
-
   //animations progress bar
   if ($('#diplomas-content')) {
     $("#diplomas-content").find(".card").each(function(i) {
@@ -154,9 +157,36 @@ function startAnimation() {
       }, delay);
     });
   }
+}
+
+//change all url of navbar with language settings
+function changeNavbarUrlLanguageAndDarkMode() {
+  $('#navbar a').each(function(i, element) {
+    var newUrl;
+    if ($(element).hasClass("choix-lang")) { // if dropdown language choice (keep lang argument)
+      $(element).parent().children('.dropdown-menu a').each(function(j, dropdown_menu) {
+        newUrl = $(dropdown_menu).attr("href").split("&theme=")[0];
+        if (null !== localStorage.getItem("darkSwitch")) {
+          newUrl += "&theme=" + localStorage.getItem("darkSwitch");
+        }
+        $(dropdown_menu).attr("href", newUrl); // Set herf value
+      });
+    } else {
+      var oldUrl = $(element).attr("href"); // Get current url
+      newUrl = oldUrl.split("?")[0];
+      if (langue === 'en') {
+        newUrl += "?lang=en"; // Create new url
+      } else {
+        newUrl += "?lang=fr"; // Create new url
+      }
+      if (null !== localStorage.getItem("darkSwitch")) {
+        newUrl += "&theme=" + localStorage.getItem("darkSwitch");
+      }
+      $(element).attr("href", newUrl); // Set herf value
+    }
 
 
-
+  });
 }
 
 
@@ -164,19 +194,7 @@ $(document).ready(function() {
 
 
   //change all url of navbar with language settings
-  $('#navbar a:not(.choix-lang)').each(function() {
-
-    var oldUrl = $(this).attr("href"); // Get current url
-    var newUrl;
-    if (URLparams["lang"] === 'en') {
-      newUrl = oldUrl.split("?")[0] + "?lang=en"; // Create new url
-    } else {
-      newUrl = oldUrl + "?lang=fr"; // Create new url
-    }
-
-    $(this).attr("href", newUrl); // Set herf value
-
-  });
+  changeNavbarUrlLanguageAndDarkMode();
 
   if ($('#btn-arrow-down')) {
     // button with scroll down animation for home page
