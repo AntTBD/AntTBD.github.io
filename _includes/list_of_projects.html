@@ -5,6 +5,11 @@
   <div class="card h-100">
     <div class="card-header text-center">
       <div class="row rowImage">
+      {% if project.icon %}
+      <div class="d-flex align-items-center">
+        <img src="{{ project.icon.name }}" class="rounded icon m-2" alt="{{ project.icon.alt }}">
+      </div>
+      {% endif %}
         <div class="col-12 d-flex align-items-center">
           <img src="{{ project.image.name }}" class="rounded mx-auto" alt="{{ project.image.alt }}">
         </div>

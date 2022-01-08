@@ -63,13 +63,13 @@
                 3 investigators are looking for a criminal but the island randomly alters their color vision! Can you find the criminal?<br>
                 Having a better knowledge, I took care of the synchronization of the work of each one, the resolution of the bugs, the transmission of knowledge, the implementation of the multiplayer and a part of the interface."
 
-  # website:
-  #   lien:   ""
-  #   txt:
-  #     fr:
-  #     en:
+  website:
+    lien:     "https://anttbd.github.io/Krom-Island/WebGL/Krom%27Island/"
+    txt:
+      fr:     <i class="fas fa-gamepad"></i> Demo WebGL
+      en:     <i class="fas fa-gamepad"></i> WebGL Demo
   repository:
-    lien:     "https://github.com/AntTBD/UQAC_Game"
+    lien:     "https://github.com/AntTBD/Krom-Island"
 
 ################################################################################
 
@@ -100,6 +100,9 @@
   image:
     name:     /assets/img/ClaudNected.png
     alt:      ClaudNected
+  icon:
+    name:     /assets/img/WonderJam%20UQAC%202021.png
+    alt:      ClaudNected
   title:
     fr:       <i class="fas fa-gamepad"></i> WonderJam UQAC<br>Octobre 2021
     en:       <i class="fas fa-gamepad"></i> WonderJam UQAC<br>October 2021
@@ -111,10 +114,10 @@
                 We participated in the 2021 edition in Chicoutimi, CA with the \"Team Claude 3000\". Get information about our participation and our production during this challenge.<br>
                 Once the event was over, I improved the game to remove bugs and finish the original implementation ideas, then ported it to Android."
   website:
-    lien:     "https://itch.io/jam/-wonderjam-uqac-2021-propuls-par-ubisoft-saguenay/rate/1231056"
+    lien:     "https://anttbd.github.io/ClaudNected/WebGL/" #"https://itch.io/jam/-wonderjam-uqac-2021-propuls-par-ubisoft-saguenay/rate/1231056"
     txt:
-      fr:     <i class="fas fa-gamepad"></i> Page du jeu
-      en:     <i class="fas fa-gamepad"></i> Game page
+      fr:     <i class="fas fa-gamepad"></i> Demo WebGL
+      en:     <i class="fas fa-gamepad"></i> WebGL Demo
   repository:
     lien:     "https://github.com/AntTBD/WonderJam2021"
 
@@ -168,6 +171,9 @@
 
 - name:       Projet web ReservSalle 2020
   image:
+    name:     /assets/img/ReservSalle%20-%20Reservations.png
+    alt:      ReservSalle
+  icon:
     name:     /assets/img/ReservSalle.jpg
     alt:      ReservSalle
   title:
@@ -200,11 +206,13 @@
     en:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorized<br>2017-2021
   content:
     fr:       Projet de motorisation d'une lampe avec système embarqué.<br>
-              Développé au départ avec une télécommande infrarouge, le contrôle fut amélioré vers une interface web avec serveur intégré.<br>
-              Ce fut l'occasion de modéliser la lampe et des supports supplémentaires en 3D sur SOLIDWORKS.
+              Développé au départ avec une télécommande infrarouge (via Arduino Nano), le contrôle fut amélioré vers une interface web avec serveur intégré (via ESP8266). Le tout avec des contraintes de place et de mémoire.<br>
+              Ce fut l'occasion de modéliser la lampe et des supports supplémentaires en 3D sur SOLIDWORKS.<br>
+              <i>(En cours de création d'une librairie Arduino pour un meilleur partage.)</i>
     en:       Project of motorization of a lamp with onboard system.<br>
-              Initially developed with an infrared remote control, the control was improved to a web interface with integrated server.<br>
-              It was an opportunity to model the lamp and additional supports in 3D on SOLIDWORKS.
+              Initially developed with an infrared remote control (with Arduino Nano), the control was improved to a web interface with integrated server (with ESP8266). All this with space and memory constraints.<br>
+              It was an opportunity to model the lamp and additional supports in 3D on SOLIDWORKS.<br>
+              <i>(Currently creating an Arduino library for a better sharing.)</i>
   website:
     lien:     "https://www.instructables.com/"
     txt:
@@ -217,6 +225,9 @@
 
 - name:       Olympiades des métiers 2020-2021
   image:
+    name:     /assets/img/Olympiades%20des%20métiers%20-%20robot.gif
+    alt:      WorldSkills France
+  icon:
     name:     /assets/img/WorldSkills%20France.jpg
     alt:      WorldSkills France
   title:
@@ -224,15 +235,15 @@
     en:       <i class="fas fa-robot"></i> World Skills
   content:
     fr:       Cette compétition est l'occasion de réaliser et programmer en binôme un robot en kit afin de le rendre autonome.<br>
-              Nous sommes sélectionnés pour la finale nationale prévue en décembre 2020 à Lyon.
+              Nous avons été, exceptionnellement, sélectionnés pour la finale nationale prévue en décembre 2020 à Lyon. Elle a malheureusement été repoussée en janvier 2022. En conséquence et avec nos études nous menant au Québec, CA, nous avons dû déclarer forfait.
     en:       This competition is the opportunity to create and program in pairs a robot kit to make it autonomous.<br>
-              We are selected for the national final scheduled for December 2020 in Lyon.
+              We were, exceptionally, selected for the national final scheduled for December 2020 in Lyon. Unfortunately, it has been postponed to January 2022. As a result and with our studies leading us to Quebec, CA, we had to drop out.
   ranking:
-    # - link: "https://www.olympiadesmetiers.fr/les-olympiades/46eme-edition/selections-nationales/"
-    #   icon: <i class="fas fa-trophy"></i>
-    #   title:
-    #     fr: ...<sup>ème</sup> en finale nationale, France
-    #     en: ...<sup>ème</sup> in the national final, France
+    - link:   "https://www.worldskills-france.org/la-competition/metiers-en-competition/robotique-mobile"
+      # icon: <i class="fas fa-award"></i>
+      title:
+        fr:   Top 6, France
+        en:   Top 6, France
     - link:   "https://www.olympiadesmetiers.fr/les-olympiades/46eme-edition/selections-regionales/"
       icon:   <i class="fas fa-medal"></i>
       title:
@@ -246,8 +257,8 @@
   website:
     lien:     "https://www.olympiadesmetiers.fr/"
     txt:
-      fr:     <i class="fas fa-gamepad"></i> Page des Olympiades
-      en:     <i class="fas fa-gamepad"></i> WorldSkills page
+      fr:     <i class="fas fa-robot"></i> Page des Olympiades
+      en:     <i class="fas fa-robot"></i> World Skills page
   repository:
     lien:     ""
 
@@ -255,6 +266,9 @@
 
 - name:       GGJ 2020
   image:
+    name:     /assets/img/SEWERS%20MADNESS.png
+    alt:      GGJ 2020
+  icon:
     name:     /assets/img/GGJ2020.png
     alt:      GGJ 2020
   title:
@@ -283,6 +297,9 @@
 
 - name:       Nuit de l'info 2019
   image:
+    name:     /assets/img/Nuit%20de%20l'info%202019%20-%20LesSots6.png
+    alt:      Nuit de l'info 2019
+  icon:
     name:     /assets/img/Nuit%20de%20l'info%202019.png
     alt:      Nuit de l'info 2019
   title:
@@ -329,11 +346,11 @@
   #     title:
   #       fr: ""
   #       en: ""
-  # website:
-  #   lien:   ""
-  #   txt:
-  #     fr:
-  #     en:
+  website:
+    lien:     "https://anttbd.github.io/Projet-WebGL-2019-FST/site/Projet_WebGL_2019.html"
+    txt:
+      fr:     <i class="fas fa-globe"></i> Demo
+      en:     <i class="fas fa-globe"></i> Demo
   repository:
     lien:     "https://github.com/AntTBD/Projet-WebGL-2019-FST"
 
@@ -342,6 +359,9 @@
 - name:       Projet TechnologieWeb FST
   image:
     name:     /assets/img/TechnologieWeb%20project.png
+    alt:      Technologie Web
+  icon:
+    name:     /assets/img/TechnologieWeb%20logo.png
     alt:      Technologie Web
   title:
     fr:       <i class="fas fa-globe"></i> Projet Technologie Web<br>FST - Décembre 2019
@@ -371,6 +391,9 @@
 
 - name:       GGJ 2019
   image:
+    name:     /assets/img/GGJ2019%20Sheep'Game.png
+    alt:      GGJ 2019
+  icon:
     name:     /assets/img/GGJ2019.png
     alt:      GGJ 2019
   title:
@@ -399,6 +422,9 @@
 
 - name:       Nuit de l'info 2018
   image:
+    name:     /assets/img/Nuit%20de%20l'info%202018%20-%20photomosaique.jpg
+    alt:      Nuit de l'info 2018
+  icon:
     name:     /assets/img/Nuit%20de%20l'info%202018.png
     alt:      Nuit de l'info 2018
   title:
@@ -418,8 +444,8 @@
   website:
     lien:     "https://anttbd.github.io/CrabGang.github.io/"
     txt:
-      fr:     <i class="fas fa-gamepad"></i> Page web
-      en:     <i class="fas fa-gamepad"></i> Web page
+      fr:     <i class="fas fa-globe"></i> Page web
+      en:     <i class="fas fa-globe"></i> Web page
   repository:
     lien:     "https://github.com/CrabGang/CrabGang.github.io"
 
@@ -427,6 +453,9 @@
 
 - name:       Projet fin de session algo 2017
   image:
+    name:     /assets/img/Millenium%20Collisions%20InGame.png
+    alt:      PFS 2017
+  icon:
     name:     /assets/img/Millenium%20Collisions.png
     alt:      PFS 2017
   title:
