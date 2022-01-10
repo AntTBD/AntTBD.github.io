@@ -119,6 +119,11 @@ function insertParam(key, value) {
 
 
 function startAnimation() {
+
+  if ($('#loading-icon')) {
+    $("#loading-icon").remove();
+  }
+
   //animations progress bar
   if ($('#diplomas-content')) {
     $("#diplomas-content").find(".card").each(function(i) {
