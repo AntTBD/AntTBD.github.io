@@ -53,13 +53,4 @@
 <link rel="stylesheet" href="/assets/css/styleTimeline.css">
 {% endif %}
 
-<script type="text/javascript">
-  // viewer counter
-  function callbackVisitorCount(response) {
-    document.getElementById('visitorsCounters').innerText = response.value;
-  }
-</script>
-<script async src="https://api.countapi.xyz/hit/{{ site.url | split: "://" | last }}/visits?callback=callbackVisitorCount"></script>
-
-
 {% endif %}
