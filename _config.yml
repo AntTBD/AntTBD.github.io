@@ -2,9 +2,9 @@
 author:        "Antoine TABARAUD"
 description:   "Personal web site"
 title:         "Antoine TABARAUD"
-image:         "/assets/img/logo site2.png"
+image:         "logo site2.png"
 keywords:      "Antoine TABARAUD, TABARAUD, Antoine TBD, AntTBD, Ant TBD"
-favicon:       "/assets/img/favicon.ico"
+favicon:       "favicon.ico"
 url:           "https://anttbd.github.io" #"http://localhost"
 
 lastUpdate:

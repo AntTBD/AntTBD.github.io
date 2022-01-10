@@ -68,7 +68,7 @@
     en:         Double Degree
   image:
     link:       "https://www.uqac.ca/programme/1537-maitrise-en-informatique-jeux-video/"
-    src:        /assets/img/UQAC_1.png
+    src:        UQAC_1.png
     alt:        UQAC
   progress_bar:
     val:        1/3
@@ -94,7 +94,7 @@
     en:         Engineer
   image:
     link:       "http://www.3il-ingenieurs.fr/"
-    src:        /assets/img/3iL bis.png
+    src:        3iL bis.png
     alt:        3iL Ingénieurs
   progress_bar:
     val:        4.5
@@ -120,7 +120,7 @@
     en:         License
   image:
     link:       "https://www.sciences.unilim.fr/"
-    src:        /assets/img/FST%20Limoges.jpg
+    src:        FST%20Limoges.jpg
     alt:        FST Limoges
   progress_bar:
     val:        3
@@ -146,7 +146,7 @@
     en:         B1
   image:
     link:       "https://www.ef.fr/"
-    src:        /assets/img/EF.jpg
+    src:        EF.jpg
     alt:        EF
   progress_bar:
     val:        550
@@ -172,7 +172,7 @@
     en:         Bachelior
   image:
     link:       "https://www.lyceelimosin.fr/"
-    src:        /assets/img/Lycée Limosin.png
+    src:        Lycée Limosin.png
     alt:        Lycée Limosin
   progress_bar:
     val:        3

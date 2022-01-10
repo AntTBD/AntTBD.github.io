@@ -140,7 +140,8 @@ https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-enhance-a-page-with-cs
   transform: translateY(30px);
 }
 
-.page-header::after {
+.page-header::after,
+.page-footer::before {
   width: 100%;
   transform: scaleX(0);
   /* dark bar: */
@@ -151,7 +152,8 @@ https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-enhance-a-page-with-cs
   z-index: -1;
 }
 
-[data-theme="dark"] .page-header::after {
+[data-theme="dark"] .page-header::after,
+[data-theme="dark"] .page-footer::before {
   background: #fff !important;
 }
 
@@ -159,7 +161,8 @@ https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-enhance-a-page-with-cs
   transform: translateY(200%);
 }
 
-.loaded .page-header::after {
+.loaded.page-header::after,
+.loaded.page-footer::before {
   animation: scaleIn 1s ease-in 0.0s forwards;
 }
 
@@ -169,17 +172,17 @@ https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-enhance-a-page-with-cs
 
 /* animate navbar */
 @media screen and (min-width: 975px) {
-  .loaded .page-header nav>* {
+  .loaded.page-header nav>* {
     animation: fadeIn 1s ease-in 0.5s forwards, slideIn 0.8s ease-in 0.9s forwards;
   }
 }
 
 @media screen and (max-width: 975px) {
-  .loaded .page-header nav>*:not(.navbar-collapse) {
+  .loaded.page-header nav>*:not(.navbar-collapse) {
     animation: fadeIn 1s ease-in 0.5s forwards, slideIn 0.8s ease-in 0.9s forwards;
   }
 
-  .loaded .page-header nav .navbar-collapse {
+  .loaded.page-header nav .navbar-collapse {
     opacity: 1;
     transform: translateY(0);
   }
@@ -216,7 +219,7 @@ https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-enhance-a-page-with-cs
     transform: translateY(0);
   }
 }*/
-.loaded .page-footer>* {
+.loaded.page-footer>* {
   animation: fadeIn 1s ease-in 0.5s forwards, slideIn 0.8s ease-in 0.9s forwards;
 }
 

@@ -67,7 +67,7 @@ function init() {
   scene = new THREE.Scene();
 
   // texture Loader
-  var textureLoader = new THREE.TextureLoader().setPath("./assets/img/");
+  var textureLoader = new THREE.TextureLoader().setPath("./assets/img/threejs/");
 
 
   // geometry (cube)
@@ -75,7 +75,7 @@ function init() {
 
   // material with texture
   //var texture = textureLoader.load( 'img/Couché de soleil.jpg' );
-  var material = new THREE.MeshFaceMaterial([
+  var material = [
     new THREE.MeshBasicMaterial({
       //color: 0x0000ff
       //map: textureLoader.load( 'ordi.jpg' )
@@ -102,7 +102,7 @@ function init() {
       map: textureLoader.load('Falcon9.jpg'),
       alphaTest: 0.5
     })
-  ]);
+  ];
 
   // associat geometry and material
   cube = new THREE.Mesh(geometry, material);

@@ -27,7 +27,7 @@
 
 - name:       Projet Moteur Physique 2021
   image:
-    name:     /assets/img/MoteurPhysiqueJV.png
+    name:     MoteurPhysiqueJV.png
     alt:      Moteur Physique Jeu Vidéo
   title:
     fr:       <i class="fas fa-cube"></i> Moteur Physique<br>3<sup>ème</sup> trimestre 2021
@@ -50,7 +50,7 @@
 
 - name:       Projet Krom'Island 2021
   image:
-    name:     /assets/img/Krom'Island.png
+    name:     Krom'Island.min.png
     alt:      Krom'Island
   title:
     fr:       <i class="fas fa-gamepad"></i> Jeu Vidéo Krom'Island<br>3<sup>ème</sup> trimestre 2021
@@ -75,7 +75,7 @@
 
 - name:       IA Sudoku Solver 2021
   image:
-    name:     /assets/img/IASudokuSolver.jpg
+    name:     IASudokuSolver.jpg
     alt:      IA Sudoku Solver
   title:
     fr:       <i class="fas fa-brain"></i> IA Solveur de Sudoku<br>Novembre 2021
@@ -98,10 +98,10 @@
 
 - name:       WonderJam UQAC 2021
   image:
-    name:     /assets/img/ClaudNected.png
+    name:     ClaudNected.min.png
     alt:      ClaudNected
   icon:
-    name:     /assets/img/WonderJam%20UQAC%202021.png
+    name:     WonderJam%20UQAC%202021.png
     alt:      ClaudNected
   title:
     fr:       <i class="fas fa-gamepad"></i> WonderJam UQAC<br>Octobre 2021
@@ -125,7 +125,7 @@
 
 - name:       IA Vacuum Robot 2021
   image:
-    name:     /assets/img/IAVacuumRobot.png
+    name:     IAVacuumRobot.png
     alt:      IA Vacuum Robot
   title:
     fr:       <i class="fas fa-brain"></i> IA robot aspirateur<br>Septembre 2021
@@ -148,7 +148,7 @@
 
 - name:       Projet Cours Virtuel 2021
   image:
-    name:     /assets/img/ProjetCoursVirtuel.png
+    name:     ProjetCoursVirtuel.min.png
     alt:      CoursVirtuel
   title:
     fr:       <i class="fas fa-vr-cardboard"></i> Projet Cours Virtuel<br>1<sup>er</sup> trimestre 2021
@@ -171,10 +171,10 @@
 
 - name:       Projet web ReservSalle 2020
   image:
-    name:     /assets/img/ReservSalle%20-%20Reservations.png
+    name:     ReservSalle%20-%20Reservations.png
     alt:      ReservSalle
   icon:
-    name:     /assets/img/ReservSalle.jpg
+    name:     ReservSalle.jpg
     alt:      ReservSalle
   title:
     fr:       <i class="fas fa-globe"></i> Projet Web<br>Novembre 2020
@@ -199,7 +199,7 @@
 
 - name:       Motorisation lampe IKEA PS 2014
   image:
-    name:     /assets/img/IKEA%20PS%202014%20motorized.jpg
+    name:     IKEA%20PS%202014%20motorized.jpg
     alt:      IKEA PS 2014 Motorized
   title:
     fr:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorisée<br>2017-2021
@@ -225,10 +225,10 @@
 
 - name:       Olympiades des métiers 2020-2021
   image:
-    name:     /assets/img/Olympiades%20des%20métiers%20-%20robot.gif
+    name:     Olympiades%20des%20métiers%20-%20robot.gif
     alt:      WorldSkills France
   icon:
-    name:     /assets/img/WorldSkills%20France.jpg
+    name:     WorldSkills%20France.jpg
     alt:      WorldSkills France
   title:
     fr:       <i class="fas fa-robot"></i> Olympiades des Métiers
@@ -266,10 +266,10 @@
 
 - name:       GGJ 2020
   image:
-    name:     /assets/img/SEWERS%20MADNESS.png
+    name:     SEWERS%20MADNESS.png
     alt:      GGJ 2020
   icon:
-    name:     /assets/img/GGJ2020.png
+    name:     GGJ2020.png
     alt:      GGJ 2020
   title:
     fr:       <i class="fas fa-gamepad"></i> Global Game Jam<br>Janvier 2020
@@ -297,10 +297,10 @@
 
 - name:       Nuit de l'info 2019
   image:
-    name:     /assets/img/Nuit%20de%20l'info%202019%20-%20LesSots6.png
+    name:     Nuit%20de%20l'info%202019%20-%20LesSots6.png
     alt:      Nuit de l'info 2019
   icon:
-    name:     /assets/img/Nuit%20de%20l'info%202019.png
+    name:     Nuit%20de%20l'info%202019.png
     alt:      Nuit de l'info 2019
   title:
     fr:       <i class="fas fa-globe"></i> Nuit de l'info<br>Décembre 2019
@@ -328,7 +328,7 @@
 
 - name:       Projet WebGL FST
   image:
-    name:     /assets/img/WebGL%20project.min.gif
+    name:     WebGL%20project.min.gif
     alt:      Animation WebGL
   title:
     fr:       <i class="fas fa-cube"></i> Projet WebGL<br>FST - Décembre 2019
@@ -358,10 +358,10 @@
 
 - name:       Projet TechnologieWeb FST
   image:
-    name:     /assets/img/TechnologieWeb%20project.png
+    name:     TechnologieWeb%20project.png
     alt:      Technologie Web
   icon:
-    name:     /assets/img/TechnologieWeb%20logo.png
+    name:     TechnologieWeb%20logo.png
     alt:      Technologie Web
   title:
     fr:       <i class="fas fa-globe"></i> Projet Technologie Web<br>FST - Décembre 2019
@@ -391,10 +391,10 @@
 
 - name:       GGJ 2019
   image:
-    name:     /assets/img/GGJ2019%20Sheep'Game.png
+    name:     GGJ2019%20Sheep'Game.png
     alt:      GGJ 2019
   icon:
-    name:     /assets/img/GGJ2019.png
+    name:     GGJ2019.png
     alt:      GGJ 2019
   title:
     fr:       <i class="fas fa-gamepad"></i> Global Game Jam<br>Janvier 2019
@@ -422,10 +422,10 @@
 
 - name:       Nuit de l'info 2018
   image:
-    name:     /assets/img/Nuit%20de%20l'info%202018%20-%20photomosaique.jpg
+    name:     Nuit%20de%20l'info%202018%20-%20photomosaique.jpg
     alt:      Nuit de l'info 2018
   icon:
-    name:     /assets/img/Nuit%20de%20l'info%202018.png
+    name:     Nuit%20de%20l'info%202018.png
     alt:      Nuit de l'info 2018
   title:
     fr:       <i class="fas fa-globe"></i> Nuit de l'info<br>Décembre 2018
@@ -453,10 +453,10 @@
 
 - name:       Projet fin de session algo 2017
   image:
-    name:     /assets/img/Millenium%20Collisions%20InGame.png
+    name:     Millenium%20Collisions%20InGame.png
     alt:      PFS 2017
   icon:
-    name:     /assets/img/Millenium%20Collisions.png
+    name:     Millenium%20Collisions.png
     alt:      PFS 2017
   title:
     fr:       <i class="fas fa-gamepad"></i> Millenium Collisions<br>Décembre 2017

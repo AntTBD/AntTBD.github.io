@@ -32,7 +32,7 @@
     <div class="row no-gutters">
       {% if mod!= 1 %}
       <a class="col-md-4 order-1 order-md-1 d-md-flex align-items-center text-center bg-light" target="_blank" href="{{ work.image.link }}">
-        <img src="{{ work.image.src }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto" width="auto"
+        <img src="/assets/img/experiences/{{ work.image.src }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto" width="auto"
           style="max-height: {% if work.image.rectangle == true %}5rem{% else %}10rem{% endif %};"> <!-- 10rem pour les logos carrés - 5rem pour ceux rectangulaires -->
       </a>
       {% endif %}
@@ -60,7 +60,7 @@
       </div>
       {% if mod == 1 %}
       <a class="col-md-4 order-1 order-md-2 d-md-flex align-items-center text-center bg-light" target="_blank" href="{{ work.image.link }}">
-        <img src="{{ work.image.src }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto" width="auto"
+        <img src="/assets/img/experiences/{{ work.image.src }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto" width="auto"
           style="max-height: {% if work.image.rectangle == true %}5rem{% else %}10rem{% endif %};"> <!-- 10rem pour les logos carrés - 5rem pour ceux rectangulaires -->
       </a>
       {% endif %}

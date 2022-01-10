@@ -1,28 +1,35 @@
-window.addEventListener("load", function() {
-  document.querySelector("body").classList.add("loaded");
-  setTimeout(function() {
-    startAnimation();
-  }, 1000);
+var imgs = document.images,
+  len = imgs.length,
+  counter = 0;
 
-  // hide all projects cards for apparition
-  if ($('#diplomas-content')) {
-    $('#diplomas-content').find(".card").each(function(i) {
-      $(this).hide();
-    });
-  }
-  // hide all projects cards for apparition
-  if ($('#projects-content')) {
-    $('#projects-content').find(".card").each(function(i) {
-      $(this).hide();
-    });
-  }
-  // hide all experiences cards for apparition
-  if ($('.timeline')) {
-    $('.timeline').hide();
-  }
-
-
+[].forEach.call(imgs, function(img) {
+  if (img.complete)
+    incrementCounter();
+  else
+    img.addEventListener('load', incrementCounter, false);
 });
+
+function incrementCounter() {
+  counter++;
+  if (counter === len) {
+    console.log('All images loaded!');
+    window.addEventListener("load", function() {
+      onAllImageLoaded();
+    });
+  }
+}
+
+function onBodyLoaded() {
+  document.body.classList.add("loaded");
+}
+
+function onAllImageLoaded() {
+  document.body.addEventListener("webkitAnimationEnd", startAnimation); // Code for Chrome, Safari and Opera
+  document.body.addEventListener("animationend", startAnimation); // Standard syntax
+
+
+
+}
 
 
 function animBar(elem) {
@@ -80,6 +87,8 @@ if (URLparams["theme"] === 'dark') {
 } else {
   localStorage.removeItem("darkSwitch");
 }
+document.getElementsByTagName('header')[0].classList.add("loaded");
+document.getElementsByTagName('footer')[0].classList.add("loaded");
 
 
 
@@ -196,7 +205,8 @@ $(document).ready(function() {
   //change all url of navbar with language settings
   changeNavbarUrlLanguageAndDarkMode();
 
-  if ($('#btn-arrow-down')) {
+
+  if ($('#home')) {
     // button with scroll down animation for home page
     $('#btn-arrow-down').click(function() {
       var target = $(this.hash);
@@ -209,6 +219,8 @@ $(document).ready(function() {
       }
     });
   }
+
+
   // scroll down animation for all href with #
   /*$('a[href*="#"]:not([href="#"])').click(function() {
       var target = $(this.hash);
@@ -225,6 +237,13 @@ $(document).ready(function() {
 
 
   if ($('#diplomas-show')) {
+    // hide all projects cards for apparition
+    if ($('#diplomas-content')) {
+      $('#diplomas-content').find(".card").each(function(i) {
+        $(this).hide();
+      });
+    }
+    // on click minus or square
     $("#diplomas-show").click(function(event) {
       if ($("#diplomas-show").html() === '<i class="fas fa-minus-square"></i>') {
         $("#diplomas-show").html('<i class="fas fa-plus-square"></i>');
@@ -254,6 +273,11 @@ $(document).ready(function() {
   }
 
   if ($('#work-show')) {
+    // hide all experiences cards for apparition
+    if ($('.timeline')) {
+      $('.timeline').hide();
+    }
+    // on click minus or square
     $("#work-show").click(function(event) {
       if ($("#work-show").html() === '<i class="fas fa-minus-square"></i>') {
         $("#work-show").html('<i class="fas fa-plus-square"></i>');
@@ -266,6 +290,13 @@ $(document).ready(function() {
   }
 
   if ($('#projects-show')) {
+    // hide all projects cards for apparition
+    if ($('#projects-content')) {
+      $('#projects-content').find(".card").each(function(i) {
+        $(this).hide();
+      });
+    }
+    // on click minus or square
     $("#projects-show").click(function(event) {
       if ($("#projects-show").html() === '<i class="fas fa-minus-square"></i>') {
         $("#projects-show").html('<i class="fas fa-plus-square"></i>');
@@ -295,6 +326,7 @@ $(document).ready(function() {
 
   // Hide or Show sections
   if ($('#CV-pdf-show')) {
+    // on click minus or square
     $("#CV-pdf-show").click(function(event) {
       if ($("#CV-pdf-show").html() === '<i class="fas fa-minus-square"></i>') {
         $("#CV-pdf-show").html('<i class="fas fa-plus-square"></i>');
@@ -317,6 +349,8 @@ $(document).ready(function() {
   //     }
   //   });
   // }
+
+
 
 
 

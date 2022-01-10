@@ -38,7 +38,7 @@
 
   image:
     link:       "https://www.legrand.fr/"
-    src:        "/assets/img/Legrand.svg"
+    src:        "Legrand.svg"
     alt:        "Legrand"
     rectangle:  true
 
@@ -65,7 +65,7 @@
 
   image:
     link:       "http://3il-expertise.fr"
-    src:        "/assets/img/3iL_DEVELOPPEMENT.svg"
+    src:        "3iL_DEVELOPPEMENT.svg"
     alt:        "3iL DEVELOPPEMENT"
     rectangle:  false
 
@@ -116,7 +116,7 @@
 
   image:
     link:       "https://www.legrand.fr/"
-    src:        "/assets/img/Legrand.svg"
+    src:        "Legrand.svg"
     alt:        "Legrand"
     rectangle:  true
 
@@ -143,7 +143,7 @@
 
   image:
     link:       "https://www.labanquepostale.fr/"
-    src:        "/assets/img/La Banque Postale.svg"
+    src:        "La Banque Postale.svg"
     alt:        "La Banque Postale"
     rectangle:  false
 
@@ -170,7 +170,7 @@
 
   image:
     link:       "https://fr.wikipedia.org/wiki/Centre_en_route_de_la_navigation_a%C3%A9rienne"
-    src:        "/assets/img/CRNA Ouest.jpg"
+    src:        "CRNA Ouest.jpg"
     alt:        "CRNA Ouest"
     rectangle:  false
 
@@ -197,7 +197,7 @@
 
   image:
     link:       "https://www.safran-filtration-systems.com/fr"
-    src:        "/assets/img/Safran.png"
+    src:        "Safran.png"
     alt:        "Safran"
     rectangle:  true
 
