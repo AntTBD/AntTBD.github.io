@@ -79,6 +79,9 @@ if (URLparams["lang"] === 'en') {
   $(".tooltip .tooltip-inner .fr").show();
   $(".tooltip .tooltip-inner .en").show();
 }
+// set html language
+document.documentElement.setAttribute('lang', langue); //navigator.language);
+
 // switch mode dark light
 if (URLparams["theme"] === 'dark') {
   localStorage.setItem("darkSwitch", "dark");
