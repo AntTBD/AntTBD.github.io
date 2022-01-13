@@ -34,14 +34,12 @@ function onAllImageLoaded() {
 
 function animBar(elem) {
   if (elem) {
-    var sizemax = (100 * parseFloat(elem.css('width')) / parseFloat(elem.parent().css('width'))) + '%'; // permet de garder en pourcentages//elem.css("width");
-    elem.hide();
-    elem.css("width", 0);
+    var sizemax = (parseFloat(elem.attr('aria-valuenow')) / parseFloat(elem.attr('aria-valuemax')) * 100.0) + '%'; // permet de garder en pourcentages//elem.css("width");
     setTimeout(function() {
       elem.show();
       elem.css("width", sizemax);
-      //elem.animate({width:sizemax},1000);
-    }, 700);
+      //console.log(sizemax);
+    }, 1000);
   }
 }
 
@@ -118,7 +116,12 @@ function insertParam(key, value) {
 }
 
 
+var firstTime = false;
+
 function startAnimation() {
+  if (firstTime == true) return;
+  else
+    firstTime = true;
 
   if ($('#loading-icon')) {
     $("#loading-icon").remove();

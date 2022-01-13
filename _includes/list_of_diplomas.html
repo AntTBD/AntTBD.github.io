@@ -30,10 +30,11 @@
                 <a class="card-link" target="_blank" href="{{ diploma.image.link }}"><img class="rounded" src="/assets/img/diplomas/{{ diploma.image.src }}" alt="{{ diploma.image.alt }}"></a>
             </div>
         </div>
+        {% assign division = diploma.progress_bar.val | times: 1.0 | divided_by: diploma.progress_bar.max | times: 1.0 %}
         <div class="row">
             <div class="col">
                 <div class="progress" style="height: 20px;">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-{{ diploma.progress_bar.class }}" role="progressbar" style="width: calc({{ diploma.progress_bar.val }}/{{ diploma.progress_bar.max }}*100%);" aria-valuenow="{{ diploma.progress_bar.val }}" aria-valuemin="0" aria-valuemax="{{ diploma.progress_bar.max }}"></div>
+                    <div class="progress-bar progress-bar-striped{% if division != 1.0 %} progress-bar-animated{% endif %} bg-{{ diploma.progress_bar.class }}" role="progressbar" style="width: 0%;" aria-valuenow="{{ diploma.progress_bar.val }}" aria-valuemin="0" aria-valuemax="{{ diploma.progress_bar.max }}"></div>
                 </div>
             </div>
         </div>
