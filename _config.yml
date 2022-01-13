@@ -8,8 +8,8 @@ favicon:       "favicon.ico"
 url:           "https://anttbd.github.io" #"http://localhost"
 
 lastUpdate:
-    fr:        "decembre 2021"
-    en:        "December 2021"
+    fr:        "janvier 2022"
+    en:        "January 2022"
 
 # Build settings
 markdown:      kramdown
