@@ -25,7 +25,7 @@ window.addEventListener("load", function() {
     $date = new Date();
     $hour = $date.getHours();
     /* switch in dark mode if it is night  (20h00 à 6h59)*/
-    darkSwitch.checked = $hour <= 6 || $hour >= 20;
+    darkSwitch.checked = $hour <= 7 || $hour >= 17;
     resetTheme();
   }
 });

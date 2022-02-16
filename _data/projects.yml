@@ -205,14 +205,14 @@
     fr:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorisée<br>2017-2021
     en:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorized<br>2017-2021
   content:
-    fr:       Projet de motorisation d'une lampe avec système embarqué.<br>
+    fr:       "Projet de motorisation d'une lampe avec système embarqué.<br>
               Développé au départ avec une télécommande infrarouge (via Arduino Nano), le contrôle fut amélioré vers une interface web avec serveur intégré (via ESP8266). Le tout avec des contraintes de place et de mémoire.<br>
               Ce fut l'occasion de modéliser la lampe et des supports supplémentaires en 3D sur SOLIDWORKS.<br>
-              <i>(En cours de création d'une librairie Arduino pour un meilleur partage.)</i>
-    en:       Project of motorization of a lamp with onboard system.<br>
+              <i>(En cours de création d'une librairie Arduino pour un meilleur partage.)</i>"
+    en:       "Project of motorization of a lamp with onboard system.<br>
               Initially developed with an infrared remote control (with Arduino Nano), the control was improved to a web interface with integrated server (with ESP8266). All this with space and memory constraints.<br>
               It was an opportunity to model the lamp and additional supports in 3D on SOLIDWORKS.<br>
-              <i>(Currently creating an Arduino library for a better sharing.)</i>
+              <i>(Currently creating an Arduino library for a better sharing.)</i>"
   website:
     lien:     "https://www.instructables.com/"
     txt:
@@ -234,10 +234,12 @@
     fr:       <i class="fas fa-robot"></i> Olympiades des Métiers
     en:       <i class="fas fa-robot"></i> World Skills
   content:
-    fr:       Cette compétition est l'occasion de réaliser et programmer en binôme un robot en kit afin de le rendre autonome.<br>
-              Nous avons été, exceptionnellement, sélectionnés pour la finale nationale prévue en décembre 2020 à Lyon. Elle a malheureusement été repoussée en janvier 2022. En conséquence et avec nos études nous menant au Québec, CA, nous avons dû déclarer forfait.
-    en:       This competition is the opportunity to create and program in pairs a robot kit to make it autonomous.<br>
-              We were, exceptionally, selected for the national final scheduled for December 2020 in Lyon. Unfortunately, it has been postponed to January 2022. As a result and with our studies leading us to Quebec, CA, we had to drop out.
+    fr:       "Cette compétition est l'occasion de réaliser et programmer en binôme un robot en kit afin de le rendre autonome grâce à différents capteurs (Ultrason, suiveur de ligne, caméra Pixy2).<br>
+              Je me suis chargé de créer une interface pour débuguer plus facilement en Bluetooth, un système à états et un algorithme qui retourne sa position grâce à l'odométrie.<br>
+              Nous avons été, sélectionnés pour la finale nationale prévue en décembre 2020 à Lyon et participé aux <a href=\"https://olympiadesmetiers.fr/triple-a-pour-lequipe-regionale/\">stages de préparation physique et mentale</a>. Elle a malheureusement été repoussée en janvier 2022 à cause du COVID-19. En conséquence et avec nos études nous menant au Québec, CA, nous avons dû déclarer forfait."
+    en:       "This competition is the opportunity to create and program in pairs a robot kit to make it autonomous thanks to various sensors (Ultrasound, line follower, camera Pixy2).<br>
+              I have created an interface to debug more easily in Bluetooth, a state system and an algorithm that returns its position thanks to odometry.<br>
+              We were, selected for the national final scheduled for December 2020 in Lyon and participated in <a href=\"https://olympiadesmetiers.fr/triple-a-pour-lequipe-regionale/\">physical and mental preparation sessions</a>. Unfortunately, it has been postponed to January 2022 because of COVID-19. As a result and with our studies leading us to Quebec, CA, we had to drop out."
   ranking:
     - link:   "https://www.worldskills-france.org/la-competition/metiers-en-competition/robotique-mobile"
       # icon: <i class="fas fa-award"></i>
@@ -259,8 +261,8 @@
     txt:
       fr:     <i class="fas fa-robot"></i> Page des Olympiades
       en:     <i class="fas fa-robot"></i> World Skills page
-  repository:
-    lien:     ""
+#  repository:
+#    lien:    ""
 
 ################################################################################
 
@@ -275,10 +277,12 @@
     fr:       <i class="fas fa-gamepad"></i> Global Game Jam<br>Janvier 2020
     en:       <i class="fas fa-gamepad"></i> Global Game Jam<br>January 2020
   content:
-    fr:       Concours en équipe où il faut créer un jeu en seulement 48h !<br>
-                Nous avons participé à l'édition 2020 à Limoges avec l'équipe "Les Sots 6". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.
-    en:       Team challenge where you have to create a game in only 48h !<br>
-                We've joined the GGJ of Limoges in 2019 with the team "Les Sots 6" Get information about our participation and our production during this challenge.
+    fr:       "Concours en équipe de 6 où il faut créer un jeu en seulement 48h !<br>
+                Nous avons participé à l'édition 2020 à Limoges avec l'équipe \"Les Sots 6\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.<br>
+                Je me suis chargé du découpages des images et de chaque frame de l'animation du personnage pendant que les autres s'occupé du dévelo en Java."
+    en:       "Team challenge of 6 where you have to create a game in only 48h !<br>
+                We've joined the GGJ of Limoges in 2019 with the team \"Les Sots 6\" Get information about our participation and our production during this challenge.<br>
+                I edited the images and each frame of the character's animation while the others did the development in Java."
   ranking:
     - link:   ""
       icon:   <i class="fas fa-medal"></i>
@@ -290,8 +294,8 @@
     txt:
       fr:     <i class="fas fa-gamepad"></i> Page du jeu
       en:     <i class="fas fa-gamepad"></i> Game page
-  repository:
-    lien:     "https://github.com/AntTBD/GGJ2020-Les-Sots-6-Moins-1"
+#  repository:
+#    lien:    "https://github.com/AntTBD/GGJ2020-Les-Sots-6-Moins-1"
 
 ################################################################################
 
@@ -306,9 +310,9 @@
     fr:       <i class="fas fa-globe"></i> Nuit de l'info<br>Décembre 2019
     en:       <i class="fas fa-globe"></i> Nuit de l'info<br>December 2019
   content:
-    fr:        "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>Augmenter le pouvoir d’agir des étudiants/es en situation de précarité</i>\".<br>
+    fr:       "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>Augmenter le pouvoir d’agir des étudiants/es en situation de précarité</i>\".<br>
               Nous avons participé à l'édition 2019 à Limoges avec l'équipe \"Les Sots 6\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge."
-    en:        "The \"Nuit de l'info\" is a team challenge where you have to create a site in just one night ! This year’s theme was: \"<i>Increase the power of students to act in a precarious situation</i>\".<br>
+    en:       "The \"Nuit de l'info\" is a team challenge where you have to create a site in just one night ! This year's theme was: \"<i>Increase the power of students to act in a precarious situation</i>\".<br>
               We took part in the 2019 edition in Limoges with the team \"Les Sots 6\". Get information about our participation and our production during this challenge."
   ranking:
     - link:   ""
@@ -334,25 +338,17 @@
     fr:       <i class="fas fa-cube"></i> Projet WebGL<br>FST - Décembre 2019
     en:       <i class="fas fa-cube"></i> WebGL Project<br>FST - December 2019
   content:
-    fr:       "Le but de ce projet fut de réaliser une application interactive reposant sur les principes de l'informatique graphique
-                vus en cours au travers de la technologie WebGL et de la librairie Three.js.<br>
-                Notre objectif était d'améliorer la scène WebGL mise à notre disposition."
-    en:       "The goal of this project was to realize an interactive application based on the principles of computer graphics
-                seen in progress through the WebGL technology and the Three.js library.<br>
-                Our goal was to improve the WebGL scene made available to us."
-  # ranking:
-  #   - link: ""
-  #     icon:
-  #     title:
-  #       fr: ""
-  #       en: ""
+    fr:       "Le but de ce projet fut de réaliser une application interactive reposant sur les principes de l'informatique graphique vus en cours au travers de la technologie WebGL et de la librairie Three.js.<br>
+              Notre objectif était de créer une scène animée avec les modèles 3D mis à notre disposition avec l'éclairage, des virages en courbe, la fumée, les textures..."
+    en:       "The goal of this project was to realize an interactive application based on the principles of computer graphics seen in progress through the WebGL technology and the Three.js library.<br>
+              Our goal was to create an animated scene with the 3D models at our disposal with lighting, curves, smoke, textures..."
   website:
     lien:     "https://anttbd.github.io/Projet-WebGL-2019-FST/site/Projet_WebGL_2019.html"
     txt:
       fr:     <i class="fas fa-globe"></i> Demo
       en:     <i class="fas fa-globe"></i> Demo
-  repository:
-    lien:     "https://github.com/AntTBD/Projet-WebGL-2019-FST"
+#  repository:
+#    lien:    "https://github.com/AntTBD/Projet-WebGL-2019-FST"
 
 ################################################################################
 
@@ -367,25 +363,21 @@
     fr:       <i class="fas fa-globe"></i> Projet Technologie Web<br>FST - Décembre 2019
     en:       <i class="fas fa-globe"></i> Web Technology Project<br>FST - December 2019
   content:
-    fr:       "Site de démonstration pour un projet scolaire.
-                Le but est d'avoir une plateforme où des entreprises se connectent pour poster des annonces.
-                De l'autre côté, des candidats ont des filtres pour rechercher un emploi, sauvegarder l'offre et postuler."
-    en:       "Demonstration site for a school project.
-                The goal is to have a platform where companies connect to post ads.
-                On the other hand, candidates have filters to search for a job, save the offer and apply."
-  # ranking:
-  #   - link: ""
-  #     icon:
-  #     title:
-  #       fr: ""
-  #       en: ""
+    fr:       "Site de démonstration pour un projet scolaire.<br>
+              Le but est d'avoir une plateforme où des entreprises se connectent pour poster des annonces.
+              De l'autre côté, des candidats ont des filtres pour rechercher un emploi, sauvegarder l'offre et postuler.<br>
+              Pour cela, nous avons utilisé composer et l'architecture MVC puis stocké les informations dans une base de données."
+    en:       "Demonstration site for a school project.<br>
+              The goal is to have a platform where companies connect to post ads.
+              On the other hand, candidates have filters to search for a job, save the offer and apply.<br>
+              For this, we used composer and MVC architecture then stored the information in a database."
   # website:
   #   lien:   ""
   #   txt:
   #     fr:
   #     en:
-  repository:
-    lien:     "https://github.com/AntTBD/recherche-emploi"
+#  repository:
+#    lien:    "https://github.com/AntTBD/recherche-emploi"
 
 ################################################################################
 
@@ -400,21 +392,23 @@
     fr:       <i class="fas fa-gamepad"></i> Global Game Jam<br>Janvier 2019
     en:       <i class="fas fa-gamepad"></i> Global Game Jam<br>January 2019
   content:
-    fr:       Challenge en équipe où il faut créer un jeu en seulement 48h !<br>
-                Nous avons participé à l'édition 2019 à Limoges avec l'équipe "Tchip'Gang". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.
-    en:       Team challenge where you have to create a game in only 48h !<br>
-                We've joined the GGJ of Limoges in 2019 with the team "Tchip'Gang". Get information about our participation and our production during this challenge.
+    fr:       "Challenge en équipe où il faut créer un jeu en seulement 48h !<br>
+                Nous avons participé à l'édition 2019 à Limoges avec l'équipe \"Tchip'Gang\".<br>
+                Nous l'avons développé sous Processing avec plusieurs mini-jeux bien connus réunis pour l'occasion."
+    en:       "Team challenge where you have to create a game in only 48h !<br>
+                We've joined the GGJ of Limoges in 2019 with the team \"Tchip'Gang\".<br>
+                We have developed it under Processing with several well-known mini-games gathered for the occasion."
   ranking:
     - link:   ""
       icon:   <i class="fas fa-medal"></i>
       title:
         fr:   Prix local de l'encouragement
         en:   Local Incentive Award
-  website:
-    lien:     "https://globalgamejam.org/2019/games/sheepgame"
-    txt:
-      fr:     <i class="fas fa-gamepad"></i> Page du jeu
-      en:     <i class="fas fa-gamepad"></i> Game page
+  # website:
+  #   lien:   "https://globalgamejam.org/2019/games/sheepgame"
+  #   txt:
+  #     fr:   <i class="fas fa-gamepad"></i> Page du jeu
+  #     en:   <i class="fas fa-gamepad"></i> Game page
   repository:
     lien:     "https://github.com/AntTBD/Global-Game-Jam-2019-TchipGang"
 
@@ -431,10 +425,12 @@
     fr:       <i class="fas fa-globe"></i> Nuit de l'info<br>Décembre 2018
     en:       <i class="fas fa-globe"></i> Nuit de l'info<br>December 2018
   content:
-    fr:        "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>L’assistance numérique d’un explorateur en conditions extrêmes</i>\".<br>
-              Nous avons participé à l'édition 2018 à Limoges avec l'équipe \"Crab'Gang\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge."
-    en:        "The \"Nuit de l'info\" is a team challenge where you have to create a site in just one night ! This year’s theme was: \"<i>Digital Assistance from an Explorer in Extreme Conditions</i>\".<br>
-              We took part in the 2018 edition in Limoges with the team \"Crab'Gang\". Get information about our participation and our production during this challenge."
+    fr:       "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>L'assistance numérique d’un explorateur en conditions extrêmes</i>\" (sous entendu le désert du Namib ou Mars).<br>
+              Nous avons participé à l'édition 2018 à Limoges avec l'équipe \"Crab'Gang\".<br>
+              J'ai développé un programme Processing générant des photomosaïques à partir d'une image souhaité sur le thème de Mars."
+    en:       "The \"Nuit de l'info\" is a team challenge where you have to create a site in just one night ! This year’s theme was: \"<i>Digital Assistance from an Explorer in Extreme Conditions</i>\" (meaning the Namib desert or Mars).<br>
+              We took part in the 2018 edition in Limoges with the team \"Crab'Gang\".<br>
+              I developed a Processing program generating photomosaics from a desired image on the theme of Mars."
   ranking:
     - link:   ""
       icon:   <i class="fas fa-medal"></i>
@@ -446,8 +442,8 @@
     txt:
       fr:     <i class="fas fa-globe"></i> Page web
       en:     <i class="fas fa-globe"></i> Web page
-  repository:
-    lien:     "https://github.com/CrabGang/CrabGang.github.io"
+  # repository:
+  #   lien:   "https://github.com/CrabGang/CrabGang.github.io"
 
 ################################################################################
 
@@ -462,12 +458,12 @@
     fr:       <i class="fas fa-gamepad"></i> Millenium Collisions<br>Décembre 2017
     en:       <i class="fas fa-gamepad"></i> Millenium Collisions<br>December 2017
   content:
-    fr:       "Projet de fin de session des cours d'algorithme.<br>
-                Premier jeu vidéo créé en 1<sup>er</sup> année d'école préparatoire d'Ingénieur à 3iL.<br>
-                Il a été amélioré ensuite pour une version Android."
-    en:       "End of semester Project for algorithm.<br>
-                First video game created in 1<sup>st</sup> year of preparatory school of Engineer at 3iL.<br>
-                It was improved then for an Android version."
+    fr:       Projet de fin de session des cours d'algorithme.<br>
+                Premier jeu vidéo créé en 1<sup>er</sup> année d'école préparatoire d'Ingénieur Informatique à 3iL.<br>
+                Il a été amélioré ensuite pour une version Android.
+    en:       End of semester Project for algorithm.<br>
+                First video game created in 1<sup>st</sup> year of preparatory school of IT Engineer at 3iL.<br>
+                It was improved then for an Android version.
   # ranking:
   #   - link: ""
   #     icon:
