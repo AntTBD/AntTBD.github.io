@@ -159,11 +159,11 @@
     en:       "Group project of 5, to prove that distance learning can be done as if you were in a real class thanks to virtual reality (Oculus Quest). <br>
                 As a project manager, I carried out my team to reproduce the same sensations as in presential. We have the possibility to create a course and join it in multiplayer, write on the board, project a slideshow, talk/listen, sit down and have a duplication of the slideshow and the board in real time."
 
-  # website:
-  #   lien:   ""
-  #   txt:
-  #     fr:
-  #     en:
+  website:
+    lien:     "https://drive.google.com/file/d/1rjidGVWfhoY1WbOuA3cAQPZVn2PcHTSN/view?usp=sharing"
+    txt:
+      fr:     <i class="fas fa-video"></i> Vidéo
+      en:     <i class="fas fa-video"></i> Video
 #  repository:
 #    lien:    "https://github.com/AntTBD/ProjetCoursVirtuel"
 
@@ -209,7 +209,7 @@
               Développé au départ avec une télécommande infrarouge (via Arduino Nano), le contrôle fut amélioré vers une interface web avec serveur intégré (via ESP8266). Le tout avec des contraintes de place et de mémoire.<br>
               Ce fut l'occasion de modéliser la lampe et des supports supplémentaires en 3D sur SOLIDWORKS.<br>
               <i>(En cours de création d'une librairie Arduino pour un meilleur partage.)</i>"
-    en:       "Project of motorization of a lamp with onboard system.<br>
+    en:       "Project of motorization of a lamp with embedded system.<br>
               Initially developed with an infrared remote control (with Arduino Nano), the control was improved to a web interface with integrated server (with ESP8266). All this with space and memory constraints.<br>
               It was an opportunity to model the lamp and additional supports in 3D on SOLIDWORKS.<br>
               <i>(Currently creating an Arduino library for a better sharing.)</i>"

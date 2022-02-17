@@ -47,9 +47,8 @@
     en:         "Internship"
 
   description:
-    fr:         "Compréhension du besoin et développement d'un outil pour la qualification d'un détecteur de présence nouvelle génération. Cet outil, développé sur Unity 3D, utilise la technologie de la réalité virtuelle pour une précision optimale (HTC Vive Trackers 3.0) et permet également d'avoir une meilleure compréhension du fonctionnement du capteur."
-    en:         "Understanding of the need and tool's development for the qualification of a new generation of presence detector. This tool, developed on Unity 3D, uses virtual reality technology (HTC Vive Trackers 3.0) for optimal precision and also provides a better understanding of how the sensor works."
-
+    fr:         "Compréhension du besoin, demande d'achat de matériels et développement d'un outil pour la qualification d'un détecteur de présence nouvelle génération. Cet outil, développé sur Unity 3D, utilise la technologie de la réalité virtuelle pour une précision optimale (HTC Vive Trackers 3.0). Il permet également d'avoir une meilleure compréhension visuelle du fonctionnement du capteur."
+    en:         "Understanding of the need, request for purchase of materials and tool's development for the qualification of a new generation presence detector. This tool, developed on Unity 3D, uses virtual reality technology (HTC Vive Trackers 3.0) for optimal precision. It also provides a better visual understanding of the sensor's operation for the other teams working on the product."
   dates:
     fr:         "3 mois - 2021" # 13 semaines
     en:         "3 months - 2021" # 13 weeks
