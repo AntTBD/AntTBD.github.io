@@ -36,10 +36,10 @@
     fr:       <i class="fas fa-gamepad"></i> WonderJam UQAC<br>Février 2022
     en:       <i class="fas fa-gamepad"></i> WonderJam UQAC<br>February 2022
   content:
-    fr:       "Challenge en équipe où il faut créer un jeu en seulement 72h ! Le thème de cette année fut : \"Dilemme\" avec les styles : arcade, versus et physics-base.<br>
+    fr:       "Challenge en équipe où il faut créer un jeu en seulement 72h ! Le thème de cette année fut : \"Dilemme\" avec les styles : arcade, versus et physics-based.<br>
                 Nous avons participé à l'édition 2022 à Chicoutimi, CA avec la \"Team Claude 3000\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.<br>
                 Après la fin de l'évènement, j'ai amélioré le jeu pour, entre autres, résoudre nos problèmes de collision et ragdoll."
-    en:       "Team challenge where you have to create a game in only 72h! This year's theme was: \"Dilemma\" with styles: arcade, versus and physics-base.<br>
+    en:       "Team challenge where you have to create a game in only 72h! This year's theme was: \"Dilemma\" with styles: arcade, versus and physics-based.<br>
                 We participated in the 2022 edition in Chicoutimi, CA with the \"Team Claude 3000\". Get information about our participation and our production during this challenge.<br>
                 After the end of the event, I improved the game to, among other things, solve our collisions and ragdoll bugs."
   website:

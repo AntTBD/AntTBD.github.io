@@ -23,6 +23,11 @@
   animation: lds-ripple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
 
+.lds-ripple span {
+  position: absolute;
+  transform: translate(-50%, 85%);
+}
+
 .lds-ripple div:nth-child(2) {
   animation-delay: -0.5s;
 }

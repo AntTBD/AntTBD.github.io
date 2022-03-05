@@ -10,7 +10,7 @@
 {% if difference > 1 and forloop.first == false %}
 <!-- {{ previous_year | minus: 1 }} -->
 <!-- année -->
-<div class="row">
+<div class="row g-0">
   <div class="timeline-annee">
     <h2>{{ previous_year | minus: 1 }}</h2>
   </div>
@@ -18,7 +18,7 @@
 {% endif %}
 <!-- {{ work.year }} -->
 <!-- année -->
-<div class="row">
+<div class="row g-0">
   <div class="timeline-annee">
     <h2>{{ work.year }}</h2>
   </div>
@@ -28,8 +28,8 @@
 {% assign previous_year = work.year %}
 <div class="row">
   <!-- {{ work.name }} -->
-  <div class="card col-md-5 mt-4 shadow p-3 mb-4 {% if mod == 1 %}mr-auto left arrow_box_right{% else %}ml-auto right arrow_box_left{% endif %} anim">
-    <div class="row no-gutters">
+  <div class="card col-md-5 mt-4 shadow p-3 mb-4 {% if mod == 1 %}me-auto left arrow_box_right{% else %}ms-auto right arrow_box_left{% endif %} anim">
+    <div class="row g-0">
       {% if mod!= 1 %}
       <a class="col-md-4 order-1 order-md-1 d-md-flex align-items-center text-center bg-light" target="_blank" href="{{ work.image.link }}">
         <img src="/assets/img/experiences/{{ work.image.src }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto" width="auto"
@@ -42,7 +42,7 @@
             <span class="fr">{{ work.title.fr }}</span>
             <span class="en">{{ work.title.en }}</span>
           </h4>
-          <h5 class="badge badge-primary">
+          <h5 class="badge bg-primary">
             <span class="fr">{{ work.job.fr }}</span>
             <span class="en">{{ work.job.en }}</span>
           </h5>
@@ -74,7 +74,7 @@
 {% if forloop.last %}
 <!-- {{ previous_year | minus: 1 }} -->
 <!-- année -->
-<div class="row">
+<div class="row g-0">
   <div class="timeline-annee">
     <h2>{{ previous_year | minus: 1 }}</h2>
   </div>

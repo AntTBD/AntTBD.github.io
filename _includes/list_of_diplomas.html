@@ -10,7 +10,7 @@
                 <p class="card-subtitle fr"><i class="fas fa-map-marker-alt"></i> {{ diploma.location.fr }}</p>
                 <p class="card-subtitle en"><i class="fas fa-map-marker-alt"></i> {{ diploma.location.en }}</p>
             </div>
-            <div class="col-5 text-right">
+            <div class="col-5 text-end">
                 <h4 class="fr"><i class="fas fa-calendar-alt"></i> {{ diploma.date.fr }}</h4>
                 <h4 class="en"><i class="fas fa-calendar-alt"></i> {{ diploma.date.en }}</h4>
             </div>
@@ -20,9 +20,9 @@
                 <h5 class="card-subtitle fr">{{ diploma.sub_title.fr }}</h5>
                 <h5 class="card-subtitle en">{{ diploma.sub_title.en }}</h5>
             </div>
-            <div class="col-4 text-right align-self-center">
-                <h4><span class="badge badge-{{ diploma.progress_bar.class }} fr">{{ diploma.badge.fr }}</span></h4>
-                <h4><span class="badge badge-{{ diploma.progress_bar.class }} en">{{ diploma.badge.en }}</span></h4>
+            <div class="col-4 text-end align-self-center">
+                <h4><span class="badge bg-{{ diploma.progress_bar.class }} fr">{{ diploma.badge.fr }}</span></h4>
+                <h4><span class="badge bg-{{ diploma.progress_bar.class }} en">{{ diploma.badge.en }}</span></h4>
             </div>
         </div>
         <div class="row mt-3 mb-3">

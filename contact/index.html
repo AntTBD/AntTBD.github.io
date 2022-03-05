@@ -10,6 +10,9 @@ mail: "antbd@free.fr"
 github:
   link: "https://www.github.com/anttbd"
   name: "AntTBD"
+itch_io:
+  link: "https://anttbd.itch.io/"
+  name: "AntTBD"
 linkedin:
   link: "https://www.linkedin.com/in/antoine-tabaraud/"
   name: "Antoine TABARAUD"
@@ -51,7 +54,10 @@ CV:
               </div>
             </div>
             <div class="row">
-              <div class="col-12 col-sm-12">
+              <div class="col-12 col-sm-6">
+                <p class="card-title"><i class="fab fa-itch-io"></i>&nbsp; : <a target="_blank" href="{{ page.itch_io.link }}">{{ page.itch_io.name }}</a></p>
+              </div>
+              <div class="col-12 col-sm-6">
                 <p class="card-title"><i class="fas fa-map-marker-alt"></i>&nbsp;&thinsp; : <a target="_blank" href="{{ page.location.link }}">{{ page.location.name }}</a></p>
               </div>
             </div>
@@ -67,7 +73,7 @@ CV:
             <h4><i class="fas fa-id-card"></i> {{ page.title_2 }}</h4>
           </div>
           <div class="col-2">
-            <h2 id="CV-pdf-show" class="text-right"><i class="fas fa-minus-square"></i></h2>
+            <h2 id="CV-pdf-show" class="text-end"><i class="fas fa-minus-square"></i></h2>
           </div>
         </div>
         <hr />
