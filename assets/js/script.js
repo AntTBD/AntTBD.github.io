@@ -256,8 +256,9 @@ $(document).ready(function() {
     }
     // on click minus or square
     $("#diplomas-show").click(function(event) {
-      if ($("#diplomas-show").html() === '<i class="fas fa-minus-square"></i>') {
-        $("#diplomas-show").html('<i class="fas fa-plus-square"></i>');
+      if ($("#diplomas-show i").hasClass('fa-minus-square')) {
+        $("#diplomas-show i").removeClass('fa-minus-square');
+        $("#diplomas-show i").addClass('fa-plus-square');
         // $("#projects-content").slideUp("slow");
         let nbrCard = $('#diplomas-content').find(".card").length;
         $('#diplomas-content').find(".card").each(function(i) {
@@ -268,7 +269,8 @@ $(document).ready(function() {
           }, delay);
         });
       } else {
-        $("#diplomas-show").html('<i class="fas fa-minus-square"></i>');
+        $("#diplomas-show i").addClass('fa-minus-square');
+        $("#diplomas-show i").removeClass('fa-plus-square');
         //$("#projects-content").show("slow");
         $('#diplomas-content').find(".card").each(function(i) {
           let delay = (i) * 200;
@@ -290,11 +292,13 @@ $(document).ready(function() {
     }
     // on click minus or square
     $("#work-show").click(function(event) {
-      if ($("#work-show").html() === '<i class="fas fa-minus-square"></i>') {
-        $("#work-show").html('<i class="fas fa-plus-square"></i>');
+      if ($("#work-show i").hasClass('fa-minus-square')) {
+        $("#work-show i").removeClass('fa-minus-square');
+        $("#work-show i").addClass('fa-plus-square');
         $("#work-content").fadeOut();
       } else {
-        $("#work-show").html('<i class="fas fa-minus-square"></i>');
+        $("#work-show i").addClass('fa-minus-square');
+        $("#work-show i").removeClass('fa-plus-square');
         $("#work-content").fadeIn();
       }
     });
@@ -309,8 +313,9 @@ $(document).ready(function() {
     }
     // on click minus or square
     $("#projects-show").click(function(event) {
-      if ($("#projects-show").html() === '<i class="fas fa-minus-square"></i>') {
-        $("#projects-show").html('<i class="fas fa-plus-square"></i>');
+      if ($("#projects-show i").hasClass('fa-minus-square')) {
+        $("#projects-show i").removeClass('fa-minus-square');
+        $("#projects-show i").addClass('fa-plus-square');
         // $("#projects-content").slideUp("slow");
         let nbrCard = $('#projects-content').find(".card").length;
         $('#projects-content').find(".card").each(function(i) {
@@ -321,7 +326,8 @@ $(document).ready(function() {
           }, delay);
         });
       } else {
-        $("#projects-show").html('<i class="fas fa-minus-square"></i>');
+        $("#projects-show i").addClass('fa-minus-square');
+        $("#projects-show i").removeClass('fa-plus-square');
         //$("#projects-content").show("slow");
         $('#projects-content').find(".card").each(function(i) {
           let delay = (i) * 500;
@@ -339,11 +345,13 @@ $(document).ready(function() {
   if ($('#CV-pdf-show')) {
     // on click minus or square
     $("#CV-pdf-show").click(function(event) {
-      if ($("#CV-pdf-show").html() === '<i class="fas fa-minus-square"></i>') {
-        $("#CV-pdf-show").html('<i class="fas fa-plus-square"></i>');
+      if ($("#CV-pdf-show i").hasClass('fa-minus-square')) {
+        $("#CV-pdf-show i").removeClass('fa-minus-square');
+        $("#CV-pdf-show i").addClass('fa-plus-square');
         $("#CV-pdf-content").fadeOut();
       } else {
-        $("#CV-pdf-show").html('<i class="fas fa-minus-square"></i>');
+        $("#CV-pdf-show i").addClass('fa-minus-square');
+        $("#CV-pdf-show i").removeClass('fa-plus-square');
         $("#CV-pdf-content").fadeIn();
       }
     });
@@ -351,11 +359,13 @@ $(document).ready(function() {
 
   // if ($('#skill-show')) {
   //   $("#skill-show").click(function(event) {
-  //     if ($("#skill-show").html() === '<i class="fas fa-minus-square"></i>') {
-  //       $("#skill-show").html('<i class="fas fa-plus-square"></i>');
+  //     if ($("#skill-show i").hasClass('fa-minus-square')) {
+  //       $("#skill-show i").removeClass('fa-minus-square');
+  //       $("#skill-show i").addClass('fa-plus-square');
   //       $("#skill-content").hide();
   //     } else {
-  //       $("#skill-show").html('<i class="fas fa-minus-square"></i>');
+  //       $("#skill-show i").addClass('fa-minus-square');
+  //       $("#skill-show i").removeClass('fa-plus-square');
   //       $("#skill-content").show();
   //     }
   //   });
