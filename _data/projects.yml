@@ -243,13 +243,13 @@
               Initially developed with an infrared remote control (with Arduino Nano), the control was improved to a web interface with integrated server (with ESP8266). All this with space and memory constraints.<br>
               It was an opportunity to model the lamp and additional supports in 3D on SOLIDWORKS.<br>
               <i>(Currently creating an Arduino library for a better sharing.)</i>"
-  website:
-    lien:     "https://www.instructables.com/"
-    txt:
-      fr:     <i class="fas fa-book-open"></i> Instructions
-      en:     <i class="fas fa-book-open"></i> Instructions
-  repository:
-    lien:     "https://github.com/AntTBD/IKEA-PS-2014-Motorized"
+  # website:
+  #   lien:   "https://www.instructables.com/"
+  #   txt:
+  #     fr:   <i class="fas fa-book-open"></i> Instructions
+  #     en:   <i class="fas fa-book-open"></i> Instructions
+  # repository:
+  #   lien:   "https://github.com/AntTBD/IKEA-PS-2014-Motorized"
 
 ################################################################################
 
