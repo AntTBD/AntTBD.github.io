@@ -48,7 +48,10 @@
       fr:     <i class="fas fa-gamepad"></i> Demo WebGL
       en:     <i class="fas fa-gamepad"></i> WebGL Demo
   repository:
-    lien:     "https://github.com/AntTBD/WinterWonderJam_2022"
+    txt:
+      fr:     <i class="fab fa-itch-io"></i> Plus d'informations
+      en:     <i class="fab fa-itch-io"></i> More information
+    lien:     "https://philo248.itch.io/gold-runner-1677" #"https://github.com/AntTBD/WinterWonderJam_2022"
 
 ################################################################################
 

@@ -37,7 +37,8 @@
       <a target="_blank" href="{{ project.website.lien }}" class="btn btn-primary en">{{ project.website.txt.en }}</a>
       {% endif %}
       {% if project.repository and project.repository.lien != "" %}
-      <a target="_blank" href="{{ project.repository.lien }}" class="btn btn-secondary"><i class="fab fa-github"></i> Github repository</a>
+      <a target="_blank" href="{{ project.repository.lien }}" class="btn btn-secondary fr">{% if project.repository.txt and project.repository.txt.fr != "" %}{{ project.repository.txt.fr }}{% else %}<i class="fab fa-github"></i> Github repository{% endif %}</a>
+      <a target="_blank" href="{{ project.repository.lien }}" class="btn btn-secondary en">{% if project.repository.txt and project.repository.txt.en != "" %}{{ project.repository.txt.en }}{% else %}<i class="fab fa-github"></i> Github repository{% endif %}</a>
       {% endif %}
     </div>
     {% endif %}
