@@ -25,6 +25,55 @@
 
 ################################################################################
 
+- name:       Mars Premiers pas Hiver 2022
+  image:
+    name:     Mars Premiers Pas.jpg
+    alt:      Mars - Premiers Pas
+  title:
+    fr:       <i class="fas fa-gamepad"></i> Mars - Premiers pas<br>1<sup>er</sup> trimestre 2022
+    en:       <i class="fas fa-gamepad"></i> Mars - First steps<br>1<sup>st</sup> quarter 2022
+  content:
+    fr:       "Projet en groupe de 4, imagination et développement d'un jeu vidéo en 3 mois dans un processus complet de design et malheureusement sans artiste.<br>
+                Nous sommes partie sur un jeu de gestion de base scientifique qui se déroule sur Mars.<br>
+                Je me suis occupé du système de grille pouvant être repris dans d'autres projets, de l'interface utilisateur (front & back), la personnalisation des modèles des bâtiments, créer des scripts pour automatiser la génération de cellule par type de bâtiment et d'icône pour chaque niveau de bâtiments, d'améliorer et corriger des bugs post présentation."
+    en:       "Group project of 4, imagination and development of a video game in 3 months in a complete design process and unfortunately without artist.<br>
+                We went on a science-based management game that takes place on Mars.<br>
+                I took care of the grid system that can be used in other projects, the user interface (front & back), the customization of building models, create scripts to automate cell generation by building type and icon for each building level, improve and fix post presentation bugs."
+  website:
+    lien:     "https://youtu.be/-rloB9g0Zac"
+    txt:
+      fr:     <i class="fas fa-video"></i> Vidéo de présentation
+      en:     <i class="fas fa-video"></i> Introduction video
+  repository:
+    txt:
+      fr:     <i class="fab fa-itch-io"></i> Plus d'informations
+      en:     <i class="fab fa-itch-io"></i> More information
+    lien:     "https://theogimenez.itch.io/mars-premiers-pas" #"https://github.com/AntTBD/WinterWonderJam_2022"
+
+################################################################################
+
+- name:       Winding Tracks 3D Hiver 2022
+  image:
+    name:     Winding Tracks 3D.jpg
+    alt:      Winding Tracks 3D
+  title:
+    fr:       <i class="fas fa-vr-cardboard"></i> Winding Tracks 3D<br>1<sup>er</sup> trimestre 2022
+    en:       <i class="fas fa-vr-cardboard"></i> Winding Tracks 3D<br>1<sup>st</sup> quarter 2022
+  content:
+    fr:       "Projet en groupe de 5, création d'un jeu basé sur les interactions 3D en réalité virtuelle afin d'avoir la meilleure immersion possible pour le contrôle d’une voiture de rallye.<br>
+                Je me suis chargé de développer le contrôle de la voiture avec une première version utilisant des calcules d'angles en fonction de l'emplacement des manettes puis amélioré pour utiliser la puissance des forces et des points d'ancrage du moteur physique d'Unity3D. De plus, je me suis chargé des dérapages, passages de vitesse, bruits du moteur et du garage. Je me suis également chargé de répartir les tâches aux différents membres, de les aider dans leur développement ainsi que la synchronisation du travail de chacun."
+    en:       "Group project of 5, creation of a game based on 3D interactions in virtual reality in order to have the best possible immersion for the control of a rally car. <br>
+                I took it upon myself to develop the control of the car with a first version using calculations of angles according to the location of the controllers and then improved to use the power of forces and anchoring points of the Unity3D physical engine. In addition, I was responsible for skidding, speeding, engine noise and garage. I was also responsible for dividing up the tasks among the various members, helping them in their development and synchronizing the work of each member."
+  website:
+    lien:     "https://youtu.be/sKnWi-TJXw0"
+    txt:
+      fr:     <i class="fas fa-video"></i> Vidéo de présentation
+      en:     <i class="fas fa-video"></i> Introduction video
+  repository:
+    lien:     "https://github.com/AntTBD/Winding_Tracks_3D"
+
+################################################################################
+
 - name:       WonderJam UQAC Hiver 2022
   image:
     name:     GOLDRunner1677.min.jpg
