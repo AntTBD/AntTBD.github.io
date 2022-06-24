@@ -71,7 +71,7 @@
     src:         UQAC_1.png
     alt:         UQAC
   progress_bar:
-    val:         1.5
+    val:         2
     max:         3
     class:       primary # primary or success
 

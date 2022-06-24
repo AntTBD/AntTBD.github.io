@@ -70,7 +70,10 @@
       fr:     <i class="fas fa-video"></i> Vidéo de présentation
       en:     <i class="fas fa-video"></i> Introduction video
   repository:
-    lien:     "https://github.com/AntTBD/Winding_Tracks_3D"
+    txt:
+      fr:     <i class="fab fa-itch-io"></i> Plus d'informations
+      en:     <i class="fab fa-itch-io"></i> More information
+    lien:     "https://anttbd.itch.io/winding-tracks-3d" #"https://github.com/AntTBD/Winding_Tracks_3D"
 
 ################################################################################
 
