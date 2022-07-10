@@ -25,6 +25,33 @@
 
 ################################################################################
 
+- name:       Daltonia Automne 2022
+  image:
+    name:     Daltonia.png
+    alt:      Daltonia
+  title:
+    fr:       <i class="fas fa-gamepad"></i> Daltonia<br>2<sup>nd</sup> trimestre 2022
+    en:       <i class="fas fa-gamepad"></i> Daltonia<br>2<sup>nd</sup> quarter 2022
+  content:
+    fr:       "Projet en groupe de 5, développement d'un jeu narratif sur le daltonisme destiné aux game designers afin de découvrir les avantages mais surtout les inconvénients des différents types de visions.<br>
+                Pour ce prototype, il existe 3 niveaux: le premier pour expliquer l'histoire et le concept, le second sous forme de puzzle et pour terminer un speedrun en faisant les bon choix de changement de couleurs.<br>
+                Je me suis chargé du changement de vision via listener pour affecter l'interaction avec les différents objets, du developpement de l'interface, du système d'ouverture de portes et du mini jeu du Simon."
+    en:       "Group project of 5, development of a game narrative on color blindness for game designers in order to discover the advantages but especially the disadvantages of different types of visions. <br>
+                For this prototype, there are 3 levels: the first to explain the story and the concept, the second in puzzle form and to finish a speedrun by making the right choice of color change.<br>
+                I took charge of the change of vision via listener to affect the interaction with the different objects, the development of the interface, the system of opening doors and the mini game of Simon."
+  # website:
+  #   lien:   ""
+  #   txt:
+  #     fr:   <i class="fas fa-video"></i> Vidéo de présentation
+  #     en:   <i class="fas fa-video"></i> Introduction video
+  repository:
+    txt:
+      fr:     <i class="fab fa-itch-io"></i> Page du jeu
+      en:     <i class="fab fa-itch-io"></i> Game page
+    lien:     "https://anttbd.itch.io/daltonia" #"https://github.com/AntTBD/Daltonia"
+
+################################################################################
+
 - name:       Mars Premiers pas Hiver 2022
   image:
     name:     Mars Premiers Pas.jpg
@@ -279,7 +306,7 @@
 
 ################################################################################
 
-- name:       Motorisation lampe IKEA PS 2014
+- name:       Motorisation lampe IKEA PS 2014 2017-2021
   image:
     name:     IKEA%20PS%202014%20motorized.jpg
     alt:      IKEA PS 2014 Motorized
@@ -302,6 +329,31 @@
   #     en:   <i class="fas fa-book-open"></i> Instructions
   # repository:
   #   lien:   "https://github.com/AntTBD/IKEA-PS-2014-Motorized"
+
+################################################################################
+
+- name:       Personnal website 2020
+  image:
+    name:     PersonalWebsite.png
+    alt:      Personal Website
+  icon:
+    name:     ../logo/logo%20site2.png
+    alt:      AT
+  title:
+    fr:       <i class="fas fa-globe"></i> Mon site<br>Eté 2020
+    en:       <i class="fas fa-globe"></i> My Personal Website<br>Summer 2020
+  content:
+    fr:       "Création de ce site internet premettant de mettre en avant mes compétences, mon parcours et surtout les différents projets présents sur cette page. Le tout, en le rendant le plus responsive possible du côté utilisateur mais aussi d'avoir une architecture simple pour une maintenance facile tout en utilisant Github Pages comme hébergeur.<br>
+              De plus, certaines features, comme le cube tournant avec le réseau de points en arrière plan de la page d'accueil, la timeline de mes expériences ainsi que le mode nuit, la traduction en anglais et d'autres petits détails, ont été imaginé par moi-même et rendu possible avec l'aide de Bootstrap et Three.js en partie, la bible des développeurs: Stak Overflow et quelques heures de code."
+    en:       "Creation of this website to highlight my skills, my background and especially the various projects present on this page. All this, making it as responsive as possible on the user side but also to have a simple architecture for easy maintenance while using Github Pages as host. <br>
+              In addition, some features, such as the cube rotating with the network of points in the background of the homepage, the timeline of my experiences as well as the night mode, the English translation and other small details, have been imagined by myself and made possible with the help of Bootstrap and Three.js in part, the developers' bible: Stak Overflow and a few hours of code."
+  # website:
+  #   lien:   "https://anttbd.github.io/"
+  #   txt:
+  #     fr:   <i class="fas fa-book-open"></i> Le site
+  #     en:   <i class="fas fa-book-open"></i> Website
+  # repository:
+  #   lien:   "https://github.com/AntTBD/anttbd.github.io"
 
 ################################################################################
 
@@ -361,7 +413,7 @@
   content:
     fr:       "Concours en équipe de 6 où il faut créer un jeu en seulement 48h !<br>
                 Nous avons participé à l'édition 2020 à Limoges avec l'équipe \"Les Sots 6\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.<br>
-                Je me suis chargé du découpages des images et de chaque frame de l'animation du personnage pendant que les autres s'occupé du dévelo en Java."
+                Je me suis chargé du découpages des images et de chaque frame de l'animation du personnage pendant que les autres s'occupé du développement en Java."
     en:       "Team challenge of 6 where you have to create a game in only 48h !<br>
                 We've joined the GGJ of Limoges in 2019 with the team \"Les Sots 6\" Get information about our participation and our production during this challenge.<br>
                 I edited the images and each frame of the character's animation while the others did the development in Java."

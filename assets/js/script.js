@@ -207,6 +207,25 @@ function changeNavbarUrlLanguageAndDarkMode() {
 
 
   });
+
+  $('.lead a').each(function(i, element) {
+    var newUrl;
+
+    var oldUrl = $(element).attr("href"); // Get current url
+    newUrl = oldUrl.split("?")[0];
+    if (langue === 'en') {
+      newUrl += "?lang=en"; // Create new url
+    } else {
+      newUrl += "?lang=fr"; // Create new url
+    }
+    if (null !== localStorage.getItem("darkSwitch")) {
+      newUrl += "&theme=" + localStorage.getItem("darkSwitch");
+    }
+    $(element).attr("href", newUrl); // Set herf value
+
+
+
+  });
 }
 
 
