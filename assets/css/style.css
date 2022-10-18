@@ -25,8 +25,14 @@ a {
 
 #projects-content .card .card-header .rowImage img {
   max-height: 200px;
-  width: auto;
   max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.lazyloading {
+  height: 100% !important;
+  width: 100% !important;
 }
 
 #projects-content .card .card-header .rowImage img.icon {

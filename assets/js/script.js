@@ -27,6 +27,23 @@ function onAllImageLoaded() {
   document.body.addEventListener("webkitAnimationEnd", startAnimation); // Code for Chrome, Safari and Opera
   document.body.addEventListener("animationend", startAnimation); // Standard syntax
 
+  var images = document.querySelectorAll('img[loading="lazy"]');
+  var sources = document.querySelectorAll("source[data-srcset]");
+  sources.forEach(function(source) {
+    source.srcset = source.dataset.srcset;
+    if (source.complete) source.classList.remove("lazyloading")
+    else source.addEventListener('load', function() {
+      source.classList.remove("lazyloading");
+    }, false);
+  });
+  images.forEach(function(img) {
+    img.src = img.dataset.src;
+    if (img.complete) img.classList.remove("lazyloading")
+    else img.addEventListener('load', function() {
+      img.classList.remove("lazyloading");
+    }, false);
+  });
+
 
 
 }

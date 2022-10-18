@@ -1,17 +1,20 @@
 {% for project in site.data.projects %}
-
 <!-- {{ project.name }} -->
 <div class="col mb-4">
   <div class="card h-100">
     <div class="card-header text-center">
       <div class="row g-0 rowImage">
       {% if project.icon %}
+      {% assign icon = '/assets/img/projects/' | append: project.icon.name %}
+      {% assign icon = (icon) | replace: "%20", " " %}
         <div class="d-flex align-items-center">
-          <img src="/assets/img/projects/{{ project.icon.name }}" class="rounded icon m-2" alt="{{ project.icon.alt }}">
+          <img src="/assets/img/placeholderTransparent.png" data-src="{{ icon }}" class="rounded icon m-2 lazyloading" alt="{{ project.icon.alt }}" width="{% imagesize icon:width %}" height="{% imagesize icon:height %}" loading="lazy"/>
         </div>
       {% endif %}
+      {% assign picture = '/assets/img/projects/' | append: project.image.name %}
+      {% assign picture = (picture) | replace: "%20", " " %}
         <div class="col-12 d-flex align-items-center">
-          <img src="/assets/img/projects/{{ project.image.name }}" class="rounded mx-auto" alt="{{ project.image.alt }}">
+          <img src="/assets/img/placeholder.png" data-src="{{ picture }}" class="rounded mx-auto lazyloading" alt="{{ project.image.alt }}" width="{% imagesize picture:width %}" height="{% imagesize picture:height %}" loading="lazy"/>
         </div>
       </div>
     </div>
