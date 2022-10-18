@@ -29,6 +29,40 @@
 
 #############################################################################
 
+- year:         2022
+  name:         "Legrand"
+
+  title:
+    fr:         "SBU Systèmes du bâtiment"
+    en:         "SBU Building Systems"
+
+  image:
+    link:       "https://www.legrand.fr/"
+    src:        "Legrand.svg"
+    alt:        "Legrand"
+    rectangle:  true
+
+  job:
+    fr:         "Stagiaire"
+    en:         "Internship"
+
+  description:
+    fr:         "Développement d'un outil d'immersion dans le jumeau numérique du bâtiment en temps réel via PC, VR ou AR 
+    pour la compréhension du contexte dans lequel une offre de détecteurs de présence nouvelle génération pourrait être installée. 
+    Cet outil, développé sur Unity 3D, se base sur Unity Reflect qui récupère le plan fourni par un architecte (ex: Revit) pour pouvoir interagir avec les différents objets. 
+    Destiné aussi à la maintenance et au commissionnement des équipements par une analyse à distance, 
+    ce jumeau numérique interroge une API Rest et un broker MQTT pour accéder aux données des capteurs pour les visualiser en 3D et pouvoir remonter dans le temps."
+    en:         "Development of an immersion tool in the building’s digital twin in real time via PC, VR or AR 
+    to understand the context in which a new generation presence detector offer could be installed. 
+    This tool, developed on Unity 3D, is based on Unity Reflect which retrieves the plan provided by an architect (ex: Revit) in order to interact with different objects. 
+    Also intended for the maintenance and commissioning of equipment by remote analysis, 
+    this digital twin questions a Rest API and a MQTT broker to access the sensor data to visualize them in 3D and be able to go back in time."
+  dates:
+    fr:         "6 mois - 2022" # 20 semaines
+    en:         "6 months - 2022" # 20 weeks
+
+#############################################################################
+
 - year:         2021
   name:         "Legrand"
 
@@ -47,8 +81,12 @@
     en:         "Internship"
 
   description:
-    fr:         "Compréhension du besoin, demande d'achat de matériels et développement d'un outil pour la qualification d'un détecteur de présence nouvelle génération. Cet outil, développé sur Unity 3D, utilise la technologie de la réalité virtuelle pour une précision optimale (HTC Vive Trackers 3.0). Il permet également d'avoir une meilleure compréhension visuelle du fonctionnement du capteur."
-    en:         "Understanding of the need, request for purchase of materials and tool's development for the qualification of a new generation presence detector. This tool, developed on Unity 3D, uses virtual reality technology (HTC Vive Trackers 3.0) for optimal precision. It also provides a better visual understanding of the sensor's operation for the other teams working on the product."
+    fr:         "Compréhension du besoin, demande d'achat de matériels et développement d'un outil pour la qualification d'un détecteur de présence nouvelle génération. 
+    Cet outil, développé sur Unity 3D, utilise la technologie de la réalité virtuelle pour une précision optimale (HTC Vive Trackers 3.0). 
+    Il permet également d'avoir une meilleure compréhension visuelle du fonctionnement du capteur."
+    en:         "Understanding of the need, request for purchase of materials and tool's development for the qualification of a new generation presence detector. 
+    This tool, developed on Unity 3D, uses virtual reality technology (HTC Vive Trackers 3.0) for optimal precision. 
+    It also provides a better visual understanding of the sensor's operation for the other teams working on the product."
   dates:
     fr:         "3 mois - 2021" # 13 semaines
     en:         "3 months - 2021" # 13 weeks
