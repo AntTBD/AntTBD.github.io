@@ -6,6 +6,7 @@ image:         "logo site2.png"
 keywords:      "Antoine TABARAUD, TABARAUD, Antoine TBD, AntTBD, Ant TBD"
 favicon:       "favicon.ico"
 url:           "https://anttbd.github.io" #"http://localhost"
+baseurl:       "/"
 
 lastUpdate:
     fr:        "octobre 2022"
