@@ -6,7 +6,7 @@ image:         "logo site2.png"
 keywords:      "Antoine TABARAUD, TABARAUD, Antoine TBD, AntTBD, Ant TBD"
 favicon:       "favicon.ico"
 url:           "https://anttbd.github.io" #"http://localhost"
-baseurl:       "/"
+#baseurl:      "/"
 
 lastUpdate:
     fr:        "octobre 2022"
@@ -16,5 +16,5 @@ lastUpdate:
 markdown:      kramdown
 #permalink:    /projet/:title
 
-plugins:
-  - jekyll-image-size # (1.2.1) https://github.com/generalui/jekyll-image-size
+#plugins:
+#  - jekyll-image-size # (1.2.1) https://github.com/generalui/jekyll-image-size

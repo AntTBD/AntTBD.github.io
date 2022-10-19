@@ -35,7 +35,7 @@
       {% if mod!= 1 %}
       <a class="col-md-4 order-1 order-md-1 d-md-flex align-items-center text-center bg-light" target="_blank" href="{{ work.image.link }}">
         <img src="/assets/img/placeholder.png" data-src="{{ img }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto lazyloading"
-        width="{% imagesize picture:width %}" height="{% imagesize picture:height %}" loading="lazy"
+        width="200" height="200" loading="lazy"
           style="width:auto;max-height: {% if work.image.rectangle == true %}5rem{% else %}10rem{% endif %};"/> <!-- 10rem pour les logos carrés - 5rem pour ceux rectangulaires -->
       </a>
       {% endif %}
@@ -64,7 +64,7 @@
       {% if mod == 1 %}
       <a class="col-md-4 order-1 order-md-2 d-md-flex align-items-center text-center bg-light" target="_blank" href="{{ work.image.link }}">
         <img src="/assets/img/placeholder.png" data-src="{{ img }}" alt="{{ work.image.alt }}" class="img-fluid rounded m-2 mx-auto lazyloading"
-        width="{% imagesize picture:width %}" height="{% imagesize picture:height %}" loading="lazy"
+        width="200" height="200" loading="lazy"
           style="width:auto;max-height: {% if work.image.rectangle == true %}5rem{% else %}10rem{% endif %};"/> <!-- 10rem pour les logos carrés - 5rem pour ceux rectangulaires -->
       </a>
       {% endif %}
