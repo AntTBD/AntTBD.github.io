@@ -7,6 +7,11 @@ keywords:            "Antoine TABARAUD, TABARAUD, Antoine TBD, AntTBD, Ant TBD"
 favicon:             "favicon.ico"
 url:                 "https://anttbd.github.io" #"http://localhost"
 
+baseurl:             "/"
+permalink:           /:categories/:title:output_ext
+
+google_analytics:    "G-LE3WKQ7KKQ"
+
 lastUpdate:
     fr:              "octobre 2022"
     en:              "October 2022"
