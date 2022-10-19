@@ -20,10 +20,11 @@ function incrementCounter() {
 }
 
 function onBodyLoaded() {
-  document.body.classList.add("loaded");
+  onAllImageLoaded();
 }
 
 function onAllImageLoaded() {
+  document.body.classList.add("loaded");
   document.body.addEventListener("webkitAnimationEnd", startAnimation); // Code for Chrome, Safari and Opera
   document.body.addEventListener("animationend", startAnimation); // Standard syntax
 
