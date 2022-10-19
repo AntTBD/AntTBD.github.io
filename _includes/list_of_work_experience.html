@@ -42,21 +42,25 @@
       <div class="col-md-8 order-2 {% if mod == 1 %}order-md-1{% else %}order-md-2{% endif %} d-flex align-items-center">
         <div class="card-body">
           <h4 class="card-title">
-            <span class="fr">{{ work.title.fr }}</span>
-            <span class="en">{{ work.title.en }}</span>
+            {% for lang in site.languages %}
+              <span class="{{ lang }}">{{ work.title[lang] }}</span>
+            {% endfor %}
           </h4>
           <h5 class="badge bg-primary">
-            <span class="fr">{{ work.job.fr }}</span>
-            <span class="en">{{ work.job.en }}</span>
+            {% for lang in site.languages %}
+              <span class="{{ lang }}">{{ work.job[lang] }}</span>
+            {% endfor %}
           </h5>
           <div class="card-text">
-            <div class="fr">{{ work.description.fr }}</div>
-            <div class="en">{{ work.description.en }}</div>
+            {% for lang in site.languages %}
+              <div class="{{ lang }}">{{ work.description[lang] }}</div>
+            {% endfor %}
           </div>
           <p class="card-text">
             <small class="text-muted">
-              <span class="fr"><i class="fas fa-calendar-alt"></i> {{ work.dates.fr }}</span>
-              <span class="en"><i class="fas fa-calendar-alt"></i> {{ work.dates.en }}</span>
+              {% for lang in site.languages %}
+                <span class="{{ lang }}"><i class="fas fa-calendar-alt"></i> {{ work.dates[lang] }}</span>
+              {% endfor %}
             </small>
           </p>
         </div>

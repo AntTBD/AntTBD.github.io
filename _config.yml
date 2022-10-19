@@ -1,20 +1,21 @@
 #Site settings
-author:        "Antoine TABARAUD"
-description:   "Personal web site"
-title:         "Antoine TABARAUD"
-image:         "logo site2.png"
-keywords:      "Antoine TABARAUD, TABARAUD, Antoine TBD, AntTBD, Ant TBD"
-favicon:       "favicon.ico"
-url:           "https://anttbd.github.io" #"http://localhost"
-#baseurl:      "/"
+author:              "Antoine TABARAUD"
+description:         "Personal web site"
+title:               "Antoine TABARAUD"
+image:               "logo site2.png"
+keywords:            "Antoine TABARAUD, TABARAUD, Antoine TBD, AntTBD, Ant TBD"
+favicon:             "favicon.ico"
+url:                 "https://anttbd.github.io" #"http://localhost"
 
 lastUpdate:
-    fr:        "octobre 2022"
-    en:        "October 2022"
+    fr:              "octobre 2022"
+    en:              "October 2022"
 
 # Build settings
-markdown:      kramdown
-#permalink:    /projet/:title
+markdown:            kramdown
+#permalink:          /projet/:title
 
 #plugins:
 #  - jekyll-image-size # (1.2.1) https://github.com/generalui/jekyll-image-size
+
+languages:           ["fr", "en"]

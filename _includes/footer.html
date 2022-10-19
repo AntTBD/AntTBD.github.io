@@ -4,8 +4,9 @@
       <div class="row">
           <div class="col-12">
               <p class="text-center">
-                  <span class="fr">Tous droits réservés. &copy; 2020-{{ site.time | date: '%Y' }} - Antoine TABARAUD<br/><i>Dernière mise à jour : {{ site.lastUpdate.fr }}</i></span>
-                  <span class="en">All rights reserved. &copy; 2020-{{ site.time | date: '%Y' }} - Antoine TABARAUD<br/><i>Last update : {{ site.lastUpdate.en }}</i></span>
+                {% for lang in site.languages %}
+                  <span class="{{ lang }}">{{ site.data.otherText.copyright[lang] }}. &copy; 2020-{{ site.time | date: '%Y' }} - Antoine TABARAUD<br/><i>{{ site.data.otherText.lastUpdate[lang] }} : {{ site.lastUpdate[lang] }}</i></span>
+                {% endfor %}
               </p>
           </div>
       </div>

@@ -3,14 +3,17 @@ layout: default
 title: 404 Error
 page: 404
 ---
+{% assign notFound = site.data.otherText.404NotFound %}
 <div id="notfound">
 	<div class="notfound">
 		<div class="notfound-404">
-			<h3 class="fr">Oops! Page non trouvée</h3>
-			<h3 class="en">Oops! Page not found</h3>
+			{% for lang in site.languages %}
+				<h3 class="{{ lang }}">{{ notFound.title[lang] }}</h3>
+			{% endfor %}
 			<h1><span>4</span><span>0</span><span>4</span></h1>
 		</div>
-		<h2 class="fr">Nous sommes désolé, la page que vous avez demandé est introuvable</h2>
-		<h2 class="en">We are sorry, the page you requested was not found</h2>
+		{% for lang in site.languages %}
+			<h2 class="{{ lang }}">{{ notFound.subtitle[lang] }}</h2>
+		{% endfor %}
 	</div>
 </div>

@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-10">
+      <h2><i class="fas {{ include.topTitle.icon }}"></i>
+        {% for lang in site.languages %}
+          <span class="{{ lang }}"> {{ include.topTitle.trad[lang] }}</span>
+        {% endfor %}
+      </h2>
+    </div>
+    <div class="col-2">
+      <h2 id="{{ include.id }}-show" class="text-end"><i class="fas fa-minus-square"></i></h2>
+    </div>
+  </div>
+</div>
+<hr>

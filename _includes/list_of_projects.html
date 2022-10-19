@@ -19,30 +19,33 @@
       </div>
     </div>
     <div class="card-body">
-      <h4 class="card-title text-center fr">{{ project.title.fr }}</h4>
-      <h4 class="card-title text-center en">{{ project.title.en }}</h4>
-      <hr>
-      <div class="card-text fr">{{ project.content.fr }}</div>
-      <div class="card-text en">{{ project.content.en }}</div>
+      {% for lang in site.languages %}
+        <h4 class="card-title text-center {{ lang }}">{{ project.title[lang] }}</h4>
+      {% endfor %}
+        <hr>
+      {% for lang in site.languages %}
+        <div class="card-text {{ lang }}">{{ project.content[lang] }}</div>
+      {% endfor %}
 
       {% if project.ranking %}
       <hr>
       {% for rank in project.ranking %}
-      <div class="card-text fr">{{ rank.icon }}{% if rank.link != "" %}<a target="_blank" href="{{ rank.link }}">{% endif %}&thinsp; {{ rank.title.fr }}{% if rank.link != "" %}</a>{% endif %}</div>
-      <div class="card-text en">{{ rank.icon }}{% if rank.link != "" %}<a target="_blank" href="{{ rank.link }}">{% endif %}&thinsp; {{ rank.title.en }}{% if rank.link != "" %}</a>{% endif %}</div>
+        {% for lang in site.languages %}
+          <div class="card-text {{ lang }}">{{ rank.icon }}{% if rank.link != "" %}<a target="_blank" href="{{ rank.link }}">{% endif %}&thinsp; {{ rank.title[lang] }}{% if rank.link != "" %}</a>{% endif %}</div>
+        {% endfor %}
       {% endfor %}
       {% endif %}
     </div>
     {% if project.website or project.repository %}
     <div class="card-footer text-center d-grid gap-2">
-      {% if project.website and project.website.lien != "" %}
-      <a target="_blank" href="{{ project.website.lien }}" class="btn btn-primary fr">{{ project.website.txt.fr }}</a>
-      <a target="_blank" href="{{ project.website.lien }}" class="btn btn-primary en">{{ project.website.txt.en }}</a>
-      {% endif %}
-      {% if project.repository and project.repository.lien != "" %}
-      <a target="_blank" href="{{ project.repository.lien }}" class="btn btn-secondary fr">{% if project.repository.txt and project.repository.txt.fr != "" %}{{ project.repository.txt.fr }}{% else %}<i class="fab fa-github"></i> Github repository{% endif %}</a>
-      <a target="_blank" href="{{ project.repository.lien }}" class="btn btn-secondary en">{% if project.repository.txt and project.repository.txt.en != "" %}{{ project.repository.txt.en }}{% else %}<i class="fab fa-github"></i> Github repository{% endif %}</a>
-      {% endif %}
+      {% for lang in site.languages %}
+        {% if project.website and project.website.lien != "" %}
+          <a target="_blank" href="{{ project.website.lien }}" class="btn btn-primary {{ lang }}">{{ project.website.txt[lang] }}</a>
+        {% endif %}
+        {% if project.repository and project.repository.lien != "" %}
+          <a target="_blank" href="{{ project.repository.lien }}" class="btn btn-secondary {{ lang }}">{% if project.repository.txt and project.repository.txt[lang] != "" %}{{ project.repository.txt[lang] }}{% else %}<i class="fab fa-github"></i> Github repository{% endif %}</a>
+        {% endif %}
+      {% endfor %}
     </div>
     {% endif %}
   </div>

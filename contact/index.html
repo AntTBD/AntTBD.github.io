@@ -1,30 +1,8 @@
 ---
 layout: default
 title: Contact
-
-image:
-  src: "AntoineTBD.webp"
-  alt: "Antoine TABARAUD"
-tel: "+33 7 81 48 83 26"
-mail: "antbd@free.fr"
-github:
-  link: "https://www.github.com/anttbd"
-  name: "AntTBD"
-itch_io:
-  link: "https://anttbd.itch.io/"
-  name: "AntTBD"
-linkedin:
-  link: "https://www.linkedin.com/in/antoine-tabaraud/"
-  name: "Antoine TABARAUD"
-location:
-  link: "https://goo.gl/maps/nmRy3CjQcAh8VNsJ6"
-  name: "Limoges, France"
-
-title_2: "Curriculum Vitae"
-CV:
-  src: "/assets/docs/_CV%20Antoine%20TABARAUD.pdf"
-  name: "CV Antoine TABARAUD.pdf"
 ---
+{% assign contact= site.data.contact %}
 <!-- Me Contacter -->
 <div class="container-fluid mt-4">
   <div class="container">
@@ -32,33 +10,37 @@ CV:
       <div class="col-12 col-md-10 col-lg-8 col-xl-7 mx-auto">
         <div class="card shadow mb-5 rounded">
           <div class="card-header text-center">
-            <h5><i class="fas fa-paper-plane"></i> {{ page.title }}</h5>
+            <h5><i class="fas {{ site.data.otherText.contact.icon }}"></i>
+              {% for lang in site.languages %}
+                <span class="{{ lang }}"> {{ site.data.otherText.contact.trad[lang] }}</span>
+              {% endfor %}
+            </h5>
           </div>
           <div class="card-body">
-            <img src="/assets/img/contact/{{ page.image.src }}" class="rounded-circle img-thumbnail mx-auto d-block" alt="{{ page.image.alt }}" style="max-height: 200px">
+            <img src="/assets/img/contact/{{ contact.image.src }}" class="rounded-circle img-thumbnail mx-auto d-block" alt="{{ contact.image.alt }}" style="max-height: 200px">
             <hr>
             <div class="row">
               <div class="col-12 col-sm-6">
-                <p class="card-title"><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp; : <a href="tel:{{ page.tel }}">{{ page.tel }}</a></p>
+                <p class="card-title"><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp; : <a href="tel:{{ contact.tel }}">{{ contact.tel }}</a></p>
               </div>
               <div class="col-12 col-sm-6">
-                <p class="card-title"><i class="far fa-envelope"></i>&nbsp; : <a href="mailto:{{ page.mail }}">{{ page.mail }}</a></p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-sm-6">
-                <p class="card-title"><i class="fab fa-github"></i>&nbsp; : <a target="_blank" href="{{ page.github.link }}">{{ page.github.name }}</a></p>
-              </div>
-              <div class="col-12 col-sm-6">
-                <p class="card-title"><i class="fab fa-linkedin"></i>&nbsp;&thinsp; : <a target="_blank" href="{{ page.linkedin.link }}">{{ page.linkedin.name }}</a></p>
+                <p class="card-title"><i class="far fa-envelope"></i>&nbsp; : <a href="mailto:{{ contact.mail }}">{{ contact.mail }}</a></p>
               </div>
             </div>
             <div class="row">
               <div class="col-12 col-sm-6">
-                <p class="card-title"><i class="fab fa-itch-io"></i>&nbsp; : <a target="_blank" href="{{ page.itch_io.link }}">{{ page.itch_io.name }}</a></p>
+                <p class="card-title"><i class="fab fa-github"></i>&nbsp; : <a target="_blank" href="{{ contact.github.link }}">{{ contact.github.name }}</a></p>
               </div>
               <div class="col-12 col-sm-6">
-                <p class="card-title"><i class="fas fa-map-marker-alt"></i>&nbsp;&thinsp; : <a target="_blank" href="{{ page.location.link }}">{{ page.location.name }}</a></p>
+                <p class="card-title"><i class="fab fa-linkedin"></i>&nbsp;&thinsp; : <a target="_blank" href="{{ contact.linkedin.link }}">{{ contact.linkedin.name }}</a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <p class="card-title"><i class="fab fa-itch-io"></i>&nbsp; : <a target="_blank" href="{{ contact.itch_io.link }}">{{ contact.itch_io.name }}</a></p>
+              </div>
+              <div class="col-12 col-sm-6">
+                <p class="card-title"><i class="fas fa-map-marker-alt"></i>&nbsp;&thinsp; : <a target="_blank" href="{{ contact.location.link }}">{{ contact.location.name }}</a></p>
               </div>
             </div>
           </div>
@@ -66,11 +48,12 @@ CV:
       </div>
     </div>
 
-    <!-- <div class="row" id="CV-pdf">
+{% comment %}
+    <div class="row" id="CV-pdf">
       <div class="col-12 col-md-10 col-lg-8 col-xl-7 mx-auto">
         <div class="row">
           <div class="col-10">
-            <h4><i class="fas fa-id-card"></i> {{ page.title_2 }}</h4>
+            <h4><i class="fas fa-id-card"></i> {{ contact.title_2 }}</h4>
           </div>
           <div class="col-2">
             <h2 id="CV-pdf-show" class="text-end"><i class="fas fa-minus-square"></i></h2>
@@ -79,13 +62,14 @@ CV:
         <hr />
         <div class="row text-center" id="CV-pdf-content">
           <div class="col-12 col-md-6 mx-auto">
-            <a target="_blank" href="{{ page.CV.src }}" class="btn btn-primary btn-block shadow">
-              <i class="fas fa-file-pdf"></i> {{ page.CV.name }}
+            <a target="_blank" href="{{ contact.CV.src }}" class="btn btn-primary btn-block shadow">
+              <i class="fas fa-file-pdf"></i> {{ contact.CV.name }}
             </a>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
+{% endcomment %}
 
   </div>
 </div>

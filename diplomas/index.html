@@ -6,20 +6,7 @@ title: Diplomas
 <div class="container-fluid mt-3">
   <div class="row">
     <div class="col-md-8 col-12 mx-auto" id="edu">
-      <div class="container">
-        <div class="row">
-          <div class="col-10">
-            <h2><i class="fas fa-graduation-cap"></i>
-              <span class="fr"> Diplômes</span>
-              <span class="en"> Diplomas</span>
-            </h2>
-          </div>
-          <div class="col-2">
-            <h2 id="diplomas-show" class="text-end"><i class="fas fa-minus-square"></i></h2>
-          </div>
-        </div>
-      </div>
-      <hr>
+      {% include topTitle.html topTitle=site.data.otherText.diplomas id="diplomas" %}
       <div id="diplomas-content" class="pt-3">
 
         {% include list_of_diplomas.html %}

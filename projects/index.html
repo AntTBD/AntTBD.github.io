@@ -7,18 +7,7 @@ title: Projects
   <div class="container">
     <div class="row">
       <div class="col-12" id="projects">
-        <div class="container">
-          <div class="row">
-            <div class="col-10">
-              <h2 class="fr"><i class="fas fa-briefcase"></i> Projets et réalisations</h2>
-              <h2 class="en"><i class="fas fa-briefcase"></i> Projects and achievements</h2>
-            </div>
-            <div class="col-2">
-              <h2 id="projects-show" class="text-end"><i class="fas fa-minus-square"></i></h2>
-            </div>
-          </div>
-        </div>
-        <hr />
+        {% include topTitle.html topTitle=site.data.otherText.projects id="projects" %}
         <div id="projects-content">
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 align-item-center justify-content-center">
 
