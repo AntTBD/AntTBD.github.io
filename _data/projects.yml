@@ -1,7 +1,7 @@
 #- name:
 #
 #  image:
-#    name:    /assets/img/
+#    name:     /assets/img/
 #    alt:
 #
 #  title:
@@ -9,9 +9,9 @@
 #    en:
 #
 #  content:
-#    fr:      > # use | to create newlines and > to ignore newlines.
+#    fr:       > # use | to create newlines and > to ignore newlines.
 #
-#    en:      > # use | to create newlines and > to ignore newlines.
+#    en:       > # use | to create newlines and > to ignore newlines.
 #
 #
 #  website:
@@ -25,95 +25,95 @@
 
 ################################################################################
 
-- name:       Daltonia Automne 2022
+- name:        Daltonia Automne 2022
   image:
-    name:     Daltonia.png
-    alt:      Daltonia
+    name:      Daltonia.png
+    alt:       Daltonia
   title:
-    fr:       <i class="fas fa-gamepad"></i> Daltonia<br>2<sup>nd</sup> trimestre 2022
-    en:       <i class="fas fa-gamepad"></i> Daltonia<br>2<sup>nd</sup> quarter 2022
+    fr:        <i class="fas fa-gamepad"></i> Daltonia<br>2<sup>nd</sup> trimestre 2022
+    en:        <i class="fas fa-gamepad"></i> Daltonia<br>2<sup>nd</sup> quarter 2022
   content:
-    fr:       "Projet en groupe de 5, développement d'un jeu narratif sur le daltonisme destiné aux game designers afin de découvrir les avantages mais surtout les inconvénients des différents types de visions.<br>
+    fr:        "Projet en groupe de 5, développement d'un jeu narratif sur le daltonisme destiné aux game designers afin de découvrir les avantages mais surtout les inconvénients des différents types de visions.<br>
                 Pour ce prototype, il existe 3 niveaux: le premier pour expliquer l'histoire et le concept, le second sous forme de puzzle et pour terminer un speedrun en faisant les bon choix de changement de couleurs.<br>
                 Je me suis chargé du changement de vision via listener pour affecter l'interaction avec les différents objets, du developpement de l'interface, du système d'ouverture de portes et du mini jeu du Simon."
-    en:       "Group project of 5, development of a game narrative on color blindness for game designers in order to discover the advantages but especially the disadvantages of different types of visions. <br>
+    en:        "Group project of 5, development of a game narrative on color blindness for game designers in order to discover the advantages but especially the disadvantages of different types of visions. <br>
                 For this prototype, there are 3 levels: the first to explain the story and the concept, the second in puzzle form and to finish a speedrun by making the right choice of color change.<br>
                 I took charge of the change of vision via listener to affect the interaction with the different objects, the development of the interface, the system of opening doors and the mini game of Simon."
   # website:
-  #   lien:   ""
+  #   lien:    ""
   #   txt:
-  #     fr:   <i class="fas fa-video"></i> Vidéo de présentation
-  #     en:   <i class="fas fa-video"></i> Introduction video
+  #     fr:    <i class="fas fa-video"></i> Vidéo de présentation
+  #     en:    <i class="fas fa-video"></i> Introduction video
   repository:
     txt:
-      fr:     <i class="fab fa-itch-io"></i> Page du jeu
-      en:     <i class="fab fa-itch-io"></i> Game page
-    lien:     "https://anttbd.itch.io/daltonia" #"https://github.com/AntTBD/Daltonia"
+      fr:      <i class="fab fa-itch-io"></i> Page du jeu
+      en:      <i class="fab fa-itch-io"></i> Game page
+    lien:      "https://anttbd.itch.io/daltonia" #"https://github.com/AntTBD/Daltonia"
 
 ################################################################################
 
-- name:       Mars Premiers pas Hiver 2022
+- name:        Mars Premiers pas Hiver 2022
   image:
-    name:     Mars Premiers Pas.jpg
-    alt:      Mars - Premiers Pas
+    name:      Mars Premiers Pas.jpg
+    alt:       Mars - Premiers Pas
   title:
-    fr:       <i class="fas fa-gamepad"></i> Mars - Premiers pas<br>1<sup>er</sup> trimestre 2022
-    en:       <i class="fas fa-gamepad"></i> Mars - First steps<br>1<sup>st</sup> quarter 2022
+    fr:        <i class="fas fa-gamepad"></i> Mars - Premiers pas<br>1<sup>er</sup> trimestre 2022
+    en:        <i class="fas fa-gamepad"></i> Mars - First steps<br>1<sup>st</sup> quarter 2022
   content:
-    fr:       "Projet en groupe de 4, imagination et développement d'un jeu vidéo en 3 mois dans un processus complet de design et malheureusement sans artiste.<br>
+    fr:        "Projet en groupe de 4, imagination et développement d'un jeu vidéo en 3 mois dans un processus complet de design et malheureusement sans artiste.<br>
                 Nous sommes partie sur un jeu de gestion de base scientifique qui se déroule sur Mars.<br>
                 Je me suis occupé du système de grille pouvant être repris dans d'autres projets, de l'interface utilisateur (front & back), la personnalisation des modèles des bâtiments, créer des scripts pour automatiser la génération de cellule par type de bâtiment et d'icône pour chaque niveau de bâtiments, d'améliorer et corriger des bugs post présentation."
-    en:       "Group project of 4, imagination and development of a video game in 3 months in a complete design process and unfortunately without artist.<br>
+    en:        "Group project of 4, imagination and development of a video game in 3 months in a complete design process and unfortunately without artist.<br>
                 We went on a science-based management game that takes place on Mars.<br>
                 I took care of the grid system that can be used in other projects, the user interface (front & back), the customization of building models, create scripts to automate cell generation by building type and icon for each building level, improve and fix post presentation bugs."
   website:
-    lien:     "https://youtu.be/-rloB9g0Zac"
+    lien:      "https://youtu.be/-rloB9g0Zac"
     txt:
-      fr:     <i class="fas fa-video"></i> Vidéo de présentation
-      en:     <i class="fas fa-video"></i> Introduction video
+      fr:      <i class="fas fa-video"></i> Vidéo de présentation
+      en:      <i class="fas fa-video"></i> Introduction video
   repository:
     txt:
-      fr:     <i class="fab fa-itch-io"></i> Plus d'informations
-      en:     <i class="fab fa-itch-io"></i> More information
-    lien:     "https://theogimenez.itch.io/mars-premiers-pas" #"https://github.com/AntTBD/WinterWonderJam_2022"
+      fr:      <i class="fab fa-itch-io"></i> Plus d'informations
+      en:      <i class="fab fa-itch-io"></i> More information
+    lien:      "https://theogimenez.itch.io/mars-premiers-pas" #"https://github.com/AntTBD/WinterWonderJam_2022"
 
 ################################################################################
 
-- name:       Winding Tracks 3D Hiver 2022
+- name:        Winding Tracks 3D Hiver 2022
   image:
-    name:     Winding Tracks 3D.jpg
-    alt:      Winding Tracks 3D
+    name:      Winding Tracks 3D.jpg
+    alt:       Winding Tracks 3D
   title:
-    fr:       <i class="fas fa-vr-cardboard"></i> Winding Tracks 3D<br>1<sup>er</sup> trimestre 2022
-    en:       <i class="fas fa-vr-cardboard"></i> Winding Tracks 3D<br>1<sup>st</sup> quarter 2022
+    fr:        <i class="fas fa-vr-cardboard"></i> Winding Tracks 3D<br>1<sup>er</sup> trimestre 2022
+    en:        <i class="fas fa-vr-cardboard"></i> Winding Tracks 3D<br>1<sup>st</sup> quarter 2022
   content:
-    fr:       "Projet en groupe de 5, création d'un jeu basé sur les interactions 3D en réalité virtuelle afin d'avoir la meilleure immersion possible pour le contrôle d’une voiture de rallye.<br>
+    fr:        "Projet en groupe de 5, création d'un jeu basé sur les interactions 3D en réalité virtuelle afin d'avoir la meilleure immersion possible pour le contrôle d’une voiture de rallye.<br>
                 Je me suis chargé de développer le contrôle de la voiture avec une première version utilisant des calcules d'angles en fonction de l'emplacement des manettes puis amélioré pour utiliser la puissance des forces et des points d'ancrage du moteur physique d'Unity3D. De plus, je me suis chargé des dérapages, passages de vitesse, bruits du moteur et du garage. Je me suis également chargé de répartir les tâches aux différents membres, de les aider dans leur développement ainsi que la synchronisation du travail de chacun."
-    en:       "Group project of 5, creation of a game based on 3D interactions in virtual reality in order to have the best possible immersion for the control of a rally car. <br>
+    en:        "Group project of 5, creation of a game based on 3D interactions in virtual reality in order to have the best possible immersion for the control of a rally car. <br>
                 I took it upon myself to develop the control of the car with a first version using calculations of angles according to the location of the controllers and then improved to use the power of forces and anchoring points of the Unity3D physical engine. In addition, I was responsible for skidding, speeding, engine noise and garage. I was also responsible for dividing up the tasks among the various members, helping them in their development and synchronizing the work of each member."
   website:
-    lien:     "https://youtu.be/sKnWi-TJXw0"
+    lien:      "https://youtu.be/sKnWi-TJXw0"
     txt:
-      fr:     <i class="fas fa-video"></i> Vidéo de présentation
-      en:     <i class="fas fa-video"></i> Introduction video
+      fr:      <i class="fas fa-video"></i> Vidéo de présentation
+      en:      <i class="fas fa-video"></i> Introduction video
   repository:
     txt:
-      fr:     <i class="fab fa-itch-io"></i> Plus d'informations
-      en:     <i class="fab fa-itch-io"></i> More information
-    lien:     "https://anttbd.itch.io/winding-tracks-3d" #"https://github.com/AntTBD/Winding_Tracks_3D"
+      fr:      <i class="fab fa-itch-io"></i> Plus d'informations
+      en:      <i class="fab fa-itch-io"></i> More information
+    lien:      "https://anttbd.itch.io/winding-tracks-3d" #"https://github.com/AntTBD/Winding_Tracks_3D"
 
 ################################################################################
 
-- name:       WonderJam UQAC Hiver 2022
+- name:        WonderJam UQAC Hiver 2022
   image:
-    name:     GOLDRunner1677.min.jpg
-    alt:      GOLDRunner1677
+    name:      GOLDRunner1677.min.jpg
+    alt:       GOLDRunner1677
   icon:
-    name:     WonderJam%20UQAC.png
-    alt:      WonderJam
+    name:      WonderJam%20UQAC.png
+    alt:       WonderJam
   title:
-    fr:       <i class="fas fa-gamepad"></i> WonderJam UQAC<br>Février 2022
-    en:       <i class="fas fa-gamepad"></i> WonderJam UQAC<br>February 2022
+    fr:        <i class="fas fa-gamepad"></i> WonderJam UQAC<br>Février 2022
+    en:        <i class="fas fa-gamepad"></i> WonderJam UQAC<br>February 2022
   content:
     fr:       "Challenge en équipe où il faut créer un jeu en seulement 72h ! Le thème de cette année fut : \"Dilemme\" avec les styles : arcade, versus et physics-based.<br>
                 Nous avons participé à l'édition 2022 à Chicoutimi, CA avec la \"Team Claude 3000\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.<br>
@@ -122,99 +122,99 @@
                 We participated in the 2022 edition in Chicoutimi, CA with the \"Team Claude 3000\". Get information about our participation and our production during this challenge.<br>
                 After the end of the event, I improved the game to, among other things, solve our collisions and ragdoll bugs."
   website:
-    lien:     "https://anttbd.github.io/WinterWonderJam_2022/WebGL/GOLD%20Runner%201677%202.0/" #"https://itch.io/jam/wonderjam-uqac-2022/rate/1421244"
+    lien:      "https://anttbd.github.io/WinterWonderJam_2022/WebGL/GOLD%20Runner%201677%202.0/" #"https://itch.io/jam/wonderjam-uqac-2022/rate/1421244"
     txt:
-      fr:     <i class="fas fa-gamepad"></i> Demo WebGL
-      en:     <i class="fas fa-gamepad"></i> WebGL Demo
+      fr:      <i class="fas fa-gamepad"></i> Demo WebGL
+      en:      <i class="fas fa-gamepad"></i> WebGL Demo
   repository:
     txt:
-      fr:     <i class="fab fa-itch-io"></i> Plus d'informations
-      en:     <i class="fab fa-itch-io"></i> More information
-    lien:     "https://philo248.itch.io/gold-runner-1677" #"https://github.com/AntTBD/WinterWonderJam_2022"
+      fr:      <i class="fab fa-itch-io"></i> Plus d'informations
+      en:      <i class="fab fa-itch-io"></i> More information
+    lien:      "https://philo248.itch.io/gold-runner-1677" #"https://github.com/AntTBD/WinterWonderJam_2022"
 
 ################################################################################
 
-- name:       Projet Moteur Physique 2021
+- name:        Projet Moteur Physique 2021
   image:
-    name:     MoteurPhysiqueJV.png
-    alt:      Moteur Physique Jeu Vidéo
+    name:      MoteurPhysiqueJV.png
+    alt:       Moteur Physique Jeu Vidéo
   title:
-    fr:       <i class="fas fa-cube"></i> Moteur Physique<br>3<sup>ème</sup> trimestre 2021
-    en:       <i class="fas fa-cube"></i> Physic Engine<br>3<sup>rd</sup> quarter 2021
+    fr:        <i class="fas fa-cube"></i> Moteur Physique<br>3<sup>ème</sup> trimestre 2021
+    en:        <i class="fas fa-cube"></i> Physic Engine<br>3<sup>rd</sup> quarter 2021
   content:
-    fr:       "Projet en groupe de 3, réalisation d'un moteur physique basique pour le jeu vidéo avec la prise en charge de forces, contraintes et détection de collisions sur des rigidbodies.<br>
+    fr:        "Projet en groupe de 3, réalisation d'un moteur physique basique pour le jeu vidéo avec la prise en charge de forces, contraintes et détection de collisions sur des rigidbodies.<br>
                 Outre la partie mathématique, je me suis chargé de la structure du projet en C++ à la suite d'une refonte graphique à l'aide d'ImGUI et OpenGL3 pour avoir un rendu 3D de la scène, ainsi que des aides graphiques pour le debug, un inspecteur et une console."
-    en:       "Group project of 3, realization of a basic physics engine for the video game with the support of forces, constraints and collision detection on rigidbodies.<br>
+    en:        "Group project of 3, realization of a basic physics engine for the video game with the support of forces, constraints and collision detection on rigidbodies.<br>
                 Besides the mathematical part, I was in charge of the structure of the project in C++ after a graphical redesign using ImGUI and OpenGL3 to have a 3D rendering of the scene, as well as a graphical aids for debugging, an inspector and a console."
 
-  # website:
-  #   lien:   ""
-  #   txt:
-  #     fr:
-  #     en:
+  website:
+    lien:      "https://anttbd.github.io/MoteurJV/"
+    txt:
+      fr:      <i class="fas fa-book-open"></i> Readme
+      en:      <i class="fas fa-book-open"></i> Readme
   repository:
-    lien:     "https://github.com/AntTBD/MoteurJV"
+    lien:      "https://github.com/AntTBD/MoteurJV"
 
 ################################################################################
 
-- name:       Projet Krom'Island 2021
+- name:        Projet Krom'Island 2021
   image:
-    name:     Krom'Island.min.png
-    alt:      Krom'Island
+    name:      Krom'Island.min.png
+    alt:       Krom'Island
   title:
-    fr:       <i class="fas fa-gamepad"></i> Jeu Vidéo Krom'Island<br>3<sup>ème</sup> trimestre 2021
-    en:       <i class="fas fa-gamepad"></i> Krom'Island Video Game<br>3<sup>rd</sup> quarter 2021
+    fr:        <i class="fas fa-gamepad"></i> Jeu Vidéo Krom'Island<br>3<sup>ème</sup> trimestre 2021
+    en:        <i class="fas fa-gamepad"></i> Krom'Island Video Game<br>3<sup>rd</sup> quarter 2021
   content:
     fr:       "Projet en groupe de 6, des documents de conception au développement d'un jeu vidéo basé sur le thème \"mystère\" en multijoueur en ligne: Krom'Island.<br>
                 3 enquêteurs sont à la recherche d'un criminel mais l'île altère leur vision chromatique de façon aléatoire ! Saurez-vous retrouver le criminel ?<br>
                 Ayant le plus de connaissance, je me suis occupé de la synchronisation du travail de chacun, de la résolution des bugs, de la transmission du savoir, de la mise en place du multijoueur et d'une partie de l'interface."
-    en:       "Group project of 6, from design documents to development of a video game based on the theme \"mystery\" in online multiplayer.<br>
+    en:        "Group project of 6, from design documents to development of a video game based on the theme \"mystery\" in online multiplayer.<br>
                 3 investigators are looking for a criminal but the island randomly alters their color vision! Can you find the criminal?<br>
                 Having a better knowledge, I took care of the synchronization of the work of each one, the resolution of the bugs, the transmission of knowledge, the implementation of the multiplayer and a part of the interface."
 
   website:
-    lien:     "https://anttbd.github.io/Krom-Island/WebGL/Krom%27Island/"
+    lien:      "https://anttbd.github.io/Krom-Island/WebGL/Krom%27Island/"
     txt:
-      fr:     <i class="fas fa-gamepad"></i> Demo WebGL
-      en:     <i class="fas fa-gamepad"></i> WebGL Demo
+      fr:      <i class="fas fa-gamepad"></i> Demo WebGL
+      en:      <i class="fas fa-gamepad"></i> WebGL Demo
   repository:
-    lien:     "https://github.com/AntTBD/Krom-Island"
+    lien:      "https://github.com/AntTBD/Krom-Island"
 
 ################################################################################
 
-- name:       IA Sudoku Solver 2021
+- name:        IA Sudoku Solver 2021
   image:
-    name:     IASudokuSolver.jpg
-    alt:      IA Sudoku Solver
+    name:      IASudokuSolver.jpg
+    alt:       IA Sudoku Solver
   title:
-    fr:       <i class="fas fa-brain"></i> IA Solveur de Sudoku<br>Novembre 2021
-    en:       <i class="fas fa-brain"></i> Sudoku Solver AI<br>November 2021
+    fr:        <i class="fas fa-brain"></i> IA Solveur de Sudoku<br>Novembre 2021
+    en:        <i class="fas fa-brain"></i> Sudoku Solver AI<br>November 2021
   content:
-    fr:       "Projet en binôme, réalisation d'une intelligence artificielle avec des algorithmes de CSP (Problème de Satisfaction de Contraintes) pour la résolution de Sudoku le plus rapidement possible, peu importe la difficulté.<br>
+    fr:        "Projet en binôme, réalisation d'une intelligence artificielle avec des algorithmes de CSP (Problème de Satisfaction de Contraintes) pour la résolution de Sudoku le plus rapidement possible, peu importe la difficulté.<br>
                 Son interface en console permet de choisir entre le Backtracking, AC-3, MRV (Minimum Remaining Values), Degree Heuristic et LCV (Least Contraining Value)."
-    en:       "A binomial project, realization of an artificial intelligence with CSP (Constraint Satisfaction Problem) algorithms for solving Sudoku as fast as possible, whatever the difficulty.<br>
+    en:        "A binomial project, realization of an artificial intelligence with CSP (Constraint Satisfaction Problem) algorithms for solving Sudoku as fast as possible, whatever the difficulty.<br>
                 Its console interface allows to choose between Backtracking, AC-3, MRV (Minimum Remaining Values), Degree Heuristic and LCV (Least Contraining Value)."
 
   # website:
-  #   lien:   ""
+  #   lien:    ""
   #   txt:
   #     fr:
   #     en:
   # repository:
-  #   lien:   "https://github.com/AntTBD/IAVacuumRobot"
+  #   lien:    "https://github.com/AntTBD/IAVacuumRobot"
 
 ################################################################################
 
-- name:       WonderJam UQAC Automne 2021
+- name:        WonderJam UQAC Automne 2021
   image:
-    name:     ClaudNected.min.png
-    alt:      ClaudNected
+    name:      ClaudNected.min.png
+    alt:       ClaudNected
   icon:
-    name:     WonderJam%20UQAC.png
-    alt:      WonderJam
+    name:      WonderJam%20UQAC.png
+    alt:       WonderJam
   title:
-    fr:       <i class="fas fa-gamepad"></i> WonderJam UQAC<br>Octobre 2021
-    en:       <i class="fas fa-gamepad"></i> WonderJam UQAC<br>October 2021
+    fr:        <i class="fas fa-gamepad"></i> WonderJam UQAC<br>Octobre 2021
+    en:        <i class="fas fa-gamepad"></i> WonderJam UQAC<br>October 2021
   content:
     fr:       "Challenge en équipe où il faut créer un jeu en seulement 72h ! Le thème de cette année fut : \"La Connection\" avec les styles : gestion, chance et progression.<br>
                 Nous avons participé à l'édition 2021 à Chicoutimi, CA avec la \"Team Claude 3000\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.<br>
@@ -223,341 +223,368 @@
                 We participated in the 2021 edition in Chicoutimi, CA with the \"Team Claude 3000\". Get information about our participation and our production during this challenge.<br>
                 Once the event was over, I improved the game to remove bugs and finish the original implementation ideas, then ported it to Android."
   website:
-    lien:     "https://anttbd.github.io/ClaudNected/WebGL/" #"https://itch.io/jam/-wonderjam-uqac-2021-propuls-par-ubisoft-saguenay/rate/1231056"
+    lien:      "https://anttbd.github.io/ClaudNected/WebGL/" #"https://itch.io/jam/-wonderjam-uqac-2021-propuls-par-ubisoft-saguenay/rate/1231056"
     txt:
-      fr:     <i class="fas fa-gamepad"></i> Demo WebGL
-      en:     <i class="fas fa-gamepad"></i> WebGL Demo
+      fr:      <i class="fas fa-gamepad"></i> Demo WebGL
+      en:      <i class="fas fa-gamepad"></i> WebGL Demo
   repository:
-    lien:     "https://github.com/AntTBD/WonderJam2021"
+    lien:      "https://github.com/AntTBD/WonderJam2021"
 
 ################################################################################
 
-- name:       IA Vacuum Robot 2021
+- name:        IA Vacuum Robot 2021
   image:
-    name:     IAVacuumRobot.png
-    alt:      IA Vacuum Robot
+    name:      IAVacuumRobot.png
+    alt:       IA Vacuum Robot
   title:
-    fr:       <i class="fas fa-brain"></i> IA robot aspirateur<br>Septembre 2021
-    en:       <i class="fas fa-brain"></i> Vacuum Robot AI<br>September 2021
+    fr:        <i class="fas fa-brain"></i> IA robot aspirateur<br>Septembre 2021
+    en:        <i class="fas fa-brain"></i> Vacuum Robot AI<br>September 2021
   content:
-    fr:       "Projet en binôme, réalisation d'une intelligence artificielle avec un algorithme glouton capable de choisir son chemin pour aller à sa destination.<br>
+    fr:        "Projet en binôme, réalisation d'une intelligence artificielle avec un algorithme glouton capable de choisir son chemin pour aller à sa destination.<br>
                 Ce projet dispose d'une interface en console, le robot aspirateur R essaie de nettoyer la saleté D et évite de ramasser les bijoux J avec une perte de batterie au fur et à mesure des déplacements."
-    en:       "A binomial project, realization of an artificial intelligence with a gluttonous algorithm able to choose its way to its destination.<br>
+    en:        "A binomial project, realization of an artificial intelligence with a gluttonous algorithm able to choose its way to its destination.<br>
                 This project has a console interface, the robot vacuum cleaner R is trying to clean the dirt D and avoids pick up jewels J with battery loss as it moves."
 
   # website:
-  #   lien:   ""
+  #   lien:    ""
   #   txt:
   #     fr:
   #     en:
   # repository:
-  #   lien:   "https://github.com/AntTBD/IAVacuumRobot"
+  #   lien:    "https://github.com/AntTBD/IAVacuumRobot"
 
 ################################################################################
 
-- name:       Projet Cours Virtuel 2021
+- name:        Projet Cours Virtuel 2021
   image:
-    name:     ProjetCoursVirtuel.min.png
-    alt:      CoursVirtuel
+    name:      ProjetCoursVirtuel.min.png
+    alt:       CoursVirtuel
   title:
-    fr:       <i class="fas fa-vr-cardboard"></i> Projet Cours Virtuel<br>1<sup>er</sup> trimestre 2021
-    en:       <i class="fas fa-vr-cardboard"></i> Virtual Classroom Project<br>1<sup>st</sup> quarter 2021
+    fr:        <i class="fas fa-vr-cardboard"></i> Projet Cours Virtuel<br>1<sup>er</sup> trimestre 2021
+    en:        <i class="fas fa-vr-cardboard"></i> Virtual Classroom Project<br>1<sup>st</sup> quarter 2021
   content:
-    fr:       "Projet en groupe de 5, afin de prouver que les cours à distance peuvent se faire comme si on était dans une vraie classe grâce à la réalité virtuelle (Oculus Quest).<br>
+    fr:        "Projet en groupe de 5, afin de prouver que les cours à distance peuvent se faire comme si on était dans une vraie classe grâce à la réalité virtuelle (Oculus Quest).<br>
                 Étant chef de projet, j'ai mené à bien mon équipe pour reproduire les même sensations qu'en présentiel. On a ainsi la possibilité de créer un cours et le rejoindre en multi-joueur, écrire au tableau, projeter un diaporama, parler/écouter, s'asseoir et avoir une duplication du diaporama et du tableau en temps réel."
-    en:       "Group project of 5, to prove that distance learning can be done as if you were in a real class thanks to virtual reality (Oculus Quest). <br>
+    en:        "Group project of 5, to prove that distance learning can be done as if you were in a real class thanks to virtual reality (Oculus Quest). <br>
                 As a project manager, I carried out my team to reproduce the same sensations as in presential. We have the possibility to create a course and join it in multiplayer, write on the board, project a slideshow, talk/listen, sit down and have a duplication of the slideshow and the board in real time."
 
   website:
-    lien:     "https://drive.google.com/file/d/1rjidGVWfhoY1WbOuA3cAQPZVn2PcHTSN/view?usp=sharing"
+    lien:      "https://drive.google.com/file/d/1rjidGVWfhoY1WbOuA3cAQPZVn2PcHTSN/view?usp=sharing"
     txt:
-      fr:     <i class="fas fa-video"></i> Vidéo
-      en:     <i class="fas fa-video"></i> Video
+      fr:      <i class="fas fa-video"></i> Vidéo
+      en:      <i class="fas fa-video"></i> Video
 #  repository:
-#    lien:    "https://github.com/AntTBD/ProjetCoursVirtuel"
+#    lien:     "https://github.com/AntTBD/ProjetCoursVirtuel"
 
 ################################################################################
 
-- name:       Projet web ReservSalle 2020
+- name:        Projet web ReservSalle 2020
   image:
-    name:     ReservSalle%20-%20Reservations.png
-    alt:      ReservSalle
+    name:      ReservSalle%20-%20Reservations.png
+    alt:       ReservSalle
   icon:
-    name:     ReservSalle.jpg
-    alt:      ReservSalle
+    name:      ReservSalle.jpg
+    alt:       ReservSalle
   title:
-    fr:       <i class="fas fa-globe"></i> Projet Web<br>Novembre 2020
-    en:       <i class="fas fa-globe"></i> Web Project<br>November 2020
+    fr:        <i class="fas fa-globe"></i> Projet Web<br>Novembre 2020
+    en:        <i class="fas fa-globe"></i> Web Project<br>November 2020
   content:
-    fr:       "Projet en groupe afin de réaliser un site de réservation de salle avec une partie admin.<br>
+    fr:        "Projet en groupe afin de réaliser un site de réservation de salle avec une partie admin.<br>
                 Ce dernier a permis d'intégrer quelques notions de sécurité tel que, les sessions PHP, les tokens CSRF et un clavier virtuel crypté pour ne pas envoyer un mot de passe en clair au serveur !<br>
                 Il utilise aussi des requêtes ajax afin de le rendre plus dynamique."
-    en:       "Group project in order to create a classroom reservation site with an admin part.<br>
+    en:        "Group project in order to create a classroom reservation site with an admin part.<br>
                 This last one allowed to integrate some security notions such as PHP sessions, CSRF tokens and an encrypted virtual keyboard in order not to send a clear password to the server !<br>
                 It also uses ajax queries to make it more dynamic."
 
   # website:
-  #   lien:   ""
+  #   lien:    ""
   #   txt:
   #     fr:
   #     en:
   repository:
-    lien:     "https://github.com/AntTBD/reservSalle"
+    lien:      "https://github.com/AntTBD/reservSalle"
 
 ################################################################################
 
-- name:       Motorisation lampe IKEA PS 2014 2017-2021
+- name:        Motorisation lampe IKEA PS 2014 2017-2021
   image:
-    name:     IKEA%20PS%202014%20motorized.jpg
-    alt:      IKEA PS 2014 Motorized
+    name:      IKEA%20PS%202014%20motorized.jpg
+    alt:       IKEA PS 2014 Motorized
   title:
-    fr:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorisée<br>2017-2021
-    en:       <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorized<br>2017-2021
+    fr:        <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorisée<br>2017-2021
+    en:        <i class="fas fa-lightbulb"></i> IKEA PS 2014 motorized<br>2017-2021
   content:
-    fr:       "Projet de motorisation d'une lampe avec système embarqué.<br>
+    fr:        "Projet de motorisation d'une lampe avec système embarqué.<br>
               Développé au départ avec une télécommande infrarouge (via Arduino Nano), le contrôle fut amélioré vers une interface web avec serveur intégré (via ESP8266). Le tout avec des contraintes de place et de mémoire.<br>
               Ce fut l'occasion de modéliser la lampe et des supports supplémentaires en 3D sur SOLIDWORKS.<br>
               <i>(En cours de création d'une librairie Arduino pour un meilleur partage.)</i>"
-    en:       "Project of motorization of a lamp with embedded system.<br>
+    en:        "Project of motorization of a lamp with embedded system.<br>
               Initially developed with an infrared remote control (with Arduino Nano), the control was improved to a web interface with integrated server (with ESP8266). All this with space and memory constraints.<br>
               It was an opportunity to model the lamp and additional supports in 3D on SOLIDWORKS.<br>
               <i>(Currently creating an Arduino library for a better sharing.)</i>"
   # website:
-  #   lien:   "https://www.instructables.com/"
+  #   lien:    "https://www.instructables.com/"
   #   txt:
-  #     fr:   <i class="fas fa-book-open"></i> Instructions
-  #     en:   <i class="fas fa-book-open"></i> Instructions
+  #     fr:    <i class="fas fa-book-open"></i> Instructions
+  #     en:    <i class="fas fa-book-open"></i> Instructions
   # repository:
-  #   lien:   "https://github.com/AntTBD/IKEA-PS-2014-Motorized"
+  #   lien:    "https://github.com/AntTBD/IKEA-PS-2014-Motorized"
 
 ################################################################################
 
-- name:       Personnal website 2020
+- name:        Personnal website 2020
   image:
-    name:     PersonalWebsite.png
-    alt:      Personal Website
+    name:      PersonalWebsite.png
+    alt:       Personal Website
   icon:
-    name:     ../logo/logo%20site2.png
-    alt:      AT
+    name:      ../logo/logo%20site2.png
+    alt:       AT
   title:
-    fr:       <i class="fas fa-globe"></i> Mon site<br>Eté 2020
-    en:       <i class="fas fa-globe"></i> My Personal Website<br>Summer 2020
+    fr:        <i class="fas fa-globe"></i> Mon site<br>Eté 2020
+    en:        <i class="fas fa-globe"></i> My Personal Website<br>Summer 2020
   content:
-    fr:       "Création de ce site internet premettant de mettre en avant mes compétences, mon parcours et surtout les différents projets présents sur cette page. Le tout, en le rendant le plus responsive possible du côté utilisateur mais aussi d'avoir une architecture simple pour une maintenance facile tout en utilisant Github Pages comme hébergeur.<br>
+    fr:        "Création de ce site internet premettant de mettre en avant mes compétences, mon parcours et surtout les différents projets présents sur cette page. Le tout, en le rendant le plus responsive possible du côté utilisateur mais aussi d'avoir une architecture simple pour une maintenance facile tout en utilisant Github Pages comme hébergeur.<br>
               De plus, certaines features, comme le cube tournant avec le réseau de points en arrière plan de la page d'accueil, la timeline de mes expériences ainsi que le mode nuit, la traduction en anglais et d'autres petits détails, ont été imaginé par moi-même et rendu possible avec l'aide de Bootstrap et Three.js en partie, la bible des développeurs: Stak Overflow et quelques heures de code."
-    en:       "Creation of this website to highlight my skills, my background and especially the various projects present on this page. All this, making it as responsive as possible on the user side but also to have a simple architecture for easy maintenance while using Github Pages as host. <br>
+    en:        "Creation of this website to highlight my skills, my background and especially the various projects present on this page. All this, making it as responsive as possible on the user side but also to have a simple architecture for easy maintenance while using Github Pages as host. <br>
               In addition, some features, such as the cube rotating with the network of points in the background of the homepage, the timeline of my experiences as well as the night mode, the English translation and other small details, have been imagined by myself and made possible with the help of Bootstrap and Three.js in part, the developers' bible: Stak Overflow and a few hours of code."
   # website:
-  #   lien:   "https://anttbd.github.io/"
+  #   lien:    "https://anttbd.github.io/"
   #   txt:
-  #     fr:   <i class="fas fa-book-open"></i> Le site
-  #     en:   <i class="fas fa-book-open"></i> Website
+  #     fr:    <i class="fas fa-book-open"></i> Le site
+  #     en:    <i class="fas fa-book-open"></i> Website
   # repository:
-  #   lien:   "https://github.com/AntTBD/anttbd.github.io"
+  #   lien:    "https://github.com/AntTBD/anttbd.github.io"
 
 ################################################################################
 
-- name:       Olympiades des métiers 2020-2021
+- name:        Olympiades des métiers 2020-2021
   image:
-    name:     Olympiades%20des%20métiers%20-%20robot.gif
-    alt:      WorldSkills France
+    name:      Olympiades%20des%20métiers%20-%20robot.gif
+    alt:       WorldSkills France
   icon:
-    name:     WorldSkills%20France.jpg
-    alt:      WorldSkills France
+    name:      WorldSkills%20France.jpg
+    alt:       WorldSkills France
   title:
-    fr:       <i class="fas fa-robot"></i> Olympiades des Métiers
-    en:       <i class="fas fa-robot"></i> World Skills
+    fr:        <i class="fas fa-robot"></i> Olympiades des Métiers
+    en:        <i class="fas fa-robot"></i> World Skills
   content:
-    fr:       "Cette compétition est l'occasion de réaliser et programmer en binôme un robot en kit afin de le rendre autonome grâce à différents capteurs (Ultrason, suiveur de ligne, caméra Pixy2).<br>
+    fr:        "Cette compétition est l'occasion de réaliser et programmer en binôme un robot en kit afin de le rendre autonome grâce à différents capteurs (Ultrason, suiveur de ligne, caméra Pixy2).<br>
               Je me suis chargé de créer une interface pour débuguer plus facilement en Bluetooth, un système à états et un algorithme qui retourne sa position grâce à l'odométrie.<br>
               Nous avons été, sélectionnés pour la finale nationale prévue en décembre 2020 à Lyon et participé aux <a href=\"https://olympiadesmetiers.fr/triple-a-pour-lequipe-regionale/\">stages de préparation physique et mentale</a>. Elle a malheureusement été repoussée en janvier 2022 à cause du COVID-19. En conséquence et avec nos études nous menant au Québec, CA, nous avons dû déclarer forfait."
-    en:       "This competition is the opportunity to create and program in pairs a robot kit to make it autonomous thanks to various sensors (Ultrasound, line follower, camera Pixy2).<br>
+    en:        "This competition is the opportunity to create and program in pairs a robot kit to make it autonomous thanks to various sensors (Ultrasound, line follower, camera Pixy2).<br>
               I have created an interface to debug more easily in Bluetooth, a state system and an algorithm that returns its position thanks to odometry.<br>
               We were, selected for the national final scheduled for December 2020 in Lyon and participated in <a href=\"https://olympiadesmetiers.fr/triple-a-pour-lequipe-regionale/\">physical and mental preparation sessions</a>. Unfortunately, it has been postponed to January 2022 because of COVID-19. As a result and with our studies leading us to Quebec, CA, we had to drop out."
   ranking:
-    - link:   "https://www.worldskills-france.org/la-competition/metiers-en-competition/robotique-mobile"
-      # icon: <i class="fas fa-award"></i>
+    - link:    "https://www.worldskills-france.org/la-competition/metiers-en-competition/robotique-mobile"
+      # icon:  <i class="fas fa-award"></i>
       title:
-        fr:   Top 6, France
-        en:   Top 6, France
-    - link:   "https://www.olympiadesmetiers.fr/les-olympiades/46eme-edition/selections-regionales/"
-      icon:   <i class="fas fa-medal"></i>
+        fr:    Top 6, France
+        en:    Top 6, France
+    - link:    "https://www.olympiadesmetiers.fr/les-olympiades/46eme-edition/selections-regionales/"
+      icon:    <i class="fas fa-medal"></i>
       title:
-        fr:   2<sup>ème</sup> en finale régionale, Nouvelle Aquitaine
-        en:   2<sup>nd</sup> in the regional final, Nouvelle Aquitaine
-    - link:   "https://www.olympiadesmetiers.fr/les-olympiades/46eme-edition/preselections/"
-      icon:   <i class="fas fa-award"></i>
+        fr:    2<sup>ème</sup> en finale régionale, Nouvelle Aquitaine
+        en:    2<sup>nd</sup> in the regional final, Nouvelle Aquitaine
+    - link:    "https://www.olympiadesmetiers.fr/les-olympiades/46eme-edition/preselections/"
+      icon:    <i class="fas fa-award"></i>
       title:
-        fr:   Présélections régionales
-        en:   Regional screening
+        fr:    Présélections régionales
+        en:    Regional screening
   website:
-    lien:     "https://www.olympiadesmetiers.fr/"
+    lien:      "https://www.olympiadesmetiers.fr/"
     txt:
-      fr:     <i class="fas fa-robot"></i> Page des Olympiades
-      en:     <i class="fas fa-robot"></i> World Skills page
+      fr:      <i class="fas fa-robot"></i> Page des Olympiades
+      en:      <i class="fas fa-robot"></i> World Skills page
 #  repository:
-#    lien:    ""
+#    lien:     ""
 
 ################################################################################
 
-- name:       GGJ 2020
+- name:        GGJ 2020
   image:
-    name:     SEWERS%20MADNESS.png
-    alt:      GGJ 2020
+    name:      SEWERS%20MADNESS.png
+    alt:       GGJ 2020
   icon:
-    name:     GGJ2020.png
-    alt:      GGJ 2020
+    name:      GGJ2020.png
+    alt:       GGJ 2020
   title:
-    fr:       <i class="fas fa-gamepad"></i> Global Game Jam<br>Janvier 2020
-    en:       <i class="fas fa-gamepad"></i> Global Game Jam<br>January 2020
+    fr:        <i class="fas fa-gamepad"></i> Global Game Jam<br>Janvier 2020
+    en:        <i class="fas fa-gamepad"></i> Global Game Jam<br>January 2020
   content:
-    fr:       "Concours en équipe de 6 où il faut créer un jeu en seulement 48h !<br>
+    fr:        "Concours en équipe de 6 où il faut créer un jeu en seulement 48h !<br>
                 Nous avons participé à l'édition 2020 à Limoges avec l'équipe \"Les Sots 6\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.<br>
                 Je me suis chargé du découpages des images et de chaque frame de l'animation du personnage pendant que les autres s'occupé du développement en Java."
-    en:       "Team challenge of 6 where you have to create a game in only 48h !<br>
+    en:        "Team challenge of 6 where you have to create a game in only 48h !<br>
                 We've joined the GGJ of Limoges in 2019 with the team \"Les Sots 6\" Get information about our participation and our production during this challenge.<br>
                 I edited the images and each frame of the character's animation while the others did the development in Java."
   ranking:
-    - link:   ""
-      icon:   <i class="fas fa-medal"></i>
+    - link:    ""
+      icon:    <i class="fas fa-medal"></i>
       title:
-        fr:   2<sup>ème</sup> ex-æquo au concours local
-        en:   2<sup>nd</sup> tied at local competition
+        fr:    2<sup>ème</sup> ex-æquo au concours local
+        en:    2<sup>nd</sup> tied at local competition
   website:
-    lien:     "https://globalgamejam.org/2020/games/sewers-madness-6"
+    lien:      "https://globalgamejam.org/2020/games/sewers-madness-6"
     txt:
-      fr:     <i class="fas fa-gamepad"></i> Page du jeu
-      en:     <i class="fas fa-gamepad"></i> Game page
+      fr:      <i class="fas fa-gamepad"></i> Page du jeu
+      en:      <i class="fas fa-gamepad"></i> Game page
 #  repository:
-#    lien:    "https://github.com/AntTBD/GGJ2020-Les-Sots-6-Moins-1"
+#    lien:     "https://github.com/AntTBD/GGJ2020-Les-Sots-6-Moins-1"
 
 ################################################################################
 
-- name:       Nuit de l'info 2019
+- name:        Nuit de l'info 2019
   image:
-    name:     Nuit%20de%20l'info%202019%20-%20LesSots6.png
-    alt:      Nuit de l'info 2019
+    name:      Nuit%20de%20l'info%202019%20-%20LesSots6.png
+    alt:       Nuit de l'info 2019
   icon:
-    name:     Nuit%20de%20l'info%202019.png
-    alt:      Nuit de l'info 2019
+    name:      Nuit%20de%20l'info%202019.png
+    alt:       Nuit de l'info 2019
   title:
-    fr:       <i class="fas fa-globe"></i> Nuit de l'info<br>Décembre 2019
-    en:       <i class="fas fa-globe"></i> Nuit de l'info<br>December 2019
+    fr:        <i class="fas fa-globe"></i> Nuit de l'info<br>Décembre 2019
+    en:        <i class="fas fa-globe"></i> Nuit de l'info<br>December 2019
   content:
     fr:       "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>Augmenter le pouvoir d’agir des étudiants/es en situation de précarité</i>\".<br>
               Nous avons participé à l'édition 2019 à Limoges avec l'équipe \"Les Sots 6\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge."
     en:       "The \"Nuit de l'info\" is a team challenge where you have to create a site in just one night ! This year's theme was: \"<i>Increase the power of students to act in a precarious situation</i>\".<br>
               We took part in the 2019 edition in Limoges with the team \"Les Sots 6\". Get information about our participation and our production during this challenge."
   ranking:
-    - link:   ""
-      icon:   <i class="fas fa-medal"></i>
+    - link:    ""
+      icon:    <i class="fas fa-medal"></i>
       title:
-        fr:   "3<sup>ème</sup>/138 équipes au défi d'Ubisoft :<br> \"GIF US SOME LOVE !\""
-        en:   "3<sup>rd</sup>/138 teams to Ubisoft challenge:<br> \"GIF US SOME LOVE!\""
+        fr:    "3<sup>ème</sup>/138 équipes au défi d'Ubisoft :<br> \"GIF US SOME LOVE !\""
+        en:    "3<sup>rd</sup>/138 teams to Ubisoft challenge:<br> \"GIF US SOME LOVE!\""
   # website:
-  #   lien:   ""
+  #   lien:    ""
   #   txt:
   #     fr:
   #     en:
   repository:
-    lien:     "https://github.com/AntTBD/Les-Sots-6"
+    lien:      "https://github.com/AntTBD/Les-Sots-6"
 
 ################################################################################
 
-- name:       Projet WebGL FST
+- name:        Projet WebGL FST
   image:
-    name:     WebGL%20project.min.gif
-    alt:      Animation WebGL
+    name:      WebGL%20project.min.gif
+    alt:       Animation WebGL
   title:
-    fr:       <i class="fas fa-cube"></i> Projet WebGL<br>FST - Décembre 2019
-    en:       <i class="fas fa-cube"></i> WebGL Project<br>FST - December 2019
+    fr:        <i class="fas fa-cube"></i> Projet WebGL<br>FST - Décembre 2019
+    en:        <i class="fas fa-cube"></i> WebGL Project<br>FST - December 2019
   content:
-    fr:       "Le but de ce projet fut de réaliser une application interactive reposant sur les principes de l'informatique graphique vus en cours au travers de la technologie WebGL et de la librairie Three.js.<br>
+    fr:        "Le but de ce projet fut de réaliser une application interactive reposant sur les principes de l'informatique graphique vus en cours au travers de la technologie WebGL et de la librairie Three.js.<br>
               Notre objectif était de créer une scène animée avec les modèles 3D mis à notre disposition avec l'éclairage, des virages en courbe, la fumée, les textures..."
-    en:       "The goal of this project was to realize an interactive application based on the principles of computer graphics seen in progress through the WebGL technology and the Three.js library.<br>
+    en:        "The goal of this project was to realize an interactive application based on the principles of computer graphics seen in progress through the WebGL technology and the Three.js library.<br>
               Our goal was to create an animated scene with the 3D models at our disposal with lighting, curves, smoke, textures..."
   website:
-    lien:     "https://anttbd.github.io/Projet-WebGL-2019-FST/site/Projet_WebGL_2019.html"
+    lien:      "https://anttbd.github.io/Projet-WebGL-2019-FST/site/Projet_WebGL_2019.html"
     txt:
-      fr:     <i class="fas fa-globe"></i> Demo
-      en:     <i class="fas fa-globe"></i> Demo
+      fr:      <i class="fas fa-globe"></i> Demo
+      en:      <i class="fas fa-globe"></i> Demo
 #  repository:
-#    lien:    "https://github.com/AntTBD/Projet-WebGL-2019-FST"
+#    lien:     "https://github.com/AntTBD/Projet-WebGL-2019-FST"
 
 ################################################################################
 
-- name:       Projet TechnologieWeb FST
+- name:        Projet TechnologieWeb FST
   image:
-    name:     TechnologieWeb%20project.png
-    alt:      Technologie Web
+    name:      TechnologieWeb%20project.png
+    alt:       Technologie Web
   icon:
-    name:     TechnologieWeb%20logo.png
-    alt:      Technologie Web
+    name:      TechnologieWeb%20logo.png
+    alt:       Technologie Web
   title:
-    fr:       <i class="fas fa-globe"></i> Projet Technologie Web<br>FST - Décembre 2019
-    en:       <i class="fas fa-globe"></i> Web Technology Project<br>FST - December 2019
+    fr:        <i class="fas fa-globe"></i> Projet Technologie Web<br>FST - Décembre 2019
+    en:        <i class="fas fa-globe"></i> Web Technology Project<br>FST - December 2019
   content:
-    fr:       "Site de démonstration pour un projet scolaire.<br>
+    fr:        "Site de démonstration pour un projet scolaire.<br>
               Le but est d'avoir une plateforme où des entreprises se connectent pour poster des annonces.
               De l'autre côté, des candidats ont des filtres pour rechercher un emploi, sauvegarder l'offre et postuler.<br>
               Pour cela, nous avons utilisé composer et l'architecture MVC puis stocké les informations dans une base de données."
-    en:       "Demonstration site for a school project.<br>
+    en:        "Demonstration site for a school project.<br>
               The goal is to have a platform where companies connect to post ads.
               On the other hand, candidates have filters to search for a job, save the offer and apply.<br>
               For this, we used composer and MVC architecture then stored the information in a database."
   # website:
-  #   lien:   ""
+  #   lien:    ""
   #   txt:
   #     fr:
   #     en:
 #  repository:
-#    lien:    "https://github.com/AntTBD/recherche-emploi"
+#    lien:     "https://github.com/AntTBD/recherche-emploi"
 
 ################################################################################
 
-- name:       GGJ 2019
+- name:        Panazol Danse WebSite
   image:
-    name:     GGJ2019%20Sheep'Game.png
-    alt:      GGJ 2019
+    name:      Panazol%20Danse%20Website.png
+    alt:       Panazol Danse Website
   icon:
-    name:     GGJ2019.png
-    alt:      GGJ 2019
+    name:      Panazol%20Danse.png
+    alt:       Panazol Danse
   title:
-    fr:       <i class="fas fa-gamepad"></i> Global Game Jam<br>Janvier 2019
-    en:       <i class="fas fa-gamepad"></i> Global Game Jam<br>January 2019
+    fr:        <i class="fas fa-globe"></i> Site Panazol Danse<br>Août 2019
+    en:        <i class="fas fa-globe"></i> Panazol Danse Website<br>August 2019
   content:
-    fr:       "Challenge en équipe où il faut créer un jeu en seulement 48h !<br>
+    fr:        "Etant membre de la Junior Entreprise 3iL Développement de mon école, j'ai managé la création d'un site internet pour une association de danse, du cahier des charges (un autre commercial) à la mise en ligne en passant par le recrutement des développeurs, l'édition de la facture (le trésorier) et le suivi du dévelopement.<br>
+              Pour cause de départ en vacances de certains développeurs en fin de projet, j'ai aussi aidé à coder la fin du site.<br>
+              Ce site a un système de management des actualités, du caroussel de la page d'accueil, du changement de mot de passe et a la possibilité de modifier une grande partie du contenu."
+    en:        "As a member of the Junior Enterprise 3iL Développement of my school, I managed the creation of a website for a dance association, from the specifications (another commercial) to the on-line implementation including the recruitment of developers, the editing of the invoice (the treasurer) and monitoring development.<br>
+              Due to the departure on vacation of some developers at the end of the project, I also helped to code the end of the site.<br>
+              This site has a system of management of the news, the carousel of the homepage, the change of password and has the possibility to modify a large part of the content."
+  website:
+    lien:      "https://panazol-danse.fr"
+    txt:
+      fr:      <i class="fas fa-globe"></i> Site
+      en:      <i class="fas fa-globe"></i> Website
+#  repository:
+#    lien:    "https://github.com/AntTBD/Panazol_Danse" // more recently : https://github.com/AntTBD/Panazol_Danse_2022
+
+################################################################################
+
+- name:        GGJ 2019
+  image:
+    name:      GGJ2019%20Sheep'Game.png
+    alt:       GGJ 2019
+  icon:
+    name:      GGJ2019.png
+    alt:       GGJ 2019
+  title:
+    fr:        <i class="fas fa-gamepad"></i> Global Game Jam<br>Janvier 2019
+    en:        <i class="fas fa-gamepad"></i> Global Game Jam<br>January 2019
+  content:
+    fr:        "Challenge en équipe où il faut créer un jeu en seulement 48h !<br>
                 Nous avons participé à l'édition 2019 à Limoges avec l'équipe \"Tchip'Gang\".<br>
                 Nous l'avons développé sous Processing avec plusieurs mini-jeux bien connus réunis pour l'occasion."
-    en:       "Team challenge where you have to create a game in only 48h !<br>
+    en:        "Team challenge where you have to create a game in only 48h !<br>
                 We've joined the GGJ of Limoges in 2019 with the team \"Tchip'Gang\".<br>
                 We have developed it under Processing with several well-known mini-games gathered for the occasion."
   ranking:
-    - link:   ""
-      icon:   <i class="fas fa-medal"></i>
+    - link:    ""
+      icon:    <i class="fas fa-medal"></i>
       title:
-        fr:   Prix local de l'encouragement
-        en:   Local Incentive Award
+        fr:    Prix local de l'encouragement
+        en:    Local Incentive Award
   # website:
-  #   lien:   "https://globalgamejam.org/2019/games/sheepgame"
+  #   lien:    "https://globalgamejam.org/2019/games/sheepgame"
   #   txt:
-  #     fr:   <i class="fas fa-gamepad"></i> Page du jeu
-  #     en:   <i class="fas fa-gamepad"></i> Game page
+  #     fr:    <i class="fas fa-gamepad"></i> Page du jeu
+  #     en:    <i class="fas fa-gamepad"></i> Game page
   repository:
-    lien:     "https://github.com/AntTBD/Global-Game-Jam-2019-TchipGang"
+    lien:      "https://github.com/AntTBD/Global-Game-Jam-2019-TchipGang"
 
 ################################################################################
 
-- name:       Nuit de l'info 2018
+- name:        Nuit de l'info 2018
   image:
-    name:     Nuit%20de%20l'info%202018%20-%20photomosaique.jpg
-    alt:      Nuit de l'info 2018
+    name:      Nuit%20de%20l'info%202018%20-%20photomosaique.jpg
+    alt:       Nuit de l'info 2018
   icon:
-    name:     Nuit%20de%20l'info%202018.png
-    alt:      Nuit de l'info 2018
+    name:      Nuit%20de%20l'info%202018.png
+    alt:       Nuit de l'info 2018
   title:
-    fr:       <i class="fas fa-globe"></i> Nuit de l'info<br>Décembre 2018
-    en:       <i class="fas fa-globe"></i> Nuit de l'info<br>December 2018
+    fr:        <i class="fas fa-globe"></i> Nuit de l'info<br>Décembre 2018
+    en:        <i class="fas fa-globe"></i> Nuit de l'info<br>December 2018
   content:
     fr:       "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>L'assistance numérique d’un explorateur en conditions extrêmes</i>\" (sous entendu le désert du Namib ou Mars).<br>
               Nous avons participé à l'édition 2018 à Limoges avec l'équipe \"Crab'Gang\".<br>
@@ -566,48 +593,48 @@
               We took part in the 2018 edition in Limoges with the team \"Crab'Gang\".<br>
               I developed a Processing program generating photomosaics from a desired image on the theme of Mars."
   ranking:
-    - link:   ""
-      icon:   <i class="fas fa-medal"></i>
+    - link:    ""
+      icon:    <i class="fas fa-medal"></i>
       title:
-        fr:   "1<sup>er</sup> au défi de SFEIR :<br> \"U talkin' to me ??\""
-        en:   "1<sup>st</sup> to SFEIR challenge:<br> \"U talkin' to me ??\""
+        fr:    "1<sup>er</sup> au défi de SFEIR :<br> \"U talkin' to me ??\""
+        en:    "1<sup>st</sup> to SFEIR challenge:<br> \"U talkin' to me ??\""
   website:
-    lien:     "https://anttbd.github.io/CrabGang.github.io/"
+    lien:      "https://anttbd.github.io/CrabGang.github.io/"
     txt:
-      fr:     <i class="fas fa-globe"></i> Page web
-      en:     <i class="fas fa-globe"></i> Web page
+      fr:      <i class="fas fa-globe"></i> Page web
+      en:      <i class="fas fa-globe"></i> Web page
   # repository:
-  #   lien:   "https://github.com/CrabGang/CrabGang.github.io"
+  #   lien:    "https://github.com/CrabGang/CrabGang.github.io"
 
 ################################################################################
 
-- name:       Projet fin de session algo 2017
+- name:        Projet fin de session algo 2017
   image:
-    name:     Millenium%20Collisions%20InGame.png
-    alt:      PFS 2017
+    name:      Millenium%20Collisions%20InGame.png
+    alt:       PFS 2017
   icon:
-    name:     Millenium%20Collisions.png
-    alt:      PFS 2017
+    name:      Millenium%20Collisions.png
+    alt:       PFS 2017
   title:
-    fr:       <i class="fas fa-gamepad"></i> Millenium Collisions<br>Décembre 2017
-    en:       <i class="fas fa-gamepad"></i> Millenium Collisions<br>December 2017
+    fr:        <i class="fas fa-gamepad"></i> Millenium Collisions<br>Décembre 2017
+    en:        <i class="fas fa-gamepad"></i> Millenium Collisions<br>December 2017
   content:
-    fr:       Projet de fin de session des cours d'algorithme.<br>
+    fr:        Projet de fin de session des cours d'algorithme.<br>
                 Premier jeu vidéo créé en 1<sup>er</sup> année d'école préparatoire d'Ingénieur Informatique à 3iL.<br>
                 Il a été amélioré ensuite pour une version Android.
-    en:       End of semester Project for algorithm.<br>
+    en:        End of semester Project for algorithm.<br>
                 First video game created in 1<sup>st</sup> year of preparatory school of IT Engineer at 3iL.<br>
                 It was improved then for an Android version.
   # ranking:
-  #   - link: ""
+  #   - link:  ""
   #     icon:
   #     title:
-  #       fr: ""
-  #       en: ""
+  #       fr:  ""
+  #       en:  ""
   # website:
-  #   lien:   ""
+  #   lien:    ""
   #   txt:
   #     fr:
   #     en:
   repository:
-    lien:     "https://github.com/AntTBD/Millenium-Collisions"
+    lien:      "https://github.com/AntTBD/Millenium-Collisions"
