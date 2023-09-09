@@ -29,6 +29,32 @@
 
 #############################################################################
 
+- year:         2023
+  name:         "Legrand"
+
+  title:
+    fr:         "SBU Systèmes du bâtiment"
+    en:         "SBU Building Systems"
+
+  image:
+    link:       "https://www.legrand.fr/"
+    src:        "Legrand.svg"
+    alt:        "Legrand"
+    rectangle:  true
+
+  job:
+    fr:         "CDD"
+    en:         "Fixed-Term Contract"
+
+  description:
+    fr:         "Amélioration de l'outil développé pendant le stage, de nouvelles responsabilités, développement full-stack Spring et React, réflexions sur le bâtiment connecté."
+    en:         "Improvement of the tool developed during the internship, new responsibilities, full-stack development Spring and React, reflections on the connected building."
+  dates:
+    fr:         "12 months - 2023" # 20 semaines
+    en:         "12 months - 2023" # 20 weeks
+
+#############################################################################
+
 - year:         2022
   name:         "Legrand"
 

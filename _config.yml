@@ -13,8 +13,8 @@ permalink:           /:categories/:title:output_ext
 google_analytics:    "G-LE3WKQ7KKQ"
 
 lastUpdate:
-    fr:              "octobre 2022"
-    en:              "October 2022"
+    fr:              "septembre 2023"
+    en:              "September 2023"
 
 # Build settings
 markdown:            kramdown
