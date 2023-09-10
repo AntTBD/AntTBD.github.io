@@ -9,18 +9,18 @@
 #
 #  image:
 #    link:
-#    src:       /assets/img/
+#    src:         /assets/img/
 #    alt:
-#    rectangle: true
+#    rectangle:   true
 #
 #  job:
 #    fr:
 #    en:
 #
 #  description:
-#    fr:        > # use | to create newlines and > to ignore newlines.
+#    fr:          > # use | to create newlines and > to ignore newlines.
 #
-#    en:        > # use | to create newlines and > to ignore newlines.
+#    en:          > # use | to create newlines and > to ignore newlines.
 #
 #
 #  dates:
@@ -29,115 +29,115 @@
 
 #############################################################################
 
-- year:         2023
-  name:         "Legrand"
+- year:           2023
+  name:           "Legrand"
 
   title:
-    fr:         "SBU Systèmes du bâtiment"
-    en:         "SBU Building Systems"
+    fr:           "SBU Systèmes du bâtiment"
+    en:           "SBU Building Systems"
 
   image:
-    link:       "https://www.legrand.fr/"
-    src:        "Legrand.svg"
-    alt:        "Legrand"
-    rectangle:  true
+    link:         "https://www.legrand.fr/"
+    src:          "Legrand.svg"
+    alt:          "Legrand"
+    rectangle:    true
 
   job:
-    fr:         "CDD"
-    en:         "Fixed-Term Contract"
+    fr:           "CDD"
+    en:           "Fixed-Term Contract"
 
   description:
-    fr:         "Amélioration de l'outil développé pendant le stage, de nouvelles responsabilités, développement full-stack Spring et React, réflexions sur le bâtiment connecté."
-    en:         "Improvement of the tool developed during the internship, new responsibilities, full-stack development Spring and React, reflections on the connected building."
+    fr:           "Amélioration de l'outil développé pendant le stage, de nouvelles responsabilités, développement full-stack Kotlin et React, réflexions sur le bâtiment connecté."
+    en:           "Improvement of the tool developed during the internship, new responsibilities, full-stack development Kotlin and React, reflections on the connected building."
   dates:
-    fr:         "12 months - 2023" # 20 semaines
-    en:         "12 months - 2023" # 20 weeks
+    fr:           "12 months - 2023" # 20 semaines
+    en:           "12 months - 2023" # 20 weeks
 
 #############################################################################
 
-- year:         2022
-  name:         "Legrand"
+- year:           2022
+  name:           "Legrand"
 
   title:
-    fr:         "SBU Systèmes du bâtiment"
-    en:         "SBU Building Systems"
+    fr:           "SBU Systèmes du bâtiment"
+    en:           "SBU Building Systems"
 
   image:
-    link:       "https://www.legrand.fr/"
-    src:        "Legrand.svg"
-    alt:        "Legrand"
-    rectangle:  true
+    link:         "https://www.legrand.fr/"
+    src:          "Legrand.svg"
+    alt:          "Legrand"
+    rectangle:    true
 
   job:
-    fr:         "Stagiaire"
-    en:         "Internship"
+    fr:           "Stagiaire"
+    en:           "Internship"
 
   description:
-    fr:         "Développement d'un outil d'immersion dans le jumeau numérique du bâtiment en temps réel via PC, VR ou AR 
-    pour la compréhension du contexte dans lequel une offre de détecteurs de présence nouvelle génération pourrait être installée. 
-    Cet outil, développé sur Unity 3D, se base sur Unity Reflect qui récupère le plan fourni par un architecte (ex: Revit) pour pouvoir interagir avec les différents objets. 
-    Destiné aussi à la maintenance et au commissionnement des équipements par une analyse à distance, 
+    fr:           "Développement d'un outil d'immersion dans le jumeau numérique du bâtiment en temps réel via PC, VR ou AR
+    pour la compréhension du contexte dans lequel une offre de détecteurs de présence nouvelle génération pourrait être installée.
+    Cet outil, développé sur Unity 3D, se base sur Unity Reflect qui récupère le plan fourni par un architecte (ex: Revit) pour pouvoir interagir avec les différents objets.
+    Destiné aussi à la maintenance et au commissionnement des équipements par une analyse à distance,
     ce jumeau numérique interroge une API Rest et un broker MQTT pour accéder aux données des capteurs pour les visualiser en 3D et pouvoir remonter dans le temps."
-    en:         "Development of an immersion tool in the building’s digital twin in real time via PC, VR or AR 
-    to understand the context in which a new generation presence detector offer could be installed. 
-    This tool, developed on Unity 3D, is based on Unity Reflect which retrieves the plan provided by an architect (ex: Revit) in order to interact with different objects. 
-    Also intended for the maintenance and commissioning of equipment by remote analysis, 
+    en:           "Development of an immersion tool in the building’s digital twin in real time via PC, VR or AR
+    to understand the context in which a new generation presence detector offer could be installed.
+    This tool, developed on Unity 3D, is based on Unity Reflect which retrieves the plan provided by an architect (ex: Revit) in order to interact with different objects.
+    Also intended for the maintenance and commissioning of equipment by remote analysis,
     this digital twin questions a Rest API and a MQTT broker to access the sensor data to visualize them in 3D and be able to go back in time."
   dates:
-    fr:         "6 mois - 2022" # 20 semaines
-    en:         "6 months - 2022" # 20 weeks
+    fr:           "6 mois - 2022" # 20 semaines
+    en:           "6 months - 2022" # 20 weeks
 
 #############################################################################
 
-- year:         2021
-  name:         "Legrand"
+- year:           2021
+  name:           "Legrand"
 
   title:
-    fr:         "SBU Systèmes du bâtiment"
-    en:         "SBU Building Systems"
+    fr:           "SBU Systèmes du bâtiment"
+    en:           "SBU Building Systems"
 
   image:
-    link:       "https://www.legrand.fr/"
-    src:        "Legrand.svg"
-    alt:        "Legrand"
-    rectangle:  true
+    link:         "https://www.legrand.fr/"
+    src:          "Legrand.svg"
+    alt:          "Legrand"
+    rectangle:    true
 
   job:
-    fr:         "Stagiaire"
-    en:         "Internship"
+    fr:           "Stagiaire"
+    en:           "Internship"
 
   description:
-    fr:         "Compréhension du besoin, demande d'achat de matériels et développement d'un outil pour la qualification d'un détecteur de présence nouvelle génération. 
-    Cet outil, développé sur Unity 3D, utilise la technologie de la réalité virtuelle pour une précision optimale (HTC Vive Trackers 3.0). 
+    fr:           "Compréhension du besoin, demande d'achat de matériels et développement d'un outil pour la qualification d'un détecteur de présence nouvelle génération.
+    Cet outil, développé sur Unity 3D, utilise la technologie de la réalité virtuelle pour une précision optimale (HTC Vive Trackers 3.0).
     Il permet également d'avoir une meilleure compréhension visuelle du fonctionnement du capteur."
-    en:         "Understanding of the need, request for purchase of materials and tool's development for the qualification of a new generation presence detector. 
-    This tool, developed on Unity 3D, uses virtual reality technology (HTC Vive Trackers 3.0) for optimal precision. 
+    en:           "Understanding of the need, request for purchase of materials and tool's development for the qualification of a new generation presence detector.
+    This tool, developed on Unity 3D, uses virtual reality technology (HTC Vive Trackers 3.0) for optimal precision.
     It also provides a better visual understanding of the sensor's operation for the other teams working on the product."
   dates:
-    fr:         "3 mois - 2021" # 13 semaines
-    en:         "3 months - 2021" # 13 weeks
+    fr:           "3 mois - 2021" # 13 semaines
+    en:           "3 months - 2021" # 13 weeks
 
 #############################################################################
 
-- year:         2020
-  name:         "3iL DEVELOPPEMENT"
+- year:           2020
+  name:           "3iL DEVELOPPEMENT"
 
   title:
-    fr:         "3iL DEVELOPPEMENT - Pôle Développement"
-    en:         "3iL DEVELOPPEMENT - Development Department"
+    fr:           "3iL DEVELOPPEMENT - Pôle Développement"
+    en:           "3iL DEVELOPPEMENT - Development Department"
 
   image:
-    link:       "http://3il-expertise.fr"
-    src:        "3iL_DEVELOPPEMENT.svg"
-    alt:        "3iL DEVELOPPEMENT"
-    rectangle:  false
+    link:         "http://3il-expertise.fr"
+    src:          "3iL_DEVELOPPEMENT.svg"
+    alt:          "3iL DEVELOPPEMENT"
+    rectangle:    false
 
   job:
-    fr:         "Responsable pôle"
-    en:         "Pole Leader"
+    fr:           "Responsable pôle"
+    en:           "Pole Leader"
 
   description:
-    fr:         "<ul class='list-unstyled'>
+    fr:           "<ul class='list-unstyled'>
         <li>Responsable commercial pendant 1 an puis,</li>
         <li>Responsable Pôle Développement jusqu'à la fin :</li>
         <li>
@@ -150,7 +150,7 @@
           </ul>
         </li>
       </ul>"
-    en:         "<ul class='list-unstyled'>
+    en:           "<ul class='list-unstyled'>
         <li>Sales manager for 1 year then,</li>
         <li>Head of Development Division until the end:</li>
         <li>
@@ -165,113 +165,113 @@
       </ul>"
 
   dates:
-    fr:         "Septembre 2018 - juillet 2021"
-    en:         "September 2018 - July 2021"
+    fr:           "Septembre 2018 - juillet 2021"
+    en:           "September 2018 - July 2021"
 
 #############################################################################
 
-- year:         2019
-  name:         "Legrand"
+- year:           2019
+  name:           "Legrand"
 
   title:
-    fr:         "SBU Interface Utilisateur"
-    en:         "SBU User Interface"
+    fr:           "SBU Interface Utilisateur"
+    en:           "SBU User Interface"
 
   image:
-    link:       "https://www.legrand.fr/"
-    src:        "Legrand.svg"
-    alt:        "Legrand"
-    rectangle:  true
+    link:         "https://www.legrand.fr/"
+    src:          "Legrand.svg"
+    alt:          "Legrand"
+    rectangle:    true
 
   job:
-    fr:         "Stagiaire"
-    en:         "Internship"
+    fr:           "Stagiaire"
+    en:           "Internship"
 
   description:
-    fr:         "A partir de fiches produits existantes, développement sous SharePoint et PowerApps d'un outil convivial et ergonomique afin d'améliorer la visibilité des offres produits de la SBU."
-    en:         "From an existing product sheets, development under Sharepoint and Powerapps of a user-friendly and ergonomic tool to improve the visibility of the SBU's product offerings."
+    fr:           "A partir de fiches produits existantes, développement sous SharePoint et PowerApps d'un outil convivial et ergonomique afin d'améliorer la visibilité des offres produits de la SBU."
+    en:           "From an existing product sheets, development under Sharepoint and Powerapps of a user-friendly and ergonomic tool to improve the visibility of the SBU's product offerings."
 
   dates:
-    fr:         "2&frac12; mois - 2019" # 8 semaines
-    en:         "2&frac12; months - 2019" # 8 weeks
+    fr:           "2&frac12; mois - 2019" # 8 semaines
+    en:           "2&frac12; months - 2019" # 8 weeks
 
 #############################################################################
 
-- year:         2018
-  name:         "La Banque Postale"
+- year:           2018
+  name:           "La Banque Postale"
 
   title:
-    fr:         "Cellule Lutte Contre le Blanchiment"
-    en:         "Anti-money Laundering Unit"
+    fr:           "Cellule Lutte Contre le Blanchiment"
+    en:           "Anti-money Laundering Unit"
 
   image:
-    link:       "https://www.labanquepostale.fr/"
-    src:        "La Banque Postale.svg"
-    alt:        "La Banque Postale"
-    rectangle:  false
+    link:         "https://www.labanquepostale.fr/"
+    src:          "La Banque Postale.svg"
+    alt:          "La Banque Postale"
+    rectangle:    false
 
   job:
-    fr:         "Analyste"
-    en:         "Analyst"
+    fr:           "Analyste"
+    en:           "Analyst"
 
   description:
-    fr:         "Analyses d'opérations financières suspectes."
-    en:         "Analysis of suspicious financial transactions."
+    fr:           "Analyses d'opérations financières suspectes."
+    en:           "Analysis of suspicious financial transactions."
 
   dates:
-    fr:         "2 mois - 2018"
-    en:         "2 months - 2018"
+    fr:           "2 mois - 2018"
+    en:           "2 months - 2018"
 
 #############################################################################
 
-- year:         2016
-  name:         "CRNA Brest"
+- year:           2016
+  name:           "CRNA Brest"
 
   title:
-    fr:         "CRNA Ouest à Brest"
-    en:         "West CRNA at Brest"
+    fr:           "CRNA Ouest à Brest"
+    en:           "West CRNA at Brest"
 
   image:
-    link:       "https://fr.wikipedia.org/wiki/Centre_en_route_de_la_navigation_a%C3%A9rienne"
-    src:        "CRNA Ouest.jpg"
-    alt:        "CRNA Ouest"
-    rectangle:  false
+    link:         "https://fr.wikipedia.org/wiki/Centre_en_route_de_la_navigation_a%C3%A9rienne"
+    src:          "CRNA Ouest.jpg"
+    alt:          "CRNA Ouest"
+    rectangle:    false
 
   job:
-    fr:         "Stage découverte"
-    en:         "Internship discovery"
+    fr:           "Stage découverte"
+    en:           "Internship discovery"
 
   description:
-    fr:         "Découverte des métiers liés au contrôle aérien."
-    en:         "Discover the air traffic control business."
+    fr:           "Découverte des métiers liés au contrôle aérien."
+    en:           "Discover the air traffic control business."
 
   dates:
-    fr:         "1 week-end - déc 2016"
-    en:         "1 week-end - Dec 2016"
+    fr:           "1 week-end - déc 2016"
+    en:           "1 week-end - Dec 2016"
 
 #############################################################################
 
-- year:         2015
-  name:         "Sofrance"
+- year:           2015
+  name:           "Sofrance"
 
   title:
-    fr:         "Filtration Systems (ex-Sofrance)"
-    en:         "Filtration Systems (ex-Sofrance)"
+    fr:           "Filtration Systems (ex-Sofrance)"
+    en:           "Filtration Systems (ex-Sofrance)"
 
   image:
-    link:       "https://www.safran-filtration-systems.com/fr"
-    src:        "Safran.png"
-    alt:        "Safran"
-    rectangle:  true
+    link:         "https://www.safran-filtration-systems.com/fr"
+    src:          "Safran.png"
+    alt:          "Safran"
+    rectangle:    true
 
   job:
-    fr:         "Stage découverte"
-    en:         "Internship discovery"
+    fr:           "Stage découverte"
+    en:           "Internship discovery"
 
   description:
-    fr:         "Découverte de la confection de filtres destinés à l'aérospatiale, de leurs designs 3D à leurs créations physiques en passant par les phases de tests en laboratoire."
-    en:         "Discovery of the manufacture of filters for aerospace, from their 3D designs to their physical creations and the laboratory testing phases."
+    fr:           "Découverte de la confection de filtres destinés à l'aérospatiale, de leurs designs 3D à leurs créations physiques en passant par les phases de tests en laboratoire."
+    en:           "Discovery of the manufacture of filters for aerospace, from their 3D designs to their physical creations and the laboratory testing phases."
 
   dates:
-    fr:         "1 semaine - 2015"
-    en:         "1 week - 2015"
+    fr:           "1 semaine - 2015"
+    en:           "1 week - 2015"
