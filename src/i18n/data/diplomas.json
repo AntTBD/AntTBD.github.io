@@ -1,0 +1,212 @@
+{
+  "diplomas": [
+    {
+      "title": {
+        "en":"UQAC - University of Québec At Chicoutimi",
+        "fr":"UQAC - University of Québec At Chicoutimi"
+      },
+      "location": {
+        "en":"Chicoutimi, Québec, Canada",
+        "fr":"Chicoutimi, Québec, Canada"
+      },
+      "date": {
+        "en":"Sept 2021 - Jan 2023",
+        "fr":"Sept 2021 - Jan 2023"
+      },
+      "subTitle1": {
+        "en":"Master's degrees in Computer Science",
+        "fr":"Maîtrise en informatique"
+      },
+      "subTitle2": {
+        "en":"Video Games",
+        "fr":"Jeux Vidéo"
+      },
+      "badge": {
+        "en":"Double Degree",
+        "fr":"Double Diplôme"
+      },
+      "image": {
+        "link": "https://www.uqac.ca/programme/1537-maitrise-en-informatique-jeux-video/",
+        "src": "UQAC_1.png",
+        "alt": "UQAC"
+      },
+      "progressBar": {
+        "val": 3,
+        "max": 3,
+        "class": "primary"
+      }
+    },
+    {
+      "title": {
+        "en":"3iL Engineering School",
+        "fr":"3iL École d'Ingénieurs"
+      },
+      "location": {
+        "en":"Limoges, France",
+        "fr":"Limoges, France"
+      },
+      "date": {
+        "en":"Sept 2017 - June 2023",
+        "fr":"Sept 2017 - Juin 2023"
+      },
+      "subTitle1": {
+        "en":"Preparatory school",
+        "fr":"École préparatoire"
+      },
+      "subTitle2": {
+        "en":"Engineering cycle",
+        "fr":"Cycle ingénieur"
+      },
+      "badge": {
+        "en":"Engineer",
+        "fr":"Ingénieur"
+      },
+      "image": {
+        "link": "http://www.3il-ingenieurs.fr/",
+        "src": "3iL bis.png",
+        "alt": "3iL Ingénieurs"
+      },
+      "progressBar": {
+        "val": 5,
+        "max": 5,
+        "class": "primary"
+      }
+    },
+    {
+      "title": {
+        "en":"TOEIC",
+        "fr":"TOEIC"
+      },
+      "location": {
+        "en":"Limoges, France",
+        "fr":"Limoges, France"
+      },
+      "date": {
+        "en":"Dec 2023",
+        "fr":"Dec 2023"
+      },
+      "badge": {
+        "en":"B2",
+        "fr":"B2"
+      },
+      "image": {
+        "link": "https://www.etsglobal.org/fr/fr",
+        "src": "TOEIC.png",
+        "alt": "TOEIC"
+      },
+      "progressBar": {
+        "val": 880,
+        "max": 990,
+        "class": "success"
+      }
+    },
+    {
+      "title": {
+        "en":"Sciences and technologies Faculty",
+        "fr":"Faculté des Sciences et Techniques"
+      },
+      "location": {
+        "en":"Limoges, France",
+        "fr":"Limoges, France"
+      },
+      "date": {
+        "en":"Sept 2019 - Sept 2020",
+        "fr":"Sept 2019 - Sept 2020"
+      },
+      "subTitle1": {
+        "en":"License in computer science",
+        "fr":"License en informatique"
+      },
+      "subTitle2": {
+        "en":"(Double Degree L3)",
+        "fr":"(Double diplôme L3)"
+      },
+      "badge": {
+        "en":"License",
+        "fr":"License"
+      },
+      "image": {
+        "link": "https://www.sciences.unilim.fr/",
+        "src": "FST Limoges.jpg",
+        "alt": "FST Limoges"
+      },
+      "progressBar": {
+        "val": 3,
+        "max": 3,
+        "class": "primary"
+      }
+    },
+    {
+      "title": {
+        "en":"EF Education First",
+        "fr":"EF Education First"
+      },
+      "location": {
+        "en":"Manchester, England",
+        "fr":"Manchester, Angleterre"
+      },
+      "date": {
+        "en":"July 2017",
+        "fr":"Juillet 2017"
+      },
+      "subTitle1": {
+        "en":"Language study trip",
+        "fr":"Séjour linguistique"
+      },
+      "subTitle2": {
+        "en":"EF Standard English Test",
+        "fr":"EF Standard English Test"
+      },
+      "badge": {
+        "en":"B1",
+        "fr":"B1"
+      },
+      "image": {
+        "link": "https://www.ef.fr/",
+        "src": "EF.jpg",
+        "alt": "EF"
+      },
+      "progressBar": {
+        "val": 550,
+        "max": 990,
+        "class": "success"
+      }
+    },
+    {
+      "title": {
+        "en":"Léonard Limosin High school",
+        "fr":"Lycée Léonard Limosin"
+      },
+      "location": {
+        "en":"Limoges, France",
+        "fr":"Limoges, France"
+      },
+      "date": {
+        "en":"July 2017",
+        "fr":"Juillet 2017"
+      },
+      "subTitle1": {
+        "en":"Bachelor's degree",
+        "fr":"Baccalauréat S SVT"
+      },
+      "subTitle2": {
+        "en":"Math Specialty",
+        "fr":"Spécialité Math"
+      },
+      "badge": {
+        "en":"Bachelor",
+        "fr":"Bachelier"
+      },
+      "image": {
+        "link": "https://www.lyceelimosin.fr/",
+        "src": "Lycée Limosin.png",
+        "alt": "Lycée Limosin"
+      },
+      "progressBar": {
+        "val": 3,
+        "max": 3,
+        "class": "primary"
+      }
+    }
+  ]
+}

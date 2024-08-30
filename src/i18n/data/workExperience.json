@@ -1,0 +1,301 @@
+{
+  "experiences": [
+    {
+      "year": 2024,
+      "media": {
+        "alt": "Legrand",
+        "src": "Legrand.svg",
+        "link": "https://www.legrand.fr/",
+        "type": "RECTANGLE"
+      },
+      "cardTitle": {
+        "en": "SBU Building Systems",
+        "fr": "SBU Systèmes du bâtiment"
+      },
+      "cardSubtitle": {
+        "en": "Permanent contract",
+        "fr": "CDI"
+      },
+      "cardDetailedText": {
+        "en": [
+          "Collaboration with UK and Toronto teams, full-stack development Kotlin and React, reflections on the connected building..."
+        ],
+        "fr": [
+          "Collaboration avec des équipes en Angleterre et à Toronto, développement full-stack Kotlin et React, réflexions sur le bâtiment connecté, ..."
+        ]
+      },
+      "duration": {
+        "en": "2024 - Today",
+        "fr": "2024 - Aujourd'hui"
+      }
+    },
+    {
+      "year": 2023,
+      "media": {
+        "alt": "Legrand",
+        "src": "Legrand.svg",
+        "link": "https://www.legrand.fr/",
+        "type": "RECTANGLE"
+      },
+      "cardTitle": {
+        "en": "SBU Building Systems",
+        "fr": "SBU Systèmes du bâtiment"
+      },
+      "cardSubtitle": {
+        "en": "Fixed-Term Contract",
+        "fr": "CDD"
+      },
+      "cardDetailedText": {
+        "en": [
+          "Improvement of the tool developed during the internship, new responsibilities, full-stack development Kotlin and React, reflections on the connected building."
+        ],
+        "fr": [
+          "Amélioration de l'outil développé pendant le stage, de nouvelles responsabilités, développement full-stack Kotlin et React, réflexions sur le bâtiment connecté."
+        ]
+      },
+      "duration": {
+        "en": "12 months - 2023",
+        "fr": "12 mois - 2023"
+      }
+    },
+    {
+      "year": 2022,
+      "media": {
+        "alt": "Legrand",
+        "src": "Legrand.svg",
+        "link": "https://www.legrand.fr/",
+        "type": "RECTANGLE"
+      },
+      "cardTitle": {
+        "en": "SBU Building Systems",
+        "fr": "SBU Systèmes du bâtiment"
+      },
+      "cardSubtitle": {
+        "en": "Internship",
+        "fr": "Stagiaire"
+      },
+      "cardDetailedText": {
+        "en": [
+          "Development of an immersion tool in the building’s digital twin in real time via PC, VR or AR ",
+          "to understand the context in which a new generation presence detector offer could be installed. ",
+          "This tool, developed on Unity 3D, is based on Unity Reflect which retrieves the plan provided by an architect (ex: Revit) in order to interact with different objects. ",
+          "Also intended for the maintenance and commissioning of equipment by remote analysis, ",
+          "this digital twin questions a Rest API and a MQTT broker to access the sensor data to visualize them in 3D and be able to go back in time."
+        ],
+        "fr": [
+          "Développement d'un outil d'immersion dans le jumeau numérique du bâtiment en temps réel via PC, VR ou AR ",
+          "pour la compréhension du contexte dans lequel une offre de détecteurs de présence nouvelle génération pourrait être installée. ",
+          "Cet outil, développé sur Unity 3D, se base sur Unity Reflect qui récupère le plan fourni par un architecte (ex: Revit) pour pouvoir interagir avec les différents objets. ",
+          "Destiné aussi à la maintenance et au commissionnement des équipements par une analyse à distance, ",
+          "ce jumeau numérique interroge une API Rest et un broker MQTT pour accéder aux données des capteurs pour les visualiser en 3D et pouvoir remonter dans le temps."
+        ]
+      },
+      "duration": {
+        "en": "6 months - 2022",
+        "fr": "6 mois - 2022"
+      }
+    },
+    {
+      "year": 2021,
+      "media": {
+        "alt": "Legrand",
+        "src": "Legrand.svg",
+        "link": "https://www.legrand.fr/",
+        "type": "RECTANGLE"
+      },
+      "cardTitle": {
+        "en": "SBU Building Systems",
+        "fr": "SBU Systèmes du bâtiment"
+      },
+      "cardSubtitle": {
+        "en": "Internship",
+        "fr": "Stagiaire"
+      },
+      "cardDetailedText": {
+        "en": [
+          "Understanding of the need, request for purchase of materials and tool's development for the qualification of a new generation presence detector. ",
+          "This tool, developed on Unity 3D, uses virtual reality technology (HTC Vive Trackers 3.0) for optimal precision. ",
+          "It also provides a better visual understanding of the sensor's operation for the other teams working on the product."
+        ],
+        "fr": [
+          "Compréhension du besoin, demande d'achat de matériels et développement d'un outil pour la qualification d'un détecteur de présence nouvelle génération. ",
+          "Cet outil, développé sur Unity 3D, utilise la technologie de la réalité virtuelle pour une précision optimale (HTC Vive Trackers 3.0). ",
+          "Il permet également d'avoir une meilleure compréhension visuelle du fonctionnement du capteur."
+        ]
+      },
+      "duration": {
+        "en": "3 months - 2021",
+        "fr": "3 mois - 2021"
+      }
+    },
+    {
+      "year": 2020,
+      "media": {
+        "alt": "3iL DEVELOPPEMENT",
+        "src": "3iL_DEVELOPPEMENT.svg",
+        "link": "http://3il-expertise.fr",
+        "type": "SQUARE"
+      },
+      "cardTitle": {
+        "en": "3iL DEVELOPPEMENT - Development Department",
+        "fr": "3iL DEVELOPPEMENT - Pôle Développement"
+      },
+      "cardSubtitle": {
+        "en": "Pole Leader",
+        "fr": "Responsable pôle"
+      },
+      "cardDetailedText": {
+        "en": [
+          "<ul class='list-unstyled'>",
+          "  <li>Sales manager for 1 year then,</li>",
+          "  <li>Head of Development Division until the end: </li>",
+          "  <li>",
+          "    <ul>",
+          "      <li>Developer Selection Interviews</li>",
+          "      <li>Contract Opportunities</li>",
+          "      <li>Carry out some projects</li>",
+          "      <li>Coordination between clients and developers</li>",
+          "      <li>Involvement in projects</li>",
+          "    </ul>",
+          "  </li>",
+          "</ul>"
+        ],
+        "fr": [
+          "<ul class='list-unstyled'>",
+          " <li>Responsable commercial pendant 1 an puis,</li>",
+          " <li>Responsable Pôle Développement jusqu'à la fin :</li>",
+          " <li>",
+          " <ul>",
+          "   <li>Entretiens de sélection des développeurs</li>",
+          "   <li>Recherche de contrats</li>",
+          "   <li>Mener à bien des projets</li>",
+          "   <li>Coordination entre clients et développeurs</li>",
+          "   <li>Participation aux projets</li>",
+          " </ul>",
+          " </li>",
+          "</ul>"
+        ]
+      },
+      "duration": {
+        "en": "September 2018 - July 2021",
+        "fr": "Septembre 2018 - juillet 2021"
+      }
+    },
+    {
+      "year": 2019,
+      "media": {
+        "alt": "Legrand",
+        "src": "Legrand.svg",
+        "link": "https://www.legrand.fr/",
+        "type": "RECTANGLE"
+      },
+      "cardTitle": {
+        "en": "SBU User Interface",
+        "fr": "SBU Interface Utilisateur"
+      },
+      "cardSubtitle": {
+        "en": "Internship",
+        "fr": "Stagiaire"
+      },
+      "cardDetailedText": {
+        "en": [
+          "From an existing product sheets, development under Sharepoint and Powerapps of a user-friendly and ergonomic tool to improve the visibility of the SBU's product offerings."
+        ],
+        "fr": [
+          "A partir de fiches produits existantes, développement sous SharePoint et PowerApps d'un outil convivial et ergonomique afin d'améliorer la visibilité des offres produits de la SBU."
+        ]
+      },
+      "duration": {
+        "en": "2&frac12; months - 2019",
+        "fr": "2&frac12; mois - 2019"
+      }
+    },
+    {
+      "year": 2018,
+      "media": {
+        "alt": "La Banque Postale",
+        "src": "La Banque Postale.svg",
+        "link": "https://www.labanquepostale.fr/",
+        "type": "SQUARE"
+      },
+      "cardTitle": {
+        "en": "Anti-money Laundering Unit",
+        "fr": "Cellule Lutte Contre le Blanchiment"
+      },
+      "cardSubtitle": {
+        "en": "Analyst",
+        "fr": "Analyste"
+      },
+      "cardDetailedText": {
+        "en": [
+          "Analysis of suspicious financial transactions."
+        ],
+        "fr": [
+          "Analyses d'opérations financières suspectes."
+        ]
+      },
+      "duration": {
+        "en": "2 months - 2018",
+        "fr": "2 mois - 2018"
+      }
+    },
+    {
+      "year": 2016,
+      "media": {
+        "alt": "CRNA Ouest",
+        "src": "CRNA Ouest.jpg",
+        "link": "https://fr.wikipedia.org/wiki/Centre_en_route_de_la_navigation_a%C3%A9rienne",
+        "type": "SQUARE"
+      },
+      "cardTitle": {
+        "en": "West CRNA at Brest",
+        "fr": "CRNA Ouest à Brest"
+      },
+      "cardSubtitle": {
+        "en": "Internship discovery",
+        "fr": "Stage découverte"
+      },
+      "cardDetailedText": {
+        "en": [
+          "Discover the air traffic control business."
+        ],
+        "fr": [
+          "Découverte des métiers liés au contrôle aérien."
+        ]
+      },
+      "duration": {
+        "en": "1 week-end - Dec 2016",
+        "fr": "1 week-end - déc 2016"
+      }
+    },
+    {
+      "year": 2015,
+      "media": {
+        "alt": "Safran",
+        "src": "Safran.png",
+        "link": "https://www.safran-filtration-systems.com/fr",
+        "type": "RECTANGLE"
+      },
+      "cardTitle": {
+        "en": "Filtration Systems (ex-Sofrance)",
+        "fr": "Filtration Systems (ex-Sofrance)"
+      },
+      "cardSubtitle": {
+        "en": "Internship discovery",
+        "fr": "Stage découverte"
+      },
+      "cardDetailedText": {
+        "en": [
+          "Discovery of the manufacture of filters for aerospace, from their 3D designs to their physical creations and the laboratory testing phases."
+        ],
+        "fr": [
+          "Découverte de la confection de filtres destinés à l'aérospatiale, de leurs designs 3D à leurs créations physiques en passant par les phases de tests en laboratoire."
+        ]
+      },
+      "duration": {
+        "en": "1 week - 2015",
+        "fr": "1 semaine - 2015"
+      }
+    }
+  ]
+}

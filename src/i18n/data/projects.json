@@ -1,0 +1,1039 @@
+{
+  "projects": [
+    {
+      "image": {
+        "src": "Daltonia.png",
+        "alt": "Daltonia"
+      },
+      "title": {
+        "icon": "gamepad",
+        "project": {
+          "en": "Daltonia",
+          "fr": "Daltonia"
+        },
+        "subtitle": {
+          "en": "2<sup>nd</sup> quarter 2022",
+          "fr": "2<sup>nd</sup> trimestre 2022"
+        }
+      },
+      "description": {
+        "en": [
+          "Group project of 5, development of a game narrative on color blindness for game designers in order to discover the advantages but especially the disadvantages of different types of visions. <br>",
+          "For this prototype, there are 3 levels: the first to explain the story and the concept, the second in puzzle form and to finish a speedrun by making the right choice of color change.<br>",
+          "I took charge of the change of vision via listener to affect the interaction with the different objects, the development of the interface, the system of opening doors and the mini game of Simon."
+        ],
+        "fr": [
+          "Projet en groupe de 5, développement d'un jeu narratif sur le daltonisme destiné aux game designers afin de découvrir les avantages mais surtout les inconvénients des différents types de visions.<br>",
+          "Pour ce prototype, il existe 3 niveaux: le premier pour expliquer l'histoire et le concept, le second sous forme de puzzle et pour terminer un speedrun en faisant les bon choix de changement de couleurs.<br>",
+          "Je me suis chargé du changement de vision via listener pour affecter l'interaction avec les différents objets, du developpement de l'interface, du système d'ouverture de portes et du mini jeu du Simon."
+        ]
+      },
+      "repository": {
+        "link": "https://anttbd.itch.io/daltonia",
+        "link___": "https://github.com/AntTBD/Daltonia",
+        "icon": "itch-io",
+        "name": {
+          "en": "Game page",
+          "fr": "Page du jeu"
+        }
+      }
+    },
+    {
+      "image": {
+        "alt": "Mars - Premiers Pas",
+        "src": "Mars Premiers Pas.jpg"
+      },
+      "title": {
+        "icon": "gamepad",
+        "project": {
+          "en": "Mars - First steps",
+          "fr": "Mars - Premiers Pas"
+        },
+        "subtitle": {
+          "en": "1<sup>st</sup> quarter 2022",
+          "fr": "1<sup>er</sup> trimestre 2022"
+        }
+      },
+      "description": {
+        "en": [
+          "Group project of 4, imagination and development of a video game in 3 months in a complete design process and unfortunately without artist.<br>",
+          "We went on a science-based management game that takes place on Mars.<br>",
+          "I took care of the grid system that can be used in other projects, the user interface (front & back), the customization of building models, create scripts to automate cell generation by building type and icon for each building level, improve and fix post presentation bugs."
+        ],
+        "fr": [
+          "Projet en groupe de 4, imagination et développement d'un jeu vidéo en 3 mois dans un processus complet de design et malheureusement sans artiste.<br>",
+          "Nous sommes partie sur un jeu de gestion de base scientifique qui se déroule sur Mars.<br>",
+          "Je me suis occupé du système de grille pouvant être repris dans d'autres projets, de l'interface utilisateur (front & back), la personnalisation des modèles des bâtiments, créer des scripts pour automatiser la génération de cellule par type de bâtiment et d'icône pour chaque niveau de bâtiments, d'améliorer et corriger des bugs post présentation."
+        ]
+      },
+      "website": {
+        "link": "https://youtu.be/-rloB9g0Zac",
+        "icon": "video",
+        "name": {
+          "en": "Introduction video",
+          "fr": "Vidéo de présentation"
+        }
+      },
+      "repository": {
+        "link": "https://theogimenez.itch.io/mars-premiers-pas",
+        "link___": "https://github.com/AntTBD/WinterWonderJam_2022",
+        "icon": "itch-io",
+        "name": {
+          "en": "More information",
+          "fr": "Plus d'informations"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "Winding Tracks 3D.jpg",
+        "alt": "Winding Tracks 3D"
+      },
+      "title": {
+        "icon": "vr",
+        "project": {
+          "en": "Winding Tracks 3D",
+          "fr": "Winding Tracks 3D"
+        },
+        "subtitle": {
+          "en": "1<sup>st</sup> quarter 2022",
+          "fr": "1<sup>er</sup> trimestre 2022"
+        }
+      },
+      "description": {
+        "en": [
+          "Group project of 5, creation of a game based on 3D interactions in virtual reality in order to have the best possible immersion for the control of a rally car. <br>",
+          "I took it upon myself to develop the control of the car with a first version using calculations of angles according to the location of the controllers and then improved to use the power of forces and anchoring points of the Unity3D physical engine. In addition, I was responsible for skidding, speeding, engine noise and garage. I was also responsible for dividing up the tasks among the various members, helping them in their development and synchronizing the work of each member."
+        ],
+        "fr": [
+          "Projet en groupe de 5, création d'un jeu basé sur les interactions 3D en réalité virtuelle afin d'avoir la meilleure immersion possible pour le contrôle d’une voiture de rallye.<br>",
+          "Je me suis chargé de développer le contrôle de la voiture avec une première version utilisant des calcules d'angles en fonction de l'emplacement des manettes puis amélioré pour utiliser la puissance des forces et des points d'ancrage du moteur physique d'Unity3D. De plus, je me suis chargé des dérapages, passages de vitesse, bruits du moteur et du garage. Je me suis également chargé de répartir les tâches aux différents membres, de les aider dans leur développement ainsi que la synchronisation du travail de chacun."
+        ]
+      },
+      "website": {
+        "link": "https://youtu.be/sKnWi-TJXw0",
+        "icon": "video",
+        "name": {
+          "en": "Introduction video",
+          "fr": "Vidéo de présentation"
+        }
+      },
+      "repository": {
+        "link": "https://anttbd.itch.io/winding-tracks-3d",
+        "link___": "https://github.com/AntTBD/Winding_Tracks_3D",
+        "icon": "itch-io",
+        "name": {
+          "en": "More information",
+          "fr": "Plus d'informations"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "GOLDRunner1677.min.jpg",
+        "alt": "GOLDRunner1677"
+      },
+      "icon": {
+        "src": "WonderJam%20UQAC.png",
+        "alt": "WonderJam"
+      },
+      "title": {
+        "icon": "gamepad",
+        "project": {
+          "en": "WonderJam UQAC",
+          "fr": "WonderJam UQAC"
+        },
+        "subtitle": {
+          "en": "February 2022",
+          "fr": "Février 2022"
+        }
+      },
+      "description": {
+        "en": [
+          "Team challenge where you have to create a game in only 72h! This year's theme was: \"Dilemma\" with styles: arcade, versus and physics-based.<br>",
+          "We participated in the 2022 edition in Chicoutimi, CA with the \"Team Claude 3000\". Get information about our participation and our production during this challenge.<br>",
+          "After the end of the event, I improved the game to, among other things, solve our collisions and ragdoll bugs."
+        ],
+        "fr": [
+          "Challenge en équipe où il faut créer un jeu en seulement 72h ! Le thème de cette année fut : \"Dilemme\" avec les styles : arcade, versus et physics-based.<br>",
+          "Nous avons participé à l'édition 2022 à Chicoutimi, CA avec la \"Team Claude 3000\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.<br>",
+          "Après la fin de l'évènement, j'ai amélioré le jeu pour, entre autres, résoudre nos problèmes de collision et ragdoll."
+        ]
+      },
+      "website": {
+        "link": "https://anttbd.github.io/WinterWonderJam_2022/WebGL/GOLD%20Runner%201677%202.0/",
+        "link___": "https://itch.io/jam/wonderjam-uqac-2022/rate/1421244",
+        "icon": "gamepad",
+        "name": {
+          "en": "WebGL Demo",
+          "fr": "Demo WebGL"
+        }
+      },
+      "repository": {
+        "link": "https://philo248.itch.io/gold-runner-1677",
+        "link___": "https://github.com/AntTBD/WinterWonderJam_2022",
+        "icon": "itch-io",
+        "name": {
+          "en": "More information",
+          "fr": "Plus d'informations"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "MoteurPhysiqueJV.png",
+        "alt": "Moteur Physique Jeu Vidéo"
+      },
+      "title": {
+        "icon": "cube",
+        "project": {
+          "en": "Physic Engine",
+          "fr": "Moteur Physique"
+        },
+        "subtitle": {
+          "en": "3<sup>rd</sup> quarter 2021",
+          "fr": "3<sup>ème</sup> trimestre 2021"
+        }
+      },
+      "description": {
+        "en": [
+          "Group project of 3, realization of a basic physics engine for the video game with the support of forces, constraints and collision detection on rigidbodies.<br>",
+          "Besides the mathematical part, I was in charge of the structure of the project in C++ after a graphical redesign using ImGUI and OpenGL3 to have a 3D rendering of the scene, as well as a graphical aids for debugging, an inspector and a console."
+        ],
+        "fr": [
+          "Projet en groupe de 3, réalisation d'un moteur physique basique pour le jeu vidéo avec la prise en charge de forces, contraintes et détection de collisions sur des rigidbodies.<br>",
+          "Outre la partie mathématique, je me suis chargé de la structure du projet en C++ à la suite d'une refonte graphique à l'aide d'ImGUI et OpenGL3 pour avoir un rendu 3D de la scène, ainsi que des aides graphiques pour le debug, un inspecteur et une console."
+        ]
+      },
+      "website": {
+        "link": "https://anttbd.github.io/MoteurJV/",
+        "icon": "book-open",
+        "name": {
+          "en": "Readme",
+          "fr": "Readme"
+        }
+      },
+      "repository": {
+        "link": "https://github.com/AntTBD/MoteurJV",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "Krom'Island.min.png",
+        "alt": "Krom'Island"
+      },
+      "title": {
+        "icon": "gamepad",
+        "project": {
+          "en": "Krom'Island Video Game",
+          "fr": "Jeu Vidéo Krom'Island"
+        },
+        "subtitle": {
+          "en": "3<sup>rd</sup> quarter 2021",
+          "fr": "3<sup>ème</sup> trimestre 2021"
+        }
+      },
+      "description": {
+        "en": [
+          "Group project of 6, from design documents to development of a video game based on the theme \"mystery\" in online multiplayer.<br>",
+          "3 investigators are looking for a criminal but the island randomly alters their color vision! Can you find the criminal?<br>",
+          "Having a better knowledge, I took care of the synchronization of the work of each one, the resolution of the bugs, the transmission of knowledge, the implementation of the multiplayer and a part of the interface."
+        ],
+        "fr": [
+          "Projet en groupe de 6, des documents de conception au développement d'un jeu vidéo basé sur le thème \"mystère\" en multijoueur en ligne: Krom'Island.<br>",
+          "3 enquêteurs sont à la recherche d'un criminel mais l'île altère leur vision chromatique de façon aléatoire ! Saurez-vous retrouver le criminel ?<br>",
+          "Ayant le plus de connaissance, je me suis occupé de la synchronisation du travail de chacun, de la résolution des bugs, de la transmission du savoir, de la mise en place du multijoueur et d'une partie de l'interface."
+        ]
+      },
+      "website": {
+        "link": "https://anttbd.github.io/Krom-Island/WebGL/Krom%27Island/",
+        "icon": "gamepad",
+        "name": {
+          "en": "WebGL Demo",
+          "fr": "Demo WebGL"
+        }
+      },
+      "repository": {
+        "link": "https://github.com/AntTBD/Krom-Island",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "IASudokuSolver.jpg",
+        "alt": "IA Sudoku Solver"
+      },
+      "title": {
+        "icon": "brain",
+        "project": {
+          "en": "Sudoku Solver AI",
+          "fr": "IA Solveur de Sudoku"
+        },
+        "subtitle": {
+          "en": "November 2021",
+          "fr": "Novembre 2021"
+        }
+      },
+      "description": {
+        "en": [
+          "A binomial project, realization of an artificial intelligence with CSP (Constraint Satisfaction Problem) algorithms for solving Sudoku as fast as possible, whatever the difficulty.<br>",
+          "Its console interface allows to choose between Backtracking, AC-3, MRV (Minimum Remaining Values), Degree Heuristic and LCV (Least Contraining Value)."
+        ],
+        "fr": [
+          "Projet en binôme, réalisation d'une intelligence artificielle avec des algorithmes de CSP (Problème de Satisfaction de Contraintes) pour la résolution de Sudoku le plus rapidement possible, peu importe la difficulté.<br>",
+          "Son interface en console permet de choisir entre le Backtracking, AC-3, MRV (Minimum Remaining Values), Degree Heuristic et LCV (Least Contraining Value)."
+        ]
+      },
+      "repository___": {
+        "link": "https://github.com/AntTBD/IAVacuumRobot",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "ClaudNected.min.png",
+        "alt": "ClaudNected"
+      },
+      "icon": {
+        "src": "WonderJam%20UQAC.png",
+        "alt": "WonderJam"
+      },
+      "title": {
+        "icon": "gamepad",
+        "project": {
+          "en": "WonderJam UQAC",
+          "fr": "WonderJam UQAC"
+        },
+        "subtitle": {
+          "en": "October 2021",
+          "fr": "Octobre 2021"
+        }
+      },
+      "description": {
+        "en": [
+          "Team challenge where you have to create a game in only 72h! This year's theme was: \"The Connection\" with styles: management, luck and progression.<br>",
+          "We participated in the 2021 edition in Chicoutimi, CA with the \"Team Claude 3000\". Get information about our participation and our production during this challenge.<br>",
+          "Once the event was over, I improved the game to remove bugs and finish the original implementation ideas, then ported it to Android."
+        ],
+        "fr": [
+          "Challenge en équipe où il faut créer un jeu en seulement 72h ! Le thème de cette année fut : \"La Connection\" avec les styles : gestion, chance et progression.<br>",
+          "Nous avons participé à l'édition 2021 à Chicoutimi, CA avec la \"Team Claude 3000\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.<br>",
+          "Après la fin de l'évènement, j'ai amélioré le jeu pour enlever les bugs et finir les idées d'implémentation originale puis je l'ai porté sur Android."
+        ]
+      },
+      "website": {
+        "link": "https://anttbd.github.io/ClaudNected/WebGL/",
+        "link___": "https://itch.io/jam/-wonderjam-uqac-2021-propuls-par-ubisoft-saguenay/rate/1231056",
+        "icon": "gamepad",
+        "name": {
+          "en": "WebGL Demo",
+          "fr": "Demo WebGL"
+        }
+      },
+      "repository": {
+        "link": "https://github.com/AntTBD/WonderJam2021",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "IAVacuumRobot.png",
+        "alt": "IA Vacuum Robot"
+      },
+      "title": {
+        "icon": "brain",
+        "project": {
+          "en": "Vacuum Robot AI",
+          "fr": "IA robot aspirateur"
+        },
+        "subtitle": {
+          "en": "September 2021",
+          "fr": "Septembre 2021"
+        }
+      },
+      "description": {
+        "en": [
+          "A binomial project, realization of an artificial intelligence with a gluttonous algorithm able to choose its way to its destination.<br>",
+          "This project has a console interface, the robot vacuum cleaner R is trying to clean the dirt D and avoids pick up jewels J with battery loss as it moves."
+        ],
+        "fr": [
+          "Projet en binôme, réalisation d'une intelligence artificielle avec un algorithme glouton capable de choisir son chemin pour aller à sa destination.<br>",
+          "Ce projet dispose d'une interface en console, le robot aspirateur R essaie de nettoyer la saleté D et évite de ramasser les bijoux J avec une perte de batterie au fur et à mesure des déplacements."
+        ]
+      },
+      "repository___": {
+        "link": "https://github.com/AntTBD/IAVacuumRobot",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "ProjetCoursVirtuel.min.png",
+        "alt": "CoursVirtuel"
+      },
+      "title": {
+        "icon": "vr",
+        "project": {
+          "en": "Virtual Classroom Project",
+          "fr": "Projet Cours Virtuel"
+        },
+        "subtitle": {
+          "en": "1<sup>st</sup> quarter 2021",
+          "fr": "1<sup>er</sup> trimestre 2021"
+        }
+      },
+      "description": {
+        "en": [
+          "Group project of 5, to prove that distance learning can be done as if you were in a real class thanks to virtual reality (Oculus Quest). <br>",
+          "As a project manager, I carried out my team to reproduce the same sensations as in presential. We have the possibility to create a course and join it in multiplayer, write on the board, project a slideshow, talk/listen, sit down and have a duplication of the slideshow and the board in real time."
+        ],
+        "fr": [
+          "Projet en groupe de 5, afin de prouver que les cours à distance peuvent se faire comme si on était dans une vraie classe grâce à la réalité virtuelle (Oculus Quest).<br>",
+          "Étant chef de projet, j'ai mené à bien mon équipe pour reproduire les même sensations qu'en présentiel. On a ainsi la possibilité de créer un cours et le rejoindre en multi-joueur, écrire au tableau, projeter un diaporama, parler/écouter, s'asseoir et avoir une duplication du diaporama et du tableau en temps réel."
+        ]
+      },
+      "website": {
+        "link": "https://drive.google.com/file/d/1rjidGVWfhoY1WbOuA3cAQPZVn2PcHTSN/view?usp=sharing",
+        "link___": "https://itch.io/jam/-wonderjam-uqac-2021-propuls-par-ubisoft-saguenay/rate/1231056",
+        "icon": "video",
+        "name": {
+          "en": "Introduction video",
+          "fr": "Vidéo de présentation"
+        }
+      },
+      "repository___": {
+        "link": "https://github.com/AntTBD/ProjetCoursVirtuel",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "ReservSalle%20-%20Reservations.png",
+        "alt": "ReservSalle"
+      },
+      "icon": {
+        "src": "ReservSalle.jpg",
+        "alt": "ReservSalle"
+      },
+      "title": {
+        "icon": "globe",
+        "project": {
+          "en": "Web Project",
+          "fr": "Projet Web"
+        },
+        "subtitle": {
+          "en": "November 2020",
+          "fr": "Novembre 2020"
+        }
+      },
+      "description": {
+        "en": [
+          "Group project in order to create a classroom reservation site with an admin part.<br>",
+          "This last one allowed to integrate some security notions such as PHP sessions, CSRF tokens and an encrypted virtual keyboard in order not to send a clear password to the server !<br>",
+          "It also uses ajax queries to make it more dynamic."
+        ],
+        "fr": [
+          "Projet en groupe afin de réaliser un site de réservation de salle avec une partie admin.<br>",
+          "Ce dernier a permis d'intégrer quelques notions de sécurité tel que, les sessions PHP, les tokens CSRF et un clavier virtuel crypté pour ne pas envoyer un mot de passe en clair au serveur !<br>",
+          "Il utilise aussi des requêtes ajax afin de le rendre plus dynamique."
+        ]
+      },
+      "repository": {
+        "link": "https://github.com/AntTBD/reservSalle",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "IKEA%20PS%202014%20motorized.jpg",
+        "alt": "IKEA PS 2014 Motorized"
+      },
+      "title": {
+        "icon": "lightbulb",
+        "project": {
+          "en": "IKEA PS 2014 motorized",
+          "fr": "IKEA PS 2014 motorisée"
+        },
+        "subtitle": {
+          "en": "2017-2021",
+          "fr": "2017-2021"
+        }
+      },
+      "description": {
+        "en": [
+          "Project of motorization of a lamp with embedded system.<br>",
+          "Initially developed with an infrared remote control (with Arduino Nano), the control was improved to a web interface with integrated server (with ESP8266). All this with space and memory constraints.<br>",
+          "It was an opportunity to model the lamp and additional supports in 3D on SOLIDWORKS.<br>",
+          "<i>(Currently creating an Arduino library for a better sharing.)</i>"
+        ],
+        "fr": [
+          "Projet de motorisation d'une lampe avec système embarqué.<br>",
+          "Développé au départ avec une télécommande infrarouge (via Arduino Nano), le contrôle fut amélioré vers une interface web avec serveur intégré (via ESP8266). Le tout avec des contraintes de place et de mémoire.<br>",
+          "Ce fut l'occasion de modéliser la lampe et des supports supplémentaires en 3D sur SOLIDWORKS.<br>",
+          "<i>(En cours de création d'une librairie Arduino pour un meilleur partage.)</i>"
+        ]
+      },
+      "website___": {
+        "link": "https://www.instructables.com/",
+        "icon": "book-open",
+        "name": "Instructions"
+      },
+      "repository___": {
+        "link": "https://github.com/AntTBD/IKEA-PS-2014-Motorized",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "PersonalWebsite.png",
+        "alt": "Personal Website"
+      },
+      "icon": {
+        "src": "../logo/logo%20site2.png",
+        "alt": "AT"
+      },
+      "title": {
+        "icon": "globe",
+        "project": {
+          "en": "My Personal Website",
+          "fr": "Mon site"
+        },
+        "subtitle": {
+          "en": "Summer 2020",
+          "fr": "Eté 2020"
+        }
+      },
+      "description": {
+        "en": [
+          "Creation of this website to highlight my skills, my background and especially the various projects present on this page. All this, making it as responsive as possible on the user side but also to have a simple architecture for easy maintenance while using Github Pages as host. <br>",
+          "In addition, some features, such as the cube rotating with the network of points in the background of the homepage, the timeline of my experiences as well as the night mode, the English translation and other small details, have been imagined by myself and made possible with the help of Bootstrap and Three.js in part, the developers' bible: Stak Overflow and a few hours of code.",
+          "4 years later, redesigning this site via React and my skills acquired as I went through my experience. Use of i18next for internationalization and React Three Fiber/Drei for the 3D homepage scene."
+        ],
+        "fr": [
+          "Création de ce site internet premettant de mettre en avant mes compétences, mon parcours et surtout les différents projets présents sur cette page. Le tout, en le rendant le plus responsive possible du côté utilisateur mais aussi d'avoir une architecture simple pour une maintenance facile tout en utilisant Github Pages comme hébergeur.<br>",
+          "De plus, certaines features, comme le cube tournant avec le réseau de points en arrière plan de la page d'accueil, la timeline de mes expériences ainsi que le mode nuit, la traduction en anglais et d'autres petits détails, ont été imaginé par moi-même et rendu possible avec l'aide de Bootstrap et Three.js en partie, la bible des développeurs: Stak Overflow et quelques heures de code.",
+          "4 ans après, refonte du site via React et mes compétences aquises au fur et à mesure de mes expériences. Utilisation de i18next pour l'internationalisation et React Three Fiber/Drei pour la scène 3D de la page d'accueil."
+        ]
+      },
+      "website___": {
+        "link": "https://anttbd.github.io/",
+        "icon": "globe",
+        "name": {
+          "en": "Website",
+          "fr": "Site"
+        }
+      },
+      "repository___": {
+        "link": "https://github.com/AntTBD/anttbd.github.io",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "Olympiades%20des%20métiers%20-%20robot.gif",
+        "alt": "WorldSkills France"
+      },
+      "icon": {
+        "src": "WorldSkills%20France.jpg",
+        "alt": "WorldSkills France"
+      },
+      "title": {
+        "icon": "robot",
+        "project": {
+          "en": "World Skills",
+          "fr": "Olympiades des Métiers"
+        },
+        "subtitle": {
+          "en": "",
+          "fr": "(World Skills)"
+        }
+      },
+      "description": {
+        "en": [
+          "This competition is the opportunity to create and program in pairs a robot kit to make it autonomous thanks to various sensors (Ultrasound, line follower, camera Pixy2).<br>",
+          "I have created an interface to debug more easily in Bluetooth, a state system and an algorithm that returns its position thanks to odometry.<br>",
+          "We were, selected for the national final scheduled for December 2020 in Lyon and participated in <a href=\"https://olympiadesmetiers.fr/triple-a-pour-lequipe-regionale/\">physical and mental preparation sessions</a>. Unfortunately, it has been postponed to January 2022 because of COVID-19. As a result and with our studies leading us to Quebec, CA, we had to drop out."
+        ],
+        "fr": [
+          "Cette compétition est l'occasion de réaliser et programmer en binôme un robot en kit afin de le rendre autonome grâce à différents capteurs (Ultrason, suiveur de ligne, caméra Pixy2).<br>",
+          "Je me suis chargé de créer une interface pour débuguer plus facilement en Bluetooth, un système à états et un algorithme qui retourne sa position grâce à l'odométrie.<br>",
+          "Nous avons été, sélectionnés pour la finale nationale prévue en décembre 2020 à Lyon et participé aux <a href=\"https://olympiadesmetiers.fr/triple-a-pour-lequipe-regionale/\">stages de préparation physique et mentale</a>. Elle a malheureusement été repoussée en janvier 2022 à cause du COVID-19. En conséquence et avec nos études nous menant au Québec, CA, nous avons dû déclarer forfait."
+        ]
+      },
+      "ranking": [
+        {
+          "link": "https://www.worldskills-france.org/la-competition/metiers-en-competition/robotique-mobile",
+          "icon___": "",
+          "name": {
+            "en": "Top 6, France",
+            "fr": "Top 6, France"
+          }
+        },
+        {
+          "link": "https://www.olympiadesmetiers.fr/les-olympiades/46eme-edition/selections-regionales/",
+          "icon": "medal",
+          "name": {
+            "en": "2<sup>nd</sup> in the regional final, Nouvelle Aquitaine",
+            "fr": "2<sup>ème</sup> en finale régionale, Nouvelle Aquitaine"
+          }
+        },
+        {
+          "link": "https://www.olympiadesmetiers.fr/les-olympiades/46eme-edition/preselections/",
+          "icon": "award",
+          "name": {
+            "en": "Regional pre-selection",
+            "fr": "Présélections régionales"
+          }
+        }
+      ],
+      "website": {
+        "link": "https://www.olympiadesmetiers.fr/",
+        "icon": "robot",
+        "name": {
+          "en": "World Skills page",
+          "fr": "Page des Olympiades"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "SEWERS%20MADNESS.png",
+        "alt": "GGJ 2020"
+      },
+      "icon": {
+        "src": "GGJ2020.png",
+        "alt": "GGJ 2020"
+      },
+      "title": {
+        "icon": "gamepad",
+        "project": {
+          "en": "Global Game Jam",
+          "fr": "Global Game Jam"
+        },
+        "subtitle": {
+          "en": "January 2020",
+          "fr": "Janvier 2020"
+        }
+      },
+      "description": {
+        "en": [
+          "Team challenge of 6 where you have to create a game in only 48h !<br>",
+          "We've joined the GGJ of Limoges in 2019 with the team \"Les Sots 6\" Get information about our participation and our production during this challenge.<br>",
+          "I edited the images and each frame of the character's animation while the others did the development in Java."
+        ],
+        "fr": [
+          "Concours en équipe de 6 où il faut créer un jeu en seulement 48h !<br>",
+          "Nous avons participé à l'édition 2020 à Limoges avec l'équipe \"Les Sots 6\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge.<br>",
+          "Je me suis chargé du découpages des images et de chaque frame de l'animation du personnage pendant que les autres s'occupé du développement en Java."
+        ]
+      },
+      "ranking": [
+        {
+          "link": "",
+          "icon": "medal",
+          "name": {
+            "en": "2<sup>nd</sup> tied at local competition",
+            "fr": "2<sup>ème</sup> ex-æquo au concours local"
+          }
+        }
+      ],
+      "website": {
+        "link": "https://globalgamejam.org/2020/games/sewers-madness-6",
+        "icon": "gamepad",
+        "name": {
+          "en": "Game page",
+          "fr": "Page du jeu"
+        }
+      },
+      "repository___": {
+        "link": "https://github.com/AntTBD/GGJ2020-Les-Sots-6-Moins-1",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "Nuit%20de%20l'info%202019%20-%20LesSots6.png",
+        "alt": "Nuit de l'info 2019"
+      },
+      "icon": {
+        "src": "Nuit%20de%20l'info%202019.png",
+        "alt": "Nuit de l'info 2019"
+      },
+      "title": {
+        "icon": "globe",
+        "project": {
+          "en": "Nuit de l'info",
+          "fr": "Nuit de l'info"
+        },
+        "subtitle": {
+          "en": "December 2019",
+          "fr": "Décembre 2019"
+        }
+      },
+      "description": {
+        "en": [
+          "The \"Nuit de l'info\" is a team challenge where you have to create a site in just one night ! This year's theme was: \"<i>Increase the power of students to act in a precarious situation</i>\".<br>",
+          "We took part in the 2019 edition in Limoges with the team \"Les Sots 6\". Get information about our participation and our production during this challenge."
+        ],
+        "fr": [
+          "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>Augmenter le pouvoir d’agir des étudiants/es en situation de précarité</i>\".<br>",
+          "Nous avons participé à l'édition 2019 à Limoges avec l'équipe \"Les Sots 6\". Retrouvez les informations sur notre participation et sur notre production durant ce challenge."
+        ]
+      },
+      "ranking": [
+        {
+          "link": "",
+          "icon": "medal",
+          "name": {
+            "en": "3<sup>rd</sup>/138 teams to Ubisoft challenge:<br> \"GIF US SOME LOVE!\"",
+            "fr": "3<sup>ème</sup>/138 équipes au défi d'Ubisoft :<br> \"GIF US SOME LOVE !\""
+          }
+        }
+      ],
+      "repository": {
+        "link": "https://github.com/AntTBD/Les-Sots-6",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "WebGL%20project.min.gif",
+        "alt": "Animation WebGL"
+      },
+      "title": {
+        "icon": "cube",
+        "project": {
+          "en": "WebGL Project",
+          "fr": "Projet WebGL"
+        },
+        "subtitle": {
+          "en": "FST - December 2019",
+          "fr": "FST - Décembre 2019"
+        }
+      },
+      "description": {
+        "en": [
+          "The goal of this project was to realize an interactive application based on the principles of computer graphics seen in progress through the WebGL technology and the Three.js library.<br>",
+          "Our goal was to create an animated scene with the 3D models at our disposal with lighting, curves, smoke, textures..."
+        ],
+        "fr": [
+          "Le but de ce projet fut de réaliser une application interactive reposant sur les principes de l'informatique graphique vus en cours au travers de la technologie WebGL et de la librairie Three.js.<br>",
+          "Notre objectif était de créer une scène animée avec les modèles 3D mis à notre disposition avec l'éclairage, des virages en courbe, la fumée, les textures..."
+        ]
+      },
+      "website": {
+        "link": "https://anttbd.github.io/Projet-WebGL-2019-FST/site/Projet_WebGL_2019.html",
+        "icon": "globe",
+        "name": {
+          "en": "Demo",
+          "fr": "Demo"
+        }
+      },
+      "repository___": {
+        "link": "https://github.com/AntTBD/Projet-WebGL-2019-FST",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "TechnologieWeb%20project.png",
+        "alt": "Technologie Web"
+      },
+      "icon": {
+        "src": "TechnologieWeb%20logo.png",
+        "alt": "Technologie Web"
+      },
+      "title": {
+        "icon": "globe",
+        "project": {
+          "en": "Web Technology Project",
+          "fr": "Projet Technologie Web"
+        },
+        "subtitle": {
+          "en": "FST - December 2019",
+          "fr": "FST - Décembre 2019"
+        }
+      },
+      "description": {
+        "en": [
+          "Demonstration site for a school project.<br>",
+          "The goal is to have a platform where companies connect to post ads.",
+          "On the other hand, candidates have filters to search for a job, save the offer and apply.<br>",
+          "For this, we used composer and MVC architecture then stored the information in a database."
+        ],
+        "fr": [
+          "Site de démonstration pour un projet scolaire.<br>",
+          "Le but est d'avoir une plateforme où des entreprises se connectent pour poster des annonces.",
+          "De l'autre côté, des candidats ont des filtres pour rechercher un emploi, sauvegarder l'offre et postuler.<br>",
+          "Pour cela, nous avons utilisé composer et l'architecture MVC puis stocké les informations dans une base de données."
+        ]
+      },
+      "repository___": {
+        "link": "https://github.com/AntTBD/recherche-emploi",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "Panazol%20Danse%20Website.png",
+        "alt": "Panazol Danse Website"
+      },
+      "icon": {
+        "src": "Panazol%20Danse.png",
+        "alt": "Panazol Danse"
+      },
+      "title": {
+        "icon": "globe",
+        "project": {
+          "en": "Panazol Danse Website",
+          "fr": "Site Panazol Danse"
+        },
+        "subtitle": {
+          "en": "August 2019",
+          "fr": "Août 2019"
+        }
+      },
+      "description": {
+        "en": [
+          "As a member of the Junior Enterprise 3iL Développement of my school, I managed the creation of a website for a dance association, from the specifications (another commercial) to the on-line implementation including the recruitment of developers, the editing of the invoice (the treasurer) and monitoring development.<br>",
+          "Due to the departure on vacation of some developers at the end of the project, I also helped to code the end of the site.<br>",
+          "This site has a system of management of the news, the carousel of the homepage, the change of password and has the possibility to modify a large part of the content."
+        ],
+        "fr": [
+          "Etant membre de la Junior Entreprise 3iL Développement de mon école, j'ai managé la création d'un site internet pour une association de danse, du cahier des charges (un autre commercial) à la mise en ligne en passant par le recrutement des développeurs, l'édition de la facture (le trésorier) et le suivi du dévelopement.<br>",
+          "Pour cause de départ en vacances de certains développeurs en fin de projet, j'ai aussi aidé à coder la fin du site.<br>",
+          "Ce site a un système de management des actualités, du caroussel de la page d'accueil, du changement de mot de passe et a la possibilité de modifier une grande partie du contenu."
+        ]
+      },
+      "website": {
+        "link": "https://panazol-danse.fr",
+        "icon": "globe",
+        "name": {
+          "en": "Website",
+          "fr": "Site"
+        }
+      },
+      "repository___": {
+        "link": "https://github.com/AntTBD/Panazol_Danse",
+        "link1": "https://github.com/AntTBD/Panazol_Danse_2022",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "GGJ2019%20Sheep'Game.png",
+        "alt": "GGJ 2019"
+      },
+      "icon": {
+        "src": "GGJ2019.png",
+        "alt": "GGJ 2019"
+      },
+      "title": {
+        "icon": "gamepad",
+        "project": {
+          "en": "Global Game Jam",
+          "fr": "Global Game Jam"
+        },
+        "subtitle": {
+          "en": "January 2019",
+          "fr": "Janvier 2019"
+        }
+      },
+      "description": {
+        "en": [
+          "Team challenge where you have to create a game in only 48h !<br>",
+          "We've joined the GGJ of Limoges in 2019 with the team \"Tchip'Gang\".<br>",
+          "We have developed it under Processing with several well-known mini-games gathered for the occasion."
+        ],
+        "fr": [
+          "Challenge en équipe où il faut créer un jeu en seulement 48h !<br>",
+          "Nous avons participé à l'édition 2019 à Limoges avec l'équipe \"Tchip'Gang\".<br>",
+          "Nous l'avons développé sous Processing avec plusieurs mini-jeux bien connus réunis pour l'occasion."
+        ]
+      },
+      "ranking": [
+        {
+          "link": "",
+          "icon": "medal",
+          "name": {
+            "en": "Local Incentive Award",
+            "fr": "Prix local de l'encouragement"
+          }
+        }
+      ],
+      "website___": {
+        "link": "https://globalgamejam.org/2019/games/sheepgame",
+        "icon": "gamepad",
+        "name": {
+          "en": "Game page",
+          "fr": "Page du jeu"
+        }
+      },
+      "repository": {
+        "link": "https://github.com/AntTBD/Global-Game-Jam-2019-TchipGang",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "Nuit%20de%20l'info%202018%20-%20photomosaique.jpg",
+        "alt": "Nuit de l'info 2018"
+      },
+      "icon": {
+        "src": "Nuit%20de%20l'info%202018.png",
+        "alt": "Nuit de l'info 2018"
+      },
+      "title": {
+        "icon": "globe",
+        "project": {
+          "en": "Nuit de l'info",
+          "fr": "Nuit de l'info"
+        },
+        "subtitle": {
+          "en": "December 2018",
+          "fr": "Décembre 2018"
+        }
+      },
+      "description": {
+        "en": [
+          "The \"Nuit de l'info\" is a team challenge where you have to create a site in just one night ! This year’s theme was: \"<i>Digital Assistance from an Explorer in Extreme Conditions</i>\" (meaning the Namib desert or Mars).<br>",
+          "We took part in the 2018 edition in Limoges with the team \"Crab'Gang\".<br>",
+          "I developed a Processing program generating photomosaics from a desired image on the theme of Mars."
+        ],
+        "fr": [
+          "La Nuit de l'info est un challenge en équipe où il faut réaliser un site en une seule nuit ! Le thème de cette année fut : \"<i>L'assistance numérique d’un explorateur en conditions extrêmes</i>\" (sous entendu le désert du Namib ou Mars).<br>",
+          "Nous avons participé à l'édition 2018 à Limoges avec l'équipe \"Crab'Gang\".<br>",
+          "J'ai développé un programme Processing générant des photomosaïques à partir d'une image souhaité sur le thème de Mars."
+        ]
+      },
+      "ranking": [
+        {
+          "link": "",
+          "icon": "medal",
+          "name": {
+            "en": "1<sup>st</sup> to SFEIR challenge:<br> \"U talkin' to me ??\"",
+            "fr": "1<sup>er</sup> au défi de SFEIR :<br> \"U talkin' to me ??\""
+          }
+        }
+      ],
+      "website": {
+        "link": "https://anttbd.github.io/CrabGang.github.io/",
+        "icon": "globe",
+        "name": {
+          "en": "Web page",
+          "fr": "Page web"
+        }
+      },
+      "repository": {
+        "link": "https://github.com/CrabGang/CrabGang.github.io",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "Millenium%20Collisions%20InGame.png",
+        "alt": "PFS 2017"
+      },
+      "icon": {
+        "src": "Millenium%20Collisions.png",
+        "alt": "PFS 2017"
+      },
+      "title": {
+        "icon": "gamepad",
+        "project": {
+          "en": "Millenium Collisions",
+          "fr": "Millenium Collisions"
+        },
+        "subtitle": {
+          "en": "December 2017",
+          "fr": "Décembre 2017"
+        }
+      },
+      "description": {
+        "en": [
+          "End of semester Project for algorithm.<br>",
+          "First video game created in 1<sup>st</sup> year of preparatory school of IT Engineer at 3iL.<br>",
+          "It was improved then for an Android version."
+        ],
+        "fr": [
+          "Projet de fin de session des cours d'algorithme.<br>",
+          "Premier jeu vidéo créé en 1<sup>er</sup> année d'école préparatoire d'Ingénieur Informatique à 3iL.<br>",
+          "Il a été amélioré ensuite pour une version Android."
+        ]
+      },
+      "repository": {
+        "link": "https://github.com/AntTBD/Millenium-Collisions",
+        "icon": "github",
+        "name": {
+          "en": "Github repository",
+          "fr": "Repository Github"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+.homeCanvas{
+    //background: linear-gradient(0deg, #face8d 50%, #02408a 100%);
+
+    overflow-y: auto;
+}
+
+[data-bs-theme="dark"] .homeCanvas{
+    //background: linear-gradient(0deg, #832f02 50%, #011d3e 100%);
+}
+
+.canvasHtml{
+    width: 335px;
+    height: 218px;
+    background-color: darkcyan;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}

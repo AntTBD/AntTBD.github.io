@@ -1,0 +1,14 @@
+.project img.icon {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    max-height: 60px;
+    width: auto;
+    max-width: 100%;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+}
+
+.project a{
+    text-decoration: none;
+}

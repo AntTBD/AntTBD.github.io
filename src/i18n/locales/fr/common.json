@@ -1,0 +1,13 @@
+{
+  "current_date": "Aujourd'hui, on est le {{date, DATE_LONG}}",
+  "theme": {
+    "dark": "Sombre",
+    "light": "Clair",
+    "auto": "Auto"
+  },
+  "error": "Erreur",
+  "notFound": {
+    "title": "Oops! Cette page n'existe pas!",
+    "description": "Nous sommes désolé, la page que vous avez demandé est introuvable"
+  }
+}

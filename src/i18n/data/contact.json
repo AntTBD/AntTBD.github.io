@@ -1,0 +1,35 @@
+{
+  "name": "Antoine TABARAUD",
+  "image": {
+    "src": "AntoineTBD.webp",
+    "alt": "Antoine TABARAUD"
+  },
+  "tel": "+33 7 81 48 83 26",
+  "mail": "antbd@free.fr",
+  "github":
+  {
+    "link": "https://www.github.com/anttbd",
+    "name": "AntTBD"
+  },
+  "itch_io":
+  {
+    "link": "https://anttbd.itch.io/",
+    "name": "AntTBD"
+  },
+  "linkedin":
+  {
+    "link": "https://www.linkedin.com/in/antoine-tabaraud/",
+    "name": "Antoine TABARAUD"
+  },
+  "location":
+  {
+    "link": "https://goo.gl/maps/nmRy3CjQcAh8VNsJ6",
+    "name": "Limoges, France"
+  },
+
+  "title_2": "Curriculum Vitae",
+  "CV": {
+    "src": "/assets/docs/CV%20Antoine%20TABARAUD 2023.pdf",
+    "name": "CV Antoine TABARAUD.pdf"
+  }
+}

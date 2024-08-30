@@ -1,0 +1,172 @@
+.timeline {
+    --border-circle: #1782cc;
+    --background-circle: #ffffff;
+    --card-arrow: rgba(var(--bs-tertiary-bg-rgb),1);
+    --card-arrow-border: var(--bs-border-color-translucent);
+}
+
+[data-bs-theme="dark"] .timeline {
+    --border-circle: #c6c5c5;
+    --background-circle: #1782cc;
+}
+
+.timeline{
+    width: 100%;
+    position: relative;
+}
+
+.timeline::before {
+    top: 10px;
+    bottom: 10px;
+    position: absolute;
+    content: " ";
+    width: 2px;
+    background-color: var(--border-circle);
+    left: 50%;
+}
+
+.xp .card {
+    margin-top: 75px !important;
+}
+
+.xp .arrow::after,
+.xp .arrow::before {
+    bottom: 100%;
+    right: 0;
+    left: 50%;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border: 15px solid transparent;
+    border-bottom-color: var(--card-arrow);
+    margin-left: -14px;
+    margin-top: -15px;
+
+}
+.xp .arrow::before {
+    margin-left: -16px;
+    border-width: 17px;
+    border-color: transparent;
+    border-bottom-color: var(--card-arrow-border);
+}
+
+@media screen and (min-width: 768px) {
+    .xp .card {
+        margin-top: 30px !important;
+    }
+
+    .xp.right .arrow::after,
+    .xp.right .arrow::before {
+        left: 0;
+        top: 0;
+        border-color: transparent;
+        border-right-color: var(--card-arrow);
+        margin-top: 15px;
+        margin-left: -30px;
+        margin-right: 0;
+    }
+    .xp.right .arrow::before{
+        border-width: 16px;
+        margin-top: 14px;
+        margin-left: -33px;
+        border-color: transparent;
+        border-right-color: var(--card-arrow-border);
+    }
+
+    .xp.left .arrow::after,
+    .xp.left .arrow::before {
+        left: 100%;
+        top: 0;
+        border-color: transparent;
+        border-left-color: var(--card-arrow);
+        margin-top: 15px;
+        margin-left: 0;
+        margin-right: 14px;
+    }
+
+    .xp.left .arrow::before{
+        border-width: 16px;
+        margin-top: 14px;
+        margin-left: 1px;
+        border-color: transparent;
+        border-left-color: var(--card-arrow-border);
+    }
+
+}
+
+
+.xp .point {
+    left: 50%;
+    margin-top: 0;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transform: translateX(-50%) translateY(50%);
+    background-color: var(--background-circle);
+    border: 2px solid var(--border-circle);
+    border-radius: 50%;
+}
+
+/* change color of point when pass hover a card (point need to be before card and in the same row) */
+.xp :has(.card:hover)~.point {
+    background-color: #77baea;
+}
+
+@media screen and (min-width: 768px) {
+    .xp .point {
+        margin-top: 15px !important;
+    }
+}
+
+.year {
+    background-color: var(--background-circle);
+    height: 120px;
+    width: 120px;
+    margin: 10px auto;
+    /* margins x puis y */
+    border: 2px solid var(--border-circle);
+    border-radius: 50%;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    h2 {
+        color: var(--border-circle);
+    }
+}
+
+
+
+/* animation */
+@keyframes transformLeft {
+    from {
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        transform: none;
+    }
+}
+@keyframes transformRight {
+    from {
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
+.xp .fadeTransform {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.xp.left .fadeTransform {
+    animation-name: transformLeft;
+}
+.xp.right .fadeTransform {
+    animation-name: transformRight;
+}

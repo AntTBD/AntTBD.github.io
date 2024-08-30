@@ -1,0 +1,14 @@
+{
+  "current_date": "Today is {{date, DATE_LONG}}",
+  "theme": {
+    "dark": "Dark",
+    "light": "Light",
+    "auto": "Auto"
+  },
+  "language" : "Language",
+  "error": "Error",
+  "notFound": {
+    "title": "Oops! Page not found!",
+    "description": "We are sorry, the page you requested was not found"
+  }
+}

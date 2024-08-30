@@ -1,0 +1,22 @@
+.notFound{
+    h1{
+        font-weight: 900;
+        font-size: 40vw;
+        font-family: "Montserrat Variable", sans-serif;
+        letter-spacing: -5vw;
+        text-shadow: -8px 4px 0 var(--bs-secondary-bg);
+        margin-left: -5vw;
+
+        @media screen and (min-width: 750px) {
+            font-size: 296px;
+            letter-spacing: -40px;
+            margin-left: -41px;
+        }
+    }
+    h2{
+        font-weight: 700;
+    }
+    h3{
+        font-weight: 400;
+    }
+}

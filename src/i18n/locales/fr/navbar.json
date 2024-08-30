@@ -1,0 +1,24 @@
+{
+  "navbarElements": {
+    "home": {
+      "name": "Accueil",
+      "link": "/"
+    },
+    "diplomas": {
+      "name": "Diplômes",
+      "link": "/diplomas"
+    },
+    "workExperience": {
+      "name": "Expériences Professionnelles",
+      "link": "/work_experience"
+    },
+    "projects": {
+      "name": "Projets et réalisations",
+      "link": "/projects"
+    },
+    "contact": {
+      "name": "Me contacter",
+      "link": "/contact"
+    }
+  }
+}
