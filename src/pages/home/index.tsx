@@ -34,7 +34,7 @@ export const Home = () => {
                             </h1>
                             <a
                                 href={"#resume"}
-                                onClick={() => trackGAEvent("3d", "clickOnChevron", "click On Chevron")}
+                                onClick={() => trackGAEvent("3d", "onClick_Chevron", "On click Chevron")}
                             >
                                 <p className={"w-100 mx-auto"}>
                                     <FaChevronDown/>

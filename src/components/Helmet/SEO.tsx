@@ -1,4 +1,5 @@
 import {Helmet} from 'react-helmet-async';
+import {MetaSimpleAnalytics} from "../googleAnalytics";
 
 interface SEOProps {
     url: string,
@@ -11,6 +12,7 @@ interface SEOProps {
 
 export default function SEO({url, title, description, image, author, keywords}: SEOProps) {
     return (
+        <>
             <Helmet>
                 {/* Standard metadata tags */}
                 <title>{title}</title>
@@ -38,5 +40,7 @@ export default function SEO({url, title, description, image, author, keywords}: 
                 {/*<link rel="icon" type="image/png" sizes="32x32" href="./favicon.png"/>*/}
                 <link rel="icon" type="image/ico" sizes="16x16" href={url + "/assets/img/logo/favicon.ico"}/>
             </Helmet>
+            <MetaSimpleAnalytics/>
+        </>
     )
 }

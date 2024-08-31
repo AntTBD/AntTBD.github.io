@@ -1,22 +1,32 @@
 import ReactGA from "react-ga4"
 
 export const initializeGA = () => {
-    if (!ReactGA.isInitialized && process.env.REACT_APP_GA_MEASUREMENT_ID) {
-        // Enable debug mode on the local development environment
-        const isDev = !process.env.NODE_ENV || process.env.NODE_ENV === "development"
+    const doNotTrack = navigator.doNotTrack === "1" || navigator.doNotTrack === "yes"
+
+    if (doNotTrack)
+        console.warn("DoNotTrack navigator setting is enable")
+
+    // Enable debug mode on the local development environment
+    const isDev = !process.env.NODE_ENV || process.env.NODE_ENV === "development"
+
+    if (!doNotTrack && !ReactGA.isInitialized && process.env.REACT_APP_GA_MEASUREMENT_ID) {
         ReactGA.initialize(
             process.env.REACT_APP_GA_MEASUREMENT_ID,
             {
                 testMode: isDev,
                 gaOptions: {
-                    cookieFlags: "SameSite=None;Secure",
-                    cookieDomain: "auto",
+                    cookieFlags: "SameSite=Lax",
+                    cookieDomain: isDev ? "localhost" : "anttbd.github.io",
+                    //anonymizeIp: true,
                 }
             }
         )
 
+    }
+
+    if(ReactGA.isInitialized){
         console.log("GA INITIALIZED")
-        if (isDev)
+        if (ReactGA._testMode)
             console.log("GA is in testMode")
     }
 }
@@ -30,6 +40,8 @@ export const trackGAEvent = (category: string, action: string, label: string) =>
             label: label,
         })
     }
+    // @ts-ignore
+    sa_event(category + "_" + action)
 }
 
 export const sendPageView = (path: string, title: string) => {

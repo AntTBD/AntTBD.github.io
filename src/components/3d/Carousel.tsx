@@ -42,7 +42,7 @@ export const Carousel = () => {
     }
 
     function incrementAndRestartInterval(event: PointerEvent) {
-        trackGAEvent("3d", "carrousel", "click on carrousel")
+        trackGAEvent("3d", "onClick_carrousel", "On click carrousel")
         incrementImageToDisplay()
         startInterval()
     }

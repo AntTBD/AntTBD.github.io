@@ -8,6 +8,7 @@ import SEO from "../components/Helmet/SEO";
 import {HashRouter} from "react-router-dom";
 import React from "react";
 import {metadata} from "../content_option";
+import {SimpleAnalytics} from "../components/googleAnalytics";
 
 export default function App() {
     return (
@@ -30,8 +31,8 @@ export default function App() {
                 <footer>
                     <FooterMain/>
                 </footer>
-            </Router>
             </HashRouter>
+            <SimpleAnalytics/>
         </HelmetProvider>
     )
 }
