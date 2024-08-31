@@ -28,7 +28,7 @@ Originally/inspired from this repository [react-portfolio](https://github.com/ub
 ## Features
 
 1. [x] Fully Responsive
-2. [x] Multi-Page Layout
+2. [x] Multi-Page Layout (HashRouter, instead of BrowserRouter, to be compatible with GitHub)
 3. [x] Internationalization
 4. [x] React-Bootstrap
 5. [x] Light/dark/auto theme switch (using React-Bootstrap)

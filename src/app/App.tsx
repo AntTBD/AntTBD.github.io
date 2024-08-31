@@ -5,7 +5,7 @@ import "./App.css";
 import FooterMain from "../components/footer/FooterFixedBottom";
 import {HelmetProvider} from "react-helmet-async";
 import SEO from "../components/Helmet/SEO";
-import {BrowserRouter as Router} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import React from "react";
 import {metadata} from "../content_option";
 
@@ -20,7 +20,7 @@ export default function App() {
                 image={metadata.image}
                 keywords={metadata.keywords}
             />
-            <Router /*basename={process.env.PUBLIC_URL}*/>
+            <HashRouter /*basename={process.env.PUBLIC_URL}*/>
                 <header className={"sticky-top"}>
                     <HeaderMain/>
                 </header>
@@ -31,6 +31,7 @@ export default function App() {
                     <FooterMain/>
                 </footer>
             </Router>
+            </HashRouter>
         </HelmetProvider>
     )
 }
