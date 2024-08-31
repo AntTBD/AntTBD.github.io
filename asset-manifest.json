@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0722d9a1.css",
-    "main.js": "/static/js/main.7ec18b85.js",
+    "main.js": "/static/js/main.6cc7e133.js",
     "static/media/montserrat-latin-wght-normal.woff2": "/static/media/montserrat-latin-wght-normal.5028c63f6a70ab0cf7cb.woff2",
     "static/media/montserrat-latin-ext-wght-normal.woff2": "/static/media/montserrat-latin-ext-wght-normal.82d636d9375dd92118fd.woff2",
     "static/media/montserrat-cyrillic-ext-wght-normal.woff2": "/static/media/montserrat-cyrillic-ext-wght-normal.e84e812b71d18e04e692.woff2",
@@ -12,6 +12,6 @@
   },
   "entrypoints": [
     "static/css/main.0722d9a1.css",
-    "static/js/main.7ec18b85.js"
+    "static/js/main.6cc7e133.js"
   ]
 }
