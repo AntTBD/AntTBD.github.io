@@ -40,8 +40,9 @@ export const trackGAEvent = (category: string, action: string, label: string) =>
             label: label,
         })
     }
+
     // @ts-ignore
-    sa_event(category + "_" + action)
+    //window.sa_event(category + "_" + action)
 }
 
 export const sendPageView = (path: string, title: string) => {
