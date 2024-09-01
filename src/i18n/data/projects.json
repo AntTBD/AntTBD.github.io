@@ -539,12 +539,12 @@
       "description": {
         "en": [
           "Creation of this website to highlight my skills, my background and especially the various projects present on this page. All this, making it as responsive as possible on the user side but also to have a simple architecture for easy maintenance while using Github Pages as host. <br>",
-          "In addition, some features, such as the cube rotating with the network of points in the background of the homepage, the timeline of my experiences as well as the night mode, the English translation and other small details, have been imagined by myself and made possible with the help of Bootstrap and Three.js in part, the developers' bible: Stak Overflow and a few hours of code.",
+          "In addition, some features, such as the cube rotating with the network of points in the background of the homepage, the timeline of my experiences as well as the night mode, the English translation and other small details, have been imagined by myself and made possible with the help of Bootstrap and Three.js in part, the developers' bible: Stak Overflow and a few hours of code.<br>",
           "4 years later, redesigning this site via React and my skills acquired as I went through my experience. Use of i18next for internationalization and React Three Fiber/Drei for the 3D homepage scene."
         ],
         "fr": [
           "Création de ce site internet premettant de mettre en avant mes compétences, mon parcours et surtout les différents projets présents sur cette page. Le tout, en le rendant le plus responsive possible du côté utilisateur mais aussi d'avoir une architecture simple pour une maintenance facile tout en utilisant Github Pages comme hébergeur.<br>",
-          "De plus, certaines features, comme le cube tournant avec le réseau de points en arrière plan de la page d'accueil, la timeline de mes expériences ainsi que le mode nuit, la traduction en anglais et d'autres petits détails, ont été imaginé par moi-même et rendu possible avec l'aide de Bootstrap et Three.js en partie, la bible des développeurs: Stak Overflow et quelques heures de code.",
+          "De plus, certaines features, comme le cube tournant avec le réseau de points en arrière plan de la page d'accueil, la timeline de mes expériences ainsi que le mode nuit, la traduction en anglais et d'autres petits détails, ont été imaginé par moi-même et rendu possible avec l'aide de Bootstrap et Three.js en partie, la bible des développeurs: Stak Overflow et quelques heures de code.<br>",
           "4 ans après, refonte du site via React et mes compétences aquises au fur et à mesure de mes expériences. Utilisation de i18next pour l'internationalisation et React Three Fiber/Drei pour la scène 3D de la page d'accueil."
         ]
       },
